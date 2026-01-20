@@ -8,7 +8,7 @@
 
 **Security Level:** Confidential / Forensic Investigation
 
-***Author:** Apich Organization Security Team
+**Author:** Apich Organization Security Team
 
 ---
 
