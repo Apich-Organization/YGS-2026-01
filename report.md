@@ -3650,6 +3650,7 @@ It uses Java Protector or Unpacker to protect the payloads.
 
 * **Status:** Confirmed Decoy / Red Herring.
 * **Behavior:** The native `slky` XOR function appears to be dead code or a diversion. Attempting to use it on assets results in a sequential `00 01 02 03` header, indicating a mathematical loop trap designed to waste investigator time.
+* The decrypted assets/lib.so could be got from `/data/data/[pkg]/files/_RunDex_/` (which is the tmp folder used by the malware) using Frida. But we are not sure if assets/lib.so is another decoy file.
 
 ```text
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
