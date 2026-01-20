@@ -1,7 +1,11 @@
 ## C2 Infrastructure Intelligence Report
 
 **Report ID:** C2-2026-0120-YGS
+
+**Author:** Apich Organization Security Team
+
 **Classification:** High-Risk / Active Surveillance Cluster
+
 **Primary Target Region:** Mainland China / Hong Kong
 
 ### 1. Architectural Overview
@@ -24,10 +28,12 @@ The registration data reveals a strong link to the **Fujian/Wuhan gray-market ec
 
 ### 3. Detected Vulnerabilities in C2
 
-The attackers have made several critical "Amateur-Hour" errors that we can exploit for the TSRC report:
+The attackers have made several critical "Amateur-Hour" errors that can be exploited:
 
 * **Direct Database Exposure:** Port `3306` (MySQL) is open to the public. This suggests the Android app's Lua/Java scripts might be hardcoded to write directly to this DB, a very "noisy" behavior.
 * **Management Leaks:** The presence of `phpMyAdmin` on port `999` is a classic hallmark of the **iApp-PHP-MySQL** stack. It provides a visual interface for the attackers to view stolen data, but it also serves as a high-confidence signature for security researchers.
+
+This vulnerability poses a significant risk of sophisticated cyberattacks, which could result in the mass exfiltration and disclosure of Personally Identifiable Information (PII).
 
 ### 4. Correlation with APK Analysis
 
