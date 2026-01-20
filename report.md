@@ -3637,6 +3637,8 @@ The app uses a dual-masquerade technique to hide its true purpose:
 
 The app utilizes "Library-as-Payload" storage to hide DEX files from standard scanners.
 
+It uses Java Protector or Unpacker to protect the payloads.
+
 | Filename | Type | Detected Logic / Responsibility |
 | --- | --- | --- |
 | `lengtong.dex` | Java DEX | **Data Access:** Filesystem manipulation (`AndroidData.java`) and binary patching (`HexEdit.java`). |
