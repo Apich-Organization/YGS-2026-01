@@ -26,7 +26,7 @@ The registration data reveals a strong link to the **Fujian/Wuhan gray-market ec
 * **Operational Pattern:** Domain registrations for this cluster (including `bu84.com`) strictly follow **UTC+8 business hours**, with significant pauses during Chinese New Year, confirming the threat actors are likely based in East Asia.
 * **Persistence:** `bu84.com` was updated on **January 14, 2026**, indicating that this specific campaign is currently in its active "harvesting" phase.
 
-### 3. Detected Vulnerabilities in C2
+### 3. Detected Vulnerabilities. in C2
 
 The attackers have made several critical "Amateur-Hour" errors that can be exploited:
 
@@ -34,6 +34,8 @@ The attackers have made several critical "Amateur-Hour" errors that can be explo
 * **Management Leaks:** The presence of `phpMyAdmin` on port `999` is a classic hallmark of the **iApp-PHP-MySQL** stack. It provides a visual interface for the attackers to view stolen data, but it also serves as a high-confidence signature for security researchers.
 
 This vulnerability poses a significant risk of sophisticated cyberattacks, which could result in the mass exfiltration and disclosure of Personally Identifiable Information (PII).
+
+Noticeably, the attacker uses `phpMyAdmin` v5.2.0-rc.1 and `MySQL` v8.0.39 which both have many known critical security vulnerabilities. 
 
 ### 4. Correlation with APK Analysis
 
