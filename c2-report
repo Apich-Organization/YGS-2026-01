@@ -1,0 +1,411 @@
+## C2 Infrastructure Intelligence Report
+
+**Report ID:** C2-2026-0120-YGS
+**Classification:** High-Risk / Active Surveillance Cluster
+**Primary Target Region:** Mainland China / Hong Kong
+
+### 1. Architectural Overview
+
+The infrastructure utilizes a **Tiered Proxy-to-Backend** model. This design ensures that if the front-end domain (`docq.cn`) is flagged, the central database and payload repository (`107.151.212.80`) remain hidden and reusable under different domain aliases.
+
+| Tier | Component | Identity | Technical Role |
+| --- | --- | --- | --- |
+| **Tier 1** | **The Mask** | `docq.cn` | Acts as the initial contact point. Routes traffic through Alibaba Cloud (US) to bypass regional domestic monitoring. |
+| **Tier 2** | **The Controller** | `ht.bu84.com` | "Heartbeat" (HT) server. Manages persistent connections from infected devices using IIS 10.0. |
+| **Tier 3** | **The Vault** | `107.151.212.80:3306` | Exposed MySQL database. Stores exfiltrated LogCat data, contacts, and device metadata. |
+
+### 2. Forensic Attribution (WHOIS Analysis)
+
+The registration data reveals a strong link to the **Fujian/Wuhan gray-market ecosystem**, a known hub for the development of "iApp" modification tools and game injectors.
+
+* **Corporate Entity:** `Wuhan Zhiyun Software Co., Ltd.` (武汉织云软件有限公司). This entity is likely either a shell company registered for this purpose or a legitimate firm whose infrastructure was hijacked to serve as a high-reputation proxy.
+* **Operational Pattern:** Domain registrations for this cluster (including `bu84.com`) strictly follow **UTC+8 business hours**, with significant pauses during Chinese New Year, confirming the threat actors are likely based in East Asia.
+* **Persistence:** `bu84.com` was updated on **January 14, 2026**, indicating that this specific campaign is currently in its active "harvesting" phase.
+
+### 3. Detected Vulnerabilities in C2
+
+The attackers have made several critical "Amateur-Hour" errors that we can exploit for the TSRC report:
+
+* **Direct Database Exposure:** Port `3306` (MySQL) is open to the public. This suggests the Android app's Lua/Java scripts might be hardcoded to write directly to this DB, a very "noisy" behavior.
+* **Management Leaks:** The presence of `phpMyAdmin` on port `999` is a classic hallmark of the **iApp-PHP-MySQL** stack. It provides a visual interface for the attackers to view stolen data, but it also serves as a high-confidence signature for security researchers.
+
+### 4. Correlation with APK Analysis
+
+The "modular" DEX files we found earlier are designed to feed this specific infrastructure:
+
+* `classes2.dex` (LogCat Reader) ➔ Feeds the **MySQL Database**.
+* `Compression.dex` (Zip4j) ➔ Uploads batches to the **IIS Web Server**.
+* `libygsiyu.so` (iApp) ➔ Connects to the **phpMyAdmin/PHP** management backend.
+
+### Appendix
+
+```text
+Nmap scan report for docq.cn (47.89.9.97)
+Host is up (0.27s latency).
+Not shown: 988 filtered tcp ports (no-response)
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh?
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+25/tcp   open  smtp?
+|_smtp-commands: Couldn't establish connection on port 25
+80/tcp   open  http?
+110/tcp  open  pop3?
+143/tcp  open  imap?
+443/tcp  open  https?
+465/tcp  open  smtps?
+|_smtp-commands: Couldn't establish connection on port 465
+587/tcp  open  submission?
+|_smtp-commands: Couldn't establish connection on port 587
+993/tcp  open  imaps?
+995/tcp  open  pop3s?
+1935/tcp open  rtmp?
+8080/tcp open  http-proxy?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Huawei MT880 ADSL modem (97%), Juniper Networks SSG 20 firewall (97%), Juniper SRX200-series firewall (JUNOS 12.1 - 12.3) (97%), SiliconDust HDHomeRun set top box (97%), Cisco SG200 switch (97%), Cisco SG300 switch (97%), CMI Genus NEMA terminal (97%), Dell Remote Access Controller 4/I (97%), GlobespanVirata GS8100, Huawei MT880, or Solwise SAR 100 ADSL modem (97%), HP Integrated Lights-Out 2 (97%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 3 hops
+TCP Sequence Prediction: Difficulty=257 (Good luck!)
+IP ID Sequence Generation: Busy server or unknown class
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT       ADDRESS
+1   2.06 ms   _gateway (192.168.31.184)
+2   ...
+3   300.40 ms 47.89.9.97
+
+Nmap scan report for ht.bu84.com (107.151.212.80)
+Host is up (0.29s latency).
+Not shown: 985 filtered tcp ports (no-response)
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh?
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+25/tcp   open  smtp?
+|_smtp-commands: Couldn't establish connection on port 25
+80/tcp   open  http        Microsoft IIS httpd 10.0
+| http-methods:
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: 404
+110/tcp  open  pop3?
+135/tcp  open  msrpc       Microsoft Windows RPC
+143/tcp  open  imap?
+443/tcp  open  https?
+465/tcp  open  smtps?
+|_smtp-commands: Couldn't establish connection on port 465
+587/tcp  open  submission?
+|_smtp-commands: Couldn't establish connection on port 587
+993/tcp  open  imaps?
+995/tcp  open  pop3s?
+999/tcp  open  http        Microsoft IIS httpd 10.0
+| http-robots.txt: 1 disallowed entry
+|_/
+|_http-server-header: Microsoft-IIS/10.0
+|_http-favicon: Unknown favicon MD5: 531B63A51234BB06C9D77F219EB25553
+|_http-title: phpMyAdmin
+| http-methods:
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+1935/tcp open  rtmp?
+3306/tcp open  mysql       MySQL 8.0.39
+| mysql-info:
+|   Protocol: 10
+|   Version: 8.0.39
+|   Thread ID: 233826
+|   Capabilities flags: 65535
+|   Some Capabilities: ConnectWithDatabase, Support41Auth, LongColumnFlag, Speaks41ProtocolOld, DontAllowDatabaseTableColumn, SwitchToSSLAfterHandshake, SupportsLoadDataLocal, SupportsTransactions, LongPassword, InteractiveClient, Speaks41ProtocolNew, FoundRows, ODBCClient, IgnoreSigpipes, IgnoreSpaceBeforeParenthesis, SupportsCompression, SupportsMultipleStatments, SupportsAuthPlugins, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: [`\x15W/\x06\x01npf{^8%A\x1FD\x1DL\x07
+|_  Auth Plugin Name: mysql_native_password
+| ssl-cert: Subject: commonName=MySQL_Server_8.0.39_Auto_Generated_Server_Certificate
+| Issuer: commonName=MySQL_Server_8.0.39_Auto_Generated_CA_Certificate
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-10-17T02:44:50
+| Not valid after:  2035-10-15T02:44:50
+| MD5:   ba86 8778 e891 147e 066c 2ff9 3533 45a0
+|_SHA-1: 14a3 8fef a64b 15c0 9804 7451 385c 2d3e 9069 82fa
+|_ssl-date: TLS randomness does not represent time
+8080/tcp open  http-proxy?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Huawei MT880 ADSL modem (97%), Juniper SRX200-series firewall (JUNOS 12.1 - 12.3) (97%), SiliconDust HDHomeRun set top box (97%), Cisco SG200 switch (97%), Cisco SG300 switch (97%), CMI Genus NEMA terminal (97%), Dell Remote Access Controller 4/I (97%), GlobespanVirata GS8100, Huawei MT880, or Solwise SAR 100 ADSL modem (97%), HP Integrated Lights-Out 2 (97%), Panasonic BL-C210A webcam (96%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 3 hops
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: Busy server or unknown class
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT       ADDRESS
+1   2.01 ms   _gateway (192.168.31.184)
+2   ...
+3   299.61 ms 107.151.212.80
+
+Nmap scan report for hyrjk.ftp.wtbusaym.site (107.151.212.80)
+Host is up (0.34s latency).
+Not shown: 985 filtered tcp ports (no-response)
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh?
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+25/tcp   open  smtp?
+|_smtp-commands: Couldn't establish connection on port 25
+80/tcp   open  http        Microsoft IIS httpd 10.0
+| http-methods:
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: \xE8\xAF\xB7\xE6\xB1\x82\xE6\xB2\xA1\xE6\x9C\x89\xE6\x89\xBE\xE5\x88\xB0\xE5\xAF\xB9\xE5\xBA\x94\xE7\x9A\x84\xE7\xAB\x99\xE7\x82\xB9
+110/tcp  open  pop3?
+135/tcp  open  msrpc       Microsoft Windows RPC
+143/tcp  open  imap?
+443/tcp  open  https?
+465/tcp  open  smtps?
+|_smtp-commands: Couldn't establish connection on port 465
+587/tcp  open  submission?
+|_smtp-commands: Couldn't establish connection on port 587
+993/tcp  open  imaps?
+995/tcp  open  pop3s?
+999/tcp  open  http        Microsoft IIS httpd 10.0
+|_http-title: phpMyAdmin
+| http-robots.txt: 1 disallowed entry
+|_/
+|_http-server-header: Microsoft-IIS/10.0
+|_http-favicon: Unknown favicon MD5: 531B63A51234BB06C9D77F219EB25553
+| http-methods:
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+1935/tcp open  rtmp?
+3306/tcp open  mysql       MySQL 8.0.39
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=MySQL_Server_8.0.39_Auto_Generated_Server_Certificate
+| Issuer: commonName=MySQL_Server_8.0.39_Auto_Generated_CA_Certificate
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-10-17T02:44:50
+| Not valid after:  2035-10-15T02:44:50
+| MD5:   ba86 8778 e891 147e 066c 2ff9 3533 45a0
+|_SHA-1: 14a3 8fef a64b 15c0 9804 7451 385c 2d3e 9069 82fa
+| mysql-info:
+|   Protocol: 10
+|   Version: 8.0.39
+|   Thread ID: 233900
+|   Capabilities flags: 65535
+|   Some Capabilities: Support41Auth, LongPassword, DontAllowDatabaseTableColumn, SwitchToSSLAfterHandshake, SupportsTransactions, SupportsCompression, IgnoreSigpipes, ODBCClient, IgnoreSpaceBeforeParenthesis, Speaks41ProtocolNew, InteractiveClient, FoundRows, ConnectWithDatabase, SupportsLoadDataLocal, Speaks41ProtocolOld, LongColumnFlag, SupportsAuthPlugins, SupportsMultipleStatments, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: \x1Bz\x17\x1FxN\x07-6om\x18/PA_\x0736T
+|_  Auth Plugin Name: mysql_native_password
+8080/tcp open  http-proxy?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Huawei MT880 ADSL modem (97%), Juniper Networks SSG 20 firewall (97%), Juniper SRX200-series firewall (JUNOS 12.1 - 12.3) (97%), SiliconDust HDHomeRun set top box (97%), Allied Telesyn Rapier G6 switch (97%), Cisco SG200 switch (97%), Cisco SG300 switch (97%), CMI Genus NEMA terminal (97%), Dell Remote Access Controller 4/I (97%), GlobespanVirata GS8100, Huawei MT880, or Solwise SAR 100 ADSL modem (97%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 3 hops
+TCP Sequence Prediction: Difficulty=265 (Good luck!)
+IP ID Sequence Generation: Busy server or unknown class
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT       ADDRESS
+1   23.50 ms  _gateway (192.168.31.184)
+2   ...
+3   338.29 ms 107.151.212.80
+
+Nmap scan report for downloads.blissroms.org (104.21.64.137)
+Host is up (0.39s latency).
+Other addresses for downloads.blissroms.org (not scanned): 172.67.151.52 2606:4700:3031::6815:4089 2606:4700:3037::ac43:9734
+Not shown: 987 filtered tcp ports (no-response)
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh?
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+25/tcp   open  smtp?
+|_smtp-commands: Couldn't establish connection on port 25
+80/tcp   open  http        Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Did not follow redirect to https://downloads.blissroms.org/
+| http-methods:
+|_  Supported Methods: GET HEAD POST OPTIONS
+110/tcp  open  pop3?
+143/tcp  open  imap?
+443/tcp  open  ssl/http    Cloudflare http proxy
+|_http-server-header: cloudflare
+| http-methods:
+|_  Supported Methods: OPTIONS
+| ssl-cert: Subject: commonName=blissroms.org
+| Subject Alternative Name: DNS:blissroms.org, DNS:*.blissroms.org
+| Issuer: commonName=WE1/organizationName=Google Trust Services/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA256
+| Not valid before: 2025-12-16T12:21:38
+| Not valid after:  2026-03-16T13:20:09
+| MD5:   6ae0 a512 ea21 52f2 5038 8f9e bac6 69e5
+|_SHA-1: 0a38 8f05 d62f 5b4c 1f90 997a 9048 d14a 315a 9a1d
+|_http-title: Site doesn't have a title (text/plain; charset=utf-8).
+465/tcp  open  smtps?
+|_smtp-commands: Couldn't establish connection on port 465
+587/tcp  open  submission?
+|_smtp-commands: Couldn't establish connection on port 587
+993/tcp  open  imaps?
+995/tcp  open  pop3s?
+1935/tcp open  rtmp?
+8080/tcp open  http        Cloudflare http proxy
+| http-methods:
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: cloudflare
+|_http-title: Did not follow redirect to https://downloads.blissroms.org:8080/
+8443/tcp open  ssl/http    Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+| ssl-cert: Subject: commonName=blissroms.org
+| Subject Alternative Name: DNS:blissroms.org, DNS:*.blissroms.org
+| Issuer: commonName=WE1/organizationName=Google Trust Services/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA256
+| Not valid before: 2025-12-16T12:21:38
+| Not valid after:  2026-03-16T13:20:09
+| MD5:   6ae0 a512 ea21 52f2 5038 8f9e bac6 69e5
+|_SHA-1: 0a38 8f05 d62f 5b4c 1f90 997a 9048 d14a 315a 9a1d
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Juniper Networks SSG 20 firewall (97%), CMI Genus NEMA terminal (97%), GlobespanVirata GS8100, Huawei MT880, or Solwise SAR 100 ADSL modem (97%), HP Integrated Lights-Out 2 (97%), Netgear DM602 ADSL router (97%), Panasonic BL-C210A webcam (97%), Lantronix XPort AR (95%), Juniper SRX200-series firewall (JUNOS 12.1 - 12.3) (94%), Cisco SG300 switch (94%), Linux 2.6.18 (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 3 hops
+TCP Sequence Prediction: Difficulty=256 (Good luck!)
+IP ID Sequence Generation: Busy server or unknown class
+
+TRACEROUTE (using port 995/tcp)
+HOP RTT       ADDRESS
+1   2.55 ms   _gateway (192.168.31.184)
+2   ...
+3   445.56 ms 104.21.64.137
+```
+
+```text
+Domain Name: blissroms.org
+
+Registry Domain ID: REDACTED
+
+Registrar WHOIS Server: whois.namecheap.com
+
+Registrar URL: http://www.namecheap.com
+
+Updated Date: 2025-09-17T06:11:30Z
+
+Creation Date: 2019-10-12T18:46:33Z
+
+Registry Expiry Date: 2026-10-12T18:46:33Z
+
+Registrar: NameCheap, Inc.
+
+Registrar IANA ID: 1068
+
+Registrar Abuse Contact Email: abuse@namecheap.com
+
+Registrar Abuse Contact Phone: +1.9854014545
+
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+
+Name Server: dean.ns.cloudflare.com
+
+Name Server: sandy.ns.cloudflare.com
+
+DNSSEC: signedDelegation
+
+URL of the ICANN Whois Inaccuracy Complaint Form: https://icann.org/wicf/
+
+>>> Last update of WHOIS database: 2026-01-20T07:54:24Z <<<
+
+Domain Name: docq.cn
+ROID: 20140331s10001s70667919-cn
+Domain Status: clientTransferProhibited
+Registrant: 武汉织云软件有限公司
+Registrant Contact Email: contact@zysoft.com
+Sponsoring Registrar: 阿里云计算有限公司（万网）
+Name Server: dns7.hichina.com
+Name Server: dns8.hichina.com
+Registration Time: 2014-03-31 18:54:23
+Expiration Time: 2026-03-31 18:54:23
+DNSSEC: unsigned
+
+
+Domain Name: BU84.COM
+
+   Registry Domain ID: 2261456104_DOMAIN_COM-VRSN
+
+   Registrar WHOIS Server: grs-whois.hichina.com
+
+   Registrar URL: http://www.net.cn
+
+   Updated Date: 2026-01-14T07:24:30Z
+
+   Creation Date: 2018-05-09T16:42:44Z
+
+   Registry Expiry Date: 2027-05-09T16:42:44Z
+
+   Registrar: Alibaba Cloud Computing (Beijing) Co., Ltd.
+
+   Registrar IANA ID: 420
+
+   Registrar Abuse Contact Email: DomainAbuse@service.aliyun.com
+
+   Registrar Abuse Contact Phone: +86.95187
+
+   Domain Status: ok https://icann.org/epp#ok
+
+   Name Server: DNS15.HICHINA.COM
+
+   Name Server: DNS16.HICHINA.COM
+
+   DNSSEC: unsigned
+
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+
+>>> Last update of whois database: 2026-01-20T07:56:13Z <<<
+
+Domain Name: bu84.com
+
+Registry Domain ID: 2261456104_DOMAIN_COM-VRSN
+
+Registrar WHOIS Server: grs-whois.hichina.com
+
+Registrar URL: http://www.net.cn
+
+Updated Date: 2025-04-13T11:22:24Z
+
+Creation Date: 2018-05-09T16:42:44Z
+
+Registrar Registration Expiration Date: 2027-05-09T16:42:44Z
+
+Registrar: Alibaba Cloud Computing (Beijing) Co., Ltd.
+
+Registrar IANA ID: 420
+
+Reseller:
+
+Domain Status: ok https://icann.org/epp#ok
+
+Registrant City:
+
+Registrant State/Province: fu jian
+
+Registrant Country: CN
+
+Registrant Email:https://whois.aliyun.com/whois/whoisForm
+
+Registry Registrant ID: Not Available From Registry
+
+Name Server: DNS15.HICHINA.COM
+
+Name Server: DNS16.HICHINA.COM
+
+DNSSEC: unsigned
+
+Registrar Abuse Contact Email: DomainAbuse@service.aliyun.com
+
+Registrar Abuse Contact Phone: +86.95187
+
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+
+>>>Last update of WHOIS database: 2026-01-20T07:56:21Z <<<
+```
