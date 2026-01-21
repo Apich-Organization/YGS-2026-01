@@ -113,6 +113,8 @@
 
 \textbf{Author:} Apich Organization Security Team
 
+\textbf{DOI:} 10.5281/zenodo.18320726
+
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \subsection{\texorpdfstring{\textbf{1. Executive
@@ -3984,822 +3986,822 @@ string decrypter. \\
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{/* }\AlertTok{WARNING}\CommentTok{: Globals starting with \textquotesingle{}\_\textquotesingle{} overlap smaller symbols at the same address */}
-\CommentTok{/* iapp::slky(iapp::Interact*, \_jbyteArray*, \_jbyteArray*) */}
+\NormalTok{/* WARNING: Globals starting with \textquotesingle{}\_\textquotesingle{} overlap smaller symbols at the same address */}
+\NormalTok{/* iapp::slky(iapp::Interact*, \_jbyteArray*, \_jbyteArray*) */}
 
-\DataTypeTok{void}\NormalTok{ iapp}\OperatorTok{::}\NormalTok{slky}\OperatorTok{(}\DataTypeTok{long}\NormalTok{ param\_1}\OperatorTok{,}\NormalTok{undefined8 param\_2}\OperatorTok{,}\DataTypeTok{long}\NormalTok{ param\_3}\OperatorTok{,}\NormalTok{undefined8 param\_4}\OperatorTok{,}\NormalTok{undefined8 param\_5}\OperatorTok{,}
-\NormalTok{               undefined8 param\_6}\OperatorTok{,}\NormalTok{undefined8 param\_7}\OperatorTok{,}\NormalTok{undefined8 param\_8}\OperatorTok{)}
+\NormalTok{void iapp::slky(long param\_1,undefined8 param\_2,long param\_3,undefined8 param\_4,undefined8 param\_5,}
+\NormalTok{               undefined8 param\_6,undefined8 param\_7,undefined8 param\_8)}
 
-\OperatorTok{\{}
-  \DataTypeTok{char} \OperatorTok{*}\NormalTok{pcVar1}\OperatorTok{;}
-\NormalTok{  undefined1 }\OperatorTok{*}\NormalTok{puVar2}\OperatorTok{;}
-  \DataTypeTok{int}\NormalTok{ iVar3}\OperatorTok{;}
-  \DataTypeTok{char}\NormalTok{ cVar4}\OperatorTok{;}
-\NormalTok{  byte bVar5}\OperatorTok{;}
-  \ExtensionTok{uint}\NormalTok{ uVar6}\OperatorTok{;}
-  \DataTypeTok{int}\NormalTok{ iVar7}\OperatorTok{;}
-  \DataTypeTok{int}\NormalTok{ iVar8}\OperatorTok{;}
-  \DataTypeTok{char} \OperatorTok{*}\NormalTok{pcVar9}\OperatorTok{;}
-  \DataTypeTok{int} \OperatorTok{*}\NormalTok{extraout\_x0}\OperatorTok{;}
-\NormalTok{  undefined8 extraout\_x0\_00}\OperatorTok{;}
-  \DataTypeTok{void} \OperatorTok{*}\NormalTok{\_\_s}\OperatorTok{;}
-  \DataTypeTok{size\_t}\NormalTok{ sVar10}\OperatorTok{;}
-\NormalTok{  undefined8 }\OperatorTok{*}\NormalTok{puVar11}\OperatorTok{;}
-\NormalTok{  undefined8 uVar12}\OperatorTok{;}
-\NormalTok{  undefined8 uVar13}\OperatorTok{;}
-\NormalTok{  undefined8 extraout\_x0\_01}\OperatorTok{;}
-\NormalTok{  undefined8 extraout\_x0\_02}\OperatorTok{;}
-  \DataTypeTok{void} \OperatorTok{*}\NormalTok{\_\_s\_00}\OperatorTok{;}
-  \DataTypeTok{void} \OperatorTok{*}\NormalTok{\_\_s\_01}\OperatorTok{;}
-  \ExtensionTok{uint}\NormalTok{ uVar14}\OperatorTok{;}
-\NormalTok{  byte bVar15}\OperatorTok{;}
-\NormalTok{  undefined8 uVar16}\OperatorTok{;}
-  \DataTypeTok{int}\NormalTok{ iVar17}\OperatorTok{;}
-\NormalTok{  code }\OperatorTok{*}\NormalTok{pcVar18}\OperatorTok{;}
-\NormalTok{  undefined8 }\OperatorTok{*}\NormalTok{puVar19}\OperatorTok{;}
-  \DataTypeTok{long}\NormalTok{ lVar20}\OperatorTok{;}
-\NormalTok{  byte bVar21}\OperatorTok{;}
-  \DataTypeTok{long}\NormalTok{ lVar22}\OperatorTok{;}
-  \DataTypeTok{long} \OperatorTok{*}\NormalTok{plVar23}\OperatorTok{;}
-  \DataTypeTok{char}\NormalTok{ cVar24}\OperatorTok{;}
-\NormalTok{  undefined8 uVar25}\OperatorTok{;}
-\NormalTok{  undefined1 auVar26 }\OperatorTok{[}\DecValTok{16}\OperatorTok{];}
-\NormalTok{  byte local\_38 }\OperatorTok{[}\DecValTok{24}\OperatorTok{];}
-\NormalTok{  byte local\_20}\OperatorTok{;}
-  \DataTypeTok{char}\NormalTok{ local\_1f }\OperatorTok{[}\DecValTok{15}\OperatorTok{];}
-  \DataTypeTok{char} \OperatorTok{*}\NormalTok{local\_10}\OperatorTok{;}
-  \DataTypeTok{long}\NormalTok{ local\_8}\OperatorTok{;}
+\NormalTok{\{}
+\NormalTok{  char *pcVar1;}
+\NormalTok{  undefined1 *puVar2;}
+\NormalTok{  int iVar3;}
+\NormalTok{  char cVar4;}
+\NormalTok{  byte bVar5;}
+\NormalTok{  uint uVar6;}
+\NormalTok{  int iVar7;}
+\NormalTok{  int iVar8;}
+\NormalTok{  char *pcVar9;}
+\NormalTok{  int *extraout\_x0;}
+\NormalTok{  undefined8 extraout\_x0\_00;}
+\NormalTok{  void *\_\_s;}
+\NormalTok{  size\_t sVar10;}
+\NormalTok{  undefined8 *puVar11;}
+\NormalTok{  undefined8 uVar12;}
+\NormalTok{  undefined8 uVar13;}
+\NormalTok{  undefined8 extraout\_x0\_01;}
+\NormalTok{  undefined8 extraout\_x0\_02;}
+\NormalTok{  void *\_\_s\_00;}
+\NormalTok{  void *\_\_s\_01;}
+\NormalTok{  uint uVar14;}
+\NormalTok{  byte bVar15;}
+\NormalTok{  undefined8 uVar16;}
+\NormalTok{  int iVar17;}
+\NormalTok{  code *pcVar18;}
+\NormalTok{  undefined8 *puVar19;}
+\NormalTok{  long lVar20;}
+\NormalTok{  byte bVar21;}
+\NormalTok{  long lVar22;}
+\NormalTok{  long *plVar23;}
+\NormalTok{  char cVar24;}
+\NormalTok{  undefined8 uVar25;}
+\NormalTok{  undefined1 auVar26 [16];}
+\NormalTok{  byte local\_38 [24];}
+\NormalTok{  byte local\_20;}
+\NormalTok{  char local\_1f [15];}
+\NormalTok{  char *local\_10;}
+\NormalTok{  long local\_8;}
   
-\NormalTok{  uVar16 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-\NormalTok{  local\_8 }\OperatorTok{=}\NormalTok{ \_\_\_stack\_chk\_guard}\OperatorTok{;}
-\NormalTok{  pcVar18 }\OperatorTok{=} \OperatorTok{*(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x5c0}\OperatorTok{);}
-\NormalTok{  lVar22 }\OperatorTok{=}\NormalTok{ \_\_\_stack\_chk\_guard}\OperatorTok{;}
-\NormalTok{  auVar26 }\OperatorTok{=} \OperatorTok{(*}\NormalTok{pcVar18}\OperatorTok{)(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{));}
-\NormalTok{  pcVar9 }\OperatorTok{=}\NormalTok{ auVar26}\OperatorTok{.}\NormalTok{\_0\_8\_}\OperatorTok{;}
-  \KeywordTok{operator}\OperatorTok{.}\KeywordTok{new}\OperatorTok{(}\BaseNTok{0x18}\OperatorTok{,}\NormalTok{auVar26}\OperatorTok{.}\NormalTok{\_8\_8\_}\OperatorTok{,}\NormalTok{uVar16}\OperatorTok{,}\NormalTok{pcVar18}\OperatorTok{,}\NormalTok{lVar22}\OperatorTok{,}\NormalTok{param\_6}\OperatorTok{,}\NormalTok{param\_7}\OperatorTok{,}\NormalTok{param\_8}\OperatorTok{);}
-  \OperatorTok{*}\NormalTok{extraout\_x0 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-\NormalTok{  extraout\_x0}\OperatorTok{[}\DecValTok{1}\OperatorTok{]} \OperatorTok{=} \DecValTok{2}\OperatorTok{;}
-                    \CommentTok{/* try \{ // try from 00109d54 to 00109d57 has its CatchHandler @ 0010a624 */}
-  \KeywordTok{operator}\OperatorTok{.}\KeywordTok{new}\OperatorTok{[](}\DecValTok{2}\OperatorTok{);}
-  \OperatorTok{*(}\NormalTok{undefined8 }\OperatorTok{*)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{)} \OperatorTok{=}\NormalTok{ extraout\_x0\_00}\OperatorTok{;}
-\NormalTok{  iVar7 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x558}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{param\_2}\OperatorTok{);}
-\NormalTok{  cVar24 }\OperatorTok{=} \OperatorTok{*}\NormalTok{pcVar9}\OperatorTok{;}
-\NormalTok{  bVar15 }\OperatorTok{=}\NormalTok{ pcVar9}\OperatorTok{[(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar7 }\OperatorTok{+} \OperatorTok{{-}}\DecValTok{1}\OperatorTok{];}
-\NormalTok{  iVar8 }\OperatorTok{=}\NormalTok{ iVar7}\OperatorTok{;}
-  \ControlFlowTok{if} \OperatorTok{(}\DecValTok{0} \OperatorTok{\textless{}}\NormalTok{ iVar7}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    iVar17 }\OperatorTok{=} \OperatorTok{*}\NormalTok{extraout\_x0}\OperatorTok{;}
-\NormalTok{    lVar22 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-    \ControlFlowTok{do} \OperatorTok{\{}
-      \ControlFlowTok{while}\OperatorTok{(} \KeywordTok{true} \OperatorTok{)} \OperatorTok{\{}
-\NormalTok{        cVar4 }\OperatorTok{=}\NormalTok{ pcVar9}\OperatorTok{[}\NormalTok{lVar22}\OperatorTok{];}
-\NormalTok{        iVar8 }\OperatorTok{=}\NormalTok{ iVar8 }\OperatorTok{+}\NormalTok{ cVar4}\OperatorTok{;}
-        \ControlFlowTok{if} \OperatorTok{(}\NormalTok{extraout\_x0}\OperatorTok{[}\DecValTok{1}\OperatorTok{]} \OperatorTok{!=}\NormalTok{ iVar17}\OperatorTok{)} \ControlFlowTok{break}\OperatorTok{;}
-\NormalTok{        iVar17 }\OperatorTok{=}\NormalTok{ iVar17 }\OperatorTok{\textless{}\textless{}} \DecValTok{1}\OperatorTok{;}
-        \KeywordTok{operator}\OperatorTok{.}\KeywordTok{new}\OperatorTok{[]((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{);}
-\NormalTok{        memset}\OperatorTok{(}\NormalTok{\_\_s}\OperatorTok{,}\DecValTok{0}\OperatorTok{,(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{);}
-\NormalTok{        memcpy}\OperatorTok{(}\NormalTok{\_\_s}\OperatorTok{,*(}\DataTypeTok{void} \OperatorTok{**)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{),(}\DataTypeTok{long}\OperatorTok{)*}\NormalTok{extraout\_x0}\OperatorTok{);}
-        \ControlFlowTok{if} \OperatorTok{(*(}\DataTypeTok{void} \OperatorTok{**)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{)} \OperatorTok{!=} \OperatorTok{(}\DataTypeTok{void} \OperatorTok{*)}\BaseNTok{0x0}\OperatorTok{)} \OperatorTok{\{}
-          \KeywordTok{operator}\OperatorTok{.}\KeywordTok{delete}\OperatorTok{[](*(}\DataTypeTok{void} \OperatorTok{**)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{));}
-        \OperatorTok{\}}
-\NormalTok{        extraout\_x0}\OperatorTok{[}\DecValTok{1}\OperatorTok{]} \OperatorTok{=}\NormalTok{ iVar17}\OperatorTok{;}
-\NormalTok{        lVar22 }\OperatorTok{=}\NormalTok{ lVar22 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-        \OperatorTok{*(}\DataTypeTok{void} \OperatorTok{**)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{)} \OperatorTok{=}\NormalTok{ \_\_s}\OperatorTok{;}
-        \OperatorTok{*(}\DataTypeTok{char} \OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{\_\_s }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)*}\NormalTok{extraout\_x0}\OperatorTok{)} \OperatorTok{=}\NormalTok{ cVar4}\OperatorTok{;}
-\NormalTok{        iVar17 }\OperatorTok{=} \OperatorTok{*}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-        \OperatorTok{*}\NormalTok{extraout\_x0 }\OperatorTok{=}\NormalTok{ iVar17}\OperatorTok{;}
-        \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar7 }\OperatorTok{\textless{}=} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)}\NormalTok{lVar22}\OperatorTok{)} \ControlFlowTok{goto}\NormalTok{ LAB\_00109e48}\OperatorTok{;}
-      \OperatorTok{\}}
-\NormalTok{      lVar22 }\OperatorTok{=}\NormalTok{ lVar22 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-      \OperatorTok{*(}\DataTypeTok{char} \OperatorTok{*)(*(}\DataTypeTok{long} \OperatorTok{*)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{)} \OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{)} \OperatorTok{=}\NormalTok{ cVar4}\OperatorTok{;}
-\NormalTok{      iVar17 }\OperatorTok{=} \OperatorTok{*}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-      \OperatorTok{*}\NormalTok{extraout\_x0 }\OperatorTok{=}\NormalTok{ iVar17}\OperatorTok{;}
-    \OperatorTok{\}} \ControlFlowTok{while} \OperatorTok{((}\DataTypeTok{int}\OperatorTok{)}\NormalTok{lVar22 }\OperatorTok{\textless{}}\NormalTok{ iVar7}\OperatorTok{);}
-  \OperatorTok{\}}
-\NormalTok{LAB\_00109e48}\OperatorTok{:}
-  \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x600}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{param\_2}\OperatorTok{,}\NormalTok{pcVar9}\OperatorTok{,}\DecValTok{0}\OperatorTok{);}
-\NormalTok{  bVar21 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-  \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar7 }\OperatorTok{!=} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    bVar21 }\OperatorTok{=} \OperatorTok{(}\NormalTok{byte}\OperatorTok{)(}\NormalTok{iVar8 }\OperatorTok{/}\NormalTok{ iVar7}\OperatorTok{);}
-  \OperatorTok{\}}
-\NormalTok{  uVar6 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-  \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar7 }\OperatorTok{!=} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    uVar6 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\NormalTok{iVar8 }\OperatorTok{+} \OperatorTok{(}\ExtensionTok{uint}\OperatorTok{)}\NormalTok{bVar15 }\OperatorTok{*} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)}\NormalTok{cVar24}\OperatorTok{)} \OperatorTok{/}\NormalTok{ iVar7}\OperatorTok{;}
-  \OperatorTok{\}}
-\NormalTok{  cVar24 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{char}\OperatorTok{)}\NormalTok{iVar8 }\OperatorTok{{-}}\NormalTok{ bVar21 }\OperatorTok{*} \OperatorTok{(}\DataTypeTok{char}\OperatorTok{)}\NormalTok{iVar7}\OperatorTok{;}
-  \BuiltInTok{std::}\NormalTok{to\_string}\OperatorTok{((}\ExtensionTok{ulong} \OperatorTok{*)\&}\NormalTok{local\_20}\OperatorTok{,}\NormalTok{uVar6}\OperatorTok{);}
-\NormalTok{  pcVar9 }\OperatorTok{=}\NormalTok{ local\_10}\OperatorTok{;}
-  \ControlFlowTok{if} \OperatorTok{((}\NormalTok{local\_20 }\OperatorTok{\&} \DecValTok{1}\OperatorTok{)} \OperatorTok{==} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    pcVar9 }\OperatorTok{=}\NormalTok{ local\_1f}\OperatorTok{;}
-  \OperatorTok{\}}
-\NormalTok{  sVar10 }\OperatorTok{=}\NormalTok{ strlen}\OperatorTok{(}\NormalTok{pcVar9}\OperatorTok{);}
-\NormalTok{  iVar8 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)}\NormalTok{sVar10}\OperatorTok{;}
-  \ControlFlowTok{if} \OperatorTok{(}\NormalTok{extraout\_x0}\OperatorTok{[}\DecValTok{1}\OperatorTok{]} \OperatorTok{\textless{}=} \OperatorTok{*}\NormalTok{extraout\_x0 }\OperatorTok{+}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    iVar7 }\OperatorTok{=}\NormalTok{ extraout\_x0}\OperatorTok{[}\DecValTok{1}\OperatorTok{]} \OperatorTok{+}\NormalTok{ iVar8}\OperatorTok{;}
-\NormalTok{    extraout\_x0}\OperatorTok{[}\DecValTok{1}\OperatorTok{]} \OperatorTok{=}\NormalTok{ iVar7}\OperatorTok{;}
-\NormalTok{    iVar7 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{*} \DecValTok{2}\OperatorTok{;}
-    \KeywordTok{operator}\OperatorTok{.}\KeywordTok{new}\OperatorTok{[]((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar7}\OperatorTok{);}
-\NormalTok{    memset}\OperatorTok{(}\NormalTok{\_\_s\_00}\OperatorTok{,}\DecValTok{0}\OperatorTok{,(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar7}\OperatorTok{);}
-\NormalTok{    memcpy}\OperatorTok{(}\NormalTok{\_\_s\_00}\OperatorTok{,*(}\DataTypeTok{void} \OperatorTok{**)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{),(}\DataTypeTok{long}\OperatorTok{)*}\NormalTok{extraout\_x0}\OperatorTok{);}
-    \ControlFlowTok{if} \OperatorTok{(*(}\DataTypeTok{void} \OperatorTok{**)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{)} \OperatorTok{!=} \OperatorTok{(}\DataTypeTok{void} \OperatorTok{*)}\BaseNTok{0x0}\OperatorTok{)} \OperatorTok{\{}
-      \KeywordTok{operator}\OperatorTok{.}\KeywordTok{delete}\OperatorTok{[](*(}\DataTypeTok{void} \OperatorTok{**)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{));}
-    \OperatorTok{\}}
-\NormalTok{    extraout\_x0}\OperatorTok{[}\DecValTok{1}\OperatorTok{]} \OperatorTok{=}\NormalTok{ iVar7}\OperatorTok{;}
-    \OperatorTok{*(}\DataTypeTok{void} \OperatorTok{**)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{)} \OperatorTok{=}\NormalTok{ \_\_s\_00}\OperatorTok{;}
-  \OperatorTok{\}}
-  \ControlFlowTok{if} \OperatorTok{(}\DecValTok{0} \OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    iVar7 }\OperatorTok{=} \OperatorTok{*}\NormalTok{extraout\_x0}\OperatorTok{;}
-\NormalTok{    lVar22 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-    \ControlFlowTok{do} \OperatorTok{\{}
-\NormalTok{      pcVar1 }\OperatorTok{=}\NormalTok{ pcVar9 }\OperatorTok{+}\NormalTok{ lVar22}\OperatorTok{;}
-\NormalTok{      lVar22 }\OperatorTok{=}\NormalTok{ lVar22 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-      \OperatorTok{*(}\DataTypeTok{char} \OperatorTok{*)(*(}\DataTypeTok{long} \OperatorTok{*)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{)} \OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar7}\OperatorTok{)} \OperatorTok{=} \OperatorTok{*}\NormalTok{pcVar1}\OperatorTok{;}
-\NormalTok{      iVar7 }\OperatorTok{=} \OperatorTok{*}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-      \OperatorTok{*}\NormalTok{extraout\_x0 }\OperatorTok{=}\NormalTok{ iVar7}\OperatorTok{;}
-    \OperatorTok{\}} \ControlFlowTok{while} \OperatorTok{((}\DataTypeTok{int}\OperatorTok{)}\NormalTok{lVar22 }\OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{);}
-  \OperatorTok{\}}
-  \ControlFlowTok{if} \OperatorTok{(}\NormalTok{param\_3 }\OperatorTok{!=} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-                    \CommentTok{/* try \{ // try from 00109f10 to 0010a5e3 has its CatchHandler @ 0010a638 */}
-\NormalTok{    iVar8 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x558}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{param\_3}\OperatorTok{);}
-\NormalTok{    lVar22 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x5c0}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{param\_3}\OperatorTok{,}\DecValTok{0}\OperatorTok{);}
-    \ControlFlowTok{if} \OperatorTok{(}\NormalTok{extraout\_x0}\OperatorTok{[}\DecValTok{1}\OperatorTok{]} \OperatorTok{\textless{}=}\NormalTok{ iVar8 }\OperatorTok{+} \OperatorTok{*}\NormalTok{extraout\_x0}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{      iVar7 }\OperatorTok{=}\NormalTok{ iVar8 }\OperatorTok{+}\NormalTok{ extraout\_x0}\OperatorTok{[}\DecValTok{1}\OperatorTok{];}
-\NormalTok{      extraout\_x0}\OperatorTok{[}\DecValTok{1}\OperatorTok{]} \OperatorTok{=}\NormalTok{ iVar7}\OperatorTok{;}
-\NormalTok{      iVar7 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{*} \DecValTok{2}\OperatorTok{;}
-      \KeywordTok{operator}\OperatorTok{.}\KeywordTok{new}\OperatorTok{[]((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar7}\OperatorTok{);}
-\NormalTok{      memset}\OperatorTok{(}\NormalTok{\_\_s\_01}\OperatorTok{,}\DecValTok{0}\OperatorTok{,(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar7}\OperatorTok{);}
-\NormalTok{      memcpy}\OperatorTok{(}\NormalTok{\_\_s\_01}\OperatorTok{,*(}\DataTypeTok{void} \OperatorTok{**)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{),(}\DataTypeTok{long}\OperatorTok{)*}\NormalTok{extraout\_x0}\OperatorTok{);}
-      \ControlFlowTok{if} \OperatorTok{(*(}\DataTypeTok{void} \OperatorTok{**)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{)} \OperatorTok{!=} \OperatorTok{(}\DataTypeTok{void} \OperatorTok{*)}\BaseNTok{0x0}\OperatorTok{)} \OperatorTok{\{}
-        \KeywordTok{operator}\OperatorTok{.}\KeywordTok{delete}\OperatorTok{[](*(}\DataTypeTok{void} \OperatorTok{**)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{));}
-      \OperatorTok{\}}
-\NormalTok{      extraout\_x0}\OperatorTok{[}\DecValTok{1}\OperatorTok{]} \OperatorTok{=}\NormalTok{ iVar7}\OperatorTok{;}
-      \OperatorTok{*(}\DataTypeTok{void} \OperatorTok{**)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{)} \OperatorTok{=}\NormalTok{ \_\_s\_01}\OperatorTok{;}
-    \OperatorTok{\}}
-    \ControlFlowTok{if} \OperatorTok{(}\DecValTok{0} \OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{      iVar7 }\OperatorTok{=} \OperatorTok{*}\NormalTok{extraout\_x0}\OperatorTok{;}
-\NormalTok{      lVar20 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-      \ControlFlowTok{do} \OperatorTok{\{}
-\NormalTok{        puVar2 }\OperatorTok{=} \OperatorTok{(}\NormalTok{undefined1 }\OperatorTok{*)(}\NormalTok{lVar22 }\OperatorTok{+}\NormalTok{ lVar20}\OperatorTok{);}
-\NormalTok{        lVar20 }\OperatorTok{=}\NormalTok{ lVar20 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-        \OperatorTok{*(}\NormalTok{undefined1 }\OperatorTok{*)(*(}\DataTypeTok{long} \OperatorTok{*)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{)} \OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar7}\OperatorTok{)} \OperatorTok{=} \OperatorTok{*}\NormalTok{puVar2}\OperatorTok{;}
-\NormalTok{        iVar7 }\OperatorTok{=} \OperatorTok{*}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-        \OperatorTok{*}\NormalTok{extraout\_x0 }\OperatorTok{=}\NormalTok{ iVar7}\OperatorTok{;}
-      \OperatorTok{\}} \ControlFlowTok{while} \OperatorTok{((}\DataTypeTok{int}\OperatorTok{)}\NormalTok{lVar20 }\OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{);}
-    \OperatorTok{\}}
-    \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x600}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{param\_3}\OperatorTok{,}\NormalTok{lVar22}\OperatorTok{,}\DecValTok{0}\OperatorTok{);}
-\NormalTok{    cVar24 }\OperatorTok{=}\NormalTok{ cVar24 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{char}\OperatorTok{)}\NormalTok{iVar8}\OperatorTok{;}
-  \OperatorTok{\}}
-\NormalTok{  plVar23 }\OperatorTok{=} \OperatorTok{*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{);}
-\NormalTok{  iVar8 }\OperatorTok{=} \OperatorTok{*}\NormalTok{extraout\_x0}\OperatorTok{;}
-\NormalTok{  uVar25 }\OperatorTok{=} \OperatorTok{*(}\NormalTok{undefined8 }\OperatorTok{*)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{);}
-\NormalTok{  uVar16 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(*}\NormalTok{plVar23 }\OperatorTok{+} \BaseNTok{0x580}\OperatorTok{))(}\NormalTok{plVar23}\OperatorTok{,}\NormalTok{iVar8}\OperatorTok{);}
-  \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(*}\NormalTok{plVar23 }\OperatorTok{+} \BaseNTok{0x680}\OperatorTok{))(}\NormalTok{plVar23}\OperatorTok{,}\NormalTok{uVar16}\OperatorTok{,}\DecValTok{0}\OperatorTok{,}\NormalTok{iVar8}\OperatorTok{,}\NormalTok{uVar25}\OperatorTok{);}
-  \KeywordTok{operator}\OperatorTok{.}\KeywordTok{delete}\OperatorTok{(*(}\DataTypeTok{void} \OperatorTok{**)(}\NormalTok{extraout\_x0 }\OperatorTok{+} \DecValTok{4}\OperatorTok{));}
-  \KeywordTok{operator}\OperatorTok{.}\KeywordTok{delete}\OperatorTok{(}\NormalTok{extraout\_x0}\OperatorTok{);}
-\NormalTok{  puVar11 }\OperatorTok{=} \OperatorTok{(}\NormalTok{undefined8 }\OperatorTok{*)}
-            \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x5c0}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar16}\OperatorTok{,}\DecValTok{0}\OperatorTok{);}
-\NormalTok{  iVar8 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x558}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar16}\OperatorTok{);}
-  \ControlFlowTok{if} \OperatorTok{(}\DecValTok{0} \OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    uVar6 }\OperatorTok{=} \OperatorTok{(}\NormalTok{iVar8 }\OperatorTok{{-}} \BaseNTok{0x10}\BuiltInTok{U} \OperatorTok{\textgreater{}\textgreater{}} \DecValTok{4}\OperatorTok{)} \OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-\NormalTok{    iVar7 }\OperatorTok{=}\NormalTok{ uVar6 }\OperatorTok{*} \BaseNTok{0x10}\OperatorTok{;}
-    \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar8 }\OperatorTok{{-}} \DecValTok{1}\BuiltInTok{U} \OperatorTok{\textless{}} \BaseNTok{0xf}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{      iVar7 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-    \OperatorTok{\}}
-    \ControlFlowTok{else} \OperatorTok{\{}
-\NormalTok{      uVar14 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-\NormalTok{      puVar19 }\OperatorTok{=}\NormalTok{ puVar11}\OperatorTok{;}
-      \ControlFlowTok{do} \OperatorTok{\{}
-\NormalTok{        uVar12 }\OperatorTok{=}\NormalTok{ puVar19}\OperatorTok{[}\DecValTok{1}\OperatorTok{];}
-\NormalTok{        uVar25 }\OperatorTok{=} \OperatorTok{*}\NormalTok{puVar19}\OperatorTok{;}
-\NormalTok{        uVar14 }\OperatorTok{=}\NormalTok{ uVar14 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-\NormalTok{        puVar19}\OperatorTok{[}\DecValTok{1}\OperatorTok{]} \OperatorTok{=}\NormalTok{ CONCAT17}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x38}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar21}\OperatorTok{,}
-\NormalTok{                              CONCAT16}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x30}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar21}\OperatorTok{,}
-\NormalTok{                                       CONCAT15}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x28}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar21}\OperatorTok{,}
-\NormalTok{                                                CONCAT14}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x20}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar21}\OperatorTok{,}
-\NormalTok{                                                         CONCAT13}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x18}\OperatorTok{)} \OperatorTok{\^{}}
-\NormalTok{                                                                  bVar21}\OperatorTok{,}\NormalTok{CONCAT12}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}
-\NormalTok{                                                  uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x10}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar21}\OperatorTok{,}
-\NormalTok{                                                  CONCAT11}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \DecValTok{8}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar21}\OperatorTok{,}
-                                                           \OperatorTok{(}\NormalTok{byte}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\^{}}\NormalTok{ bVar21}\OperatorTok{)))))));}
-        \OperatorTok{*}\NormalTok{puVar19 }\OperatorTok{=}\NormalTok{ CONCAT17}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar25 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x38}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar21}\OperatorTok{,}
-\NormalTok{                            CONCAT16}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar25 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x30}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar21}\OperatorTok{,}
-\NormalTok{                                     CONCAT15}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar25 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x28}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar21}\OperatorTok{,}
-\NormalTok{                                              CONCAT14}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar25 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x20}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar21}\OperatorTok{,}
-\NormalTok{                                                       CONCAT13}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar25 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x18}\OperatorTok{)} \OperatorTok{\^{}}
-\NormalTok{                                                                bVar21}\OperatorTok{,}\NormalTok{CONCAT12}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar25}
-                                                                                      \OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x10}\OperatorTok{)} \OperatorTok{\^{}}
-\NormalTok{                                                                                bVar21}\OperatorTok{,}\NormalTok{CONCAT11}\OperatorTok{((}
-\NormalTok{                                                  byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar25 }\OperatorTok{\textgreater{}\textgreater{}} \DecValTok{8}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar21}\OperatorTok{,}
-                                                  \OperatorTok{(}\NormalTok{byte}\OperatorTok{)}\NormalTok{uVar25 }\OperatorTok{\^{}}\NormalTok{ bVar21}\OperatorTok{)))))));}
-\NormalTok{        puVar19 }\OperatorTok{=}\NormalTok{ puVar19 }\OperatorTok{+} \DecValTok{2}\OperatorTok{;}
-      \OperatorTok{\}} \ControlFlowTok{while} \OperatorTok{(}\NormalTok{uVar14 }\OperatorTok{\textless{}}\NormalTok{ uVar6}\OperatorTok{);}
-      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar8 }\OperatorTok{==}\NormalTok{ iVar7}\OperatorTok{)} \ControlFlowTok{goto}\NormalTok{ LAB\_0010a21c}\OperatorTok{;}
-    \OperatorTok{\}}
-\NormalTok{    iVar17 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-    \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar7}\OperatorTok{)} \OperatorTok{=}\NormalTok{ bVar21 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar7}\OperatorTok{);}
-    \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar17 }\OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{      iVar3 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{+} \DecValTok{2}\OperatorTok{;}
-      \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{)} \OperatorTok{=}\NormalTok{ bVar21 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{);}
-      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar3 }\OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{        iVar17 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{+} \DecValTok{3}\OperatorTok{;}
-        \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar3}\OperatorTok{)} \OperatorTok{=}\NormalTok{ bVar21 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar3}\OperatorTok{);}
-        \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar17 }\OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{          iVar3 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{+} \DecValTok{4}\OperatorTok{;}
-          \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{)} \OperatorTok{=}\NormalTok{ bVar21 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{)}
-          \OperatorTok{;}
-          \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar3 }\OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{            iVar17 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{+} \DecValTok{5}\OperatorTok{;}
-            \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar3}\OperatorTok{)} \OperatorTok{=}\NormalTok{ bVar21 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar3}\OperatorTok{)}
-            \OperatorTok{;}
-            \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar17 }\OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{              iVar3 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{+} \DecValTok{6}\OperatorTok{;}
-              \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                   bVar21 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{);}
-              \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar3 }\OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                iVar17 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{+} \DecValTok{7}\OperatorTok{;}
-                \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar3}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                     bVar21 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar3}\OperatorTok{);}
-                \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar17 }\OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                  iVar3 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{+} \DecValTok{8}\OperatorTok{;}
-                  \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                       bVar21 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{);}
-                  \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar3 }\OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                    iVar17 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{+} \DecValTok{9}\OperatorTok{;}
-                    \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar3}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                         bVar21 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar3}\OperatorTok{);}
-                    \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar17 }\OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                      iVar3 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{+} \DecValTok{10}\OperatorTok{;}
-                      \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                           bVar21 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{);}
-                      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar3 }\OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                        iVar17 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{+} \BaseNTok{0xb}\OperatorTok{;}
-                        \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar3}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                             bVar21 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar3}\OperatorTok{);}
-                        \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar17 }\OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                          iVar3 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{+} \BaseNTok{0xc}\OperatorTok{;}
-                          \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                               bVar21 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{);}
-                          \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar3 }\OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                            iVar17 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{+} \BaseNTok{0xd}\OperatorTok{;}
-                            \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar3}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                                 bVar21 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar3}\OperatorTok{);}
-                            \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar17 }\OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                              iVar7 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{+} \BaseNTok{0xe}\OperatorTok{;}
-                              \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                                   bVar21 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar17}\OperatorTok{);}
-                              \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar7 }\OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-                                \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar7}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                                     bVar21 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar11 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar7}\OperatorTok{);}
-                              \OperatorTok{\}}
-                            \OperatorTok{\}}
-                          \OperatorTok{\}}
-                        \OperatorTok{\}}
-                      \OperatorTok{\}}
-                    \OperatorTok{\}}
-                  \OperatorTok{\}}
-                \OperatorTok{\}}
-              \OperatorTok{\}}
-            \OperatorTok{\}}
-          \OperatorTok{\}}
-        \OperatorTok{\}}
-      \OperatorTok{\}}
-    \OperatorTok{\}}
-  \OperatorTok{\}}
-\NormalTok{LAB\_0010a21c}\OperatorTok{:}
-  \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x600}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar16}\OperatorTok{,}\NormalTok{puVar11}\OperatorTok{,}\DecValTok{0}\OperatorTok{);}
-\NormalTok{  uVar25 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x30}\OperatorTok{))}
-                     \OperatorTok{(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\StringTok{"java/security/MessageDigest"}\OperatorTok{);}
-\NormalTok{  uVar12 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x538}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),\&}\NormalTok{DAT\_00156fc0}\OperatorTok{);}
-\NormalTok{  uVar13 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x388}\OperatorTok{))}
-                     \OperatorTok{(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar25}\OperatorTok{,}\StringTok{"getInstance"}\OperatorTok{,}
-                      \StringTok{"(Ljava/lang/String;)Ljava/security/MessageDigest;"}\OperatorTok{);}
-\NormalTok{  \_JNIEnv}\OperatorTok{::}\NormalTok{CallStaticObjectMethod}\OperatorTok{(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar25}\OperatorTok{,}\NormalTok{uVar13}\OperatorTok{,}\NormalTok{uVar12}\OperatorTok{);}
-  \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0xb8}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar12}\OperatorTok{);}
-\NormalTok{  uVar12 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x108}\OperatorTok{))}
-                     \OperatorTok{(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar25}\OperatorTok{,}\StringTok{"update"}\OperatorTok{,}\StringTok{"([B)V"}\OperatorTok{);}
-\NormalTok{  \_JNIEnv}\OperatorTok{::}\NormalTok{CallVoidMethod}\OperatorTok{(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{extraout\_x0\_01}\OperatorTok{,}\NormalTok{uVar12}\OperatorTok{,}\NormalTok{uVar16}\OperatorTok{);}
-\NormalTok{  uVar12 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x108}\OperatorTok{))}
-                     \OperatorTok{(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar25}\OperatorTok{,}\StringTok{"digest"}\OperatorTok{,\&}\NormalTok{DAT\_00157028}\OperatorTok{);}
-\NormalTok{  \_JNIEnv}\OperatorTok{::}\NormalTok{CallObjectMethod}\OperatorTok{(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{extraout\_x0\_01}\OperatorTok{,}\NormalTok{uVar12}\OperatorTok{);}
-  \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0xb8}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar25}\OperatorTok{);}
-  \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0xb8}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{extraout\_x0\_01}\OperatorTok{);}
-  \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0xb8}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar16}\OperatorTok{);}
-\NormalTok{  lVar22 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x5c0}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{extraout\_x0\_02}\OperatorTok{,}\DecValTok{0}\OperatorTok{)}
-  \OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\DecValTok{0}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0xe2}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\DecValTok{1}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0x5f}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\DecValTok{2}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0x48}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\DecValTok{3}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0x73}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\DecValTok{4}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0x25}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\DecValTok{5}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0xc6}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\DecValTok{6}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0xe7}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\DecValTok{7}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0x11}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\DecValTok{8}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0x80}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\DecValTok{9}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0x7c}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\DecValTok{10}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0x46}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\BaseNTok{0xe}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0x3c}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\BaseNTok{0xb}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0xc3}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\BaseNTok{0x10}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0x3c}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\BaseNTok{0xc}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0xe3}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\BaseNTok{0x11}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0x77}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\BaseNTok{0xd}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0x1d}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\BaseNTok{0x12}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0x1e}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\BaseNTok{0xf}\OperatorTok{]} \OperatorTok{=} \BaseNTok{0x97}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\BaseNTok{0x13}\OperatorTok{]} \OperatorTok{=} \DecValTok{1}\OperatorTok{;}
-\NormalTok{  local\_38}\OperatorTok{[}\BaseNTok{0x14}\OperatorTok{]} \OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-\NormalTok{  sVar10 }\OperatorTok{=}\NormalTok{ strlen}\OperatorTok{((}\DataTypeTok{char} \OperatorTok{*)}\NormalTok{local\_38}\OperatorTok{);}
-\NormalTok{  iVar8 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x558}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{extraout\_x0\_02}\OperatorTok{);}
-  \ControlFlowTok{if} \OperatorTok{(}\DecValTok{0} \OperatorTok{\textless{}}\NormalTok{ iVar8}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    lVar20 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-\NormalTok{    bVar15 }\OperatorTok{=} \BaseNTok{0xe2}\OperatorTok{;}
-\NormalTok{    iVar7 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-    \ControlFlowTok{while}\OperatorTok{(} \KeywordTok{true} \OperatorTok{)} \OperatorTok{\{}
-\NormalTok{      bVar21 }\OperatorTok{=} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)(}\NormalTok{lVar22 }\OperatorTok{+}\NormalTok{ lVar20}\OperatorTok{);}
-\NormalTok{      iVar17 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar8 }\OperatorTok{!=} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{        iVar17 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)}\NormalTok{bVar21 }\OperatorTok{/}\NormalTok{ iVar8}\OperatorTok{;}
-      \OperatorTok{\}}
-\NormalTok{      iVar17 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)}\NormalTok{bVar21 }\OperatorTok{{-}}\NormalTok{ iVar17 }\OperatorTok{*}\NormalTok{ iVar8}\OperatorTok{;}
-      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar8 }\OperatorTok{/} \DecValTok{2} \OperatorTok{\textless{}}\NormalTok{ iVar17}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{        bVar21 }\OperatorTok{=}\NormalTok{ bVar21 }\OperatorTok{\^{}} \OperatorTok{(}\DataTypeTok{char}\OperatorTok{)(}\NormalTok{iVar8 }\OperatorTok{/} \DecValTok{2}\OperatorTok{)} \OperatorTok{+}\NormalTok{ cVar24}\OperatorTok{;}
-        \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)(}\NormalTok{lVar22 }\OperatorTok{+}\NormalTok{ lVar20}\OperatorTok{)} \OperatorTok{=}\NormalTok{ bVar21}\OperatorTok{;}
-      \OperatorTok{\}}
-\NormalTok{      iVar7 }\OperatorTok{=}\NormalTok{ iVar7 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-      \ControlFlowTok{if} \OperatorTok{((}\DataTypeTok{int}\OperatorTok{)}\NormalTok{sVar10 }\OperatorTok{==}\NormalTok{ iVar7}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{        iVar7 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-      \OperatorTok{\}}
-\NormalTok{      bVar5 }\OperatorTok{=} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)(}\NormalTok{lVar22 }\OperatorTok{+}\NormalTok{ iVar17}\OperatorTok{);}
-      \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)(}\NormalTok{lVar22 }\OperatorTok{+}\NormalTok{ iVar17}\OperatorTok{)} \OperatorTok{=}\NormalTok{ bVar21}\OperatorTok{;}
-      \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)(}\NormalTok{lVar22 }\OperatorTok{+}\NormalTok{ lVar20}\OperatorTok{)} \OperatorTok{=}\NormalTok{ bVar5 }\OperatorTok{\^{}}\NormalTok{ bVar15}\OperatorTok{;}
-\NormalTok{      lVar20 }\OperatorTok{=}\NormalTok{ lVar20 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar8 }\OperatorTok{\textless{}=} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)}\NormalTok{lVar20}\OperatorTok{)} \ControlFlowTok{break}\OperatorTok{;}
-\NormalTok{      bVar15 }\OperatorTok{=}\NormalTok{ local\_38}\OperatorTok{[}\NormalTok{iVar7}\OperatorTok{];}
-    \OperatorTok{\}}
-  \OperatorTok{\}}
-  \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x600}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{extraout\_x0\_02}\OperatorTok{,}\NormalTok{lVar22}\OperatorTok{,}\DecValTok{0}\OperatorTok{);}
-  \ControlFlowTok{if} \OperatorTok{((}\NormalTok{local\_20 }\OperatorTok{\&} \DecValTok{1}\OperatorTok{)} \OperatorTok{!=} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-    \KeywordTok{operator}\OperatorTok{.}\KeywordTok{delete}\OperatorTok{(}\NormalTok{local\_10}\OperatorTok{);}
-  \OperatorTok{\}}
-  \ControlFlowTok{if} \OperatorTok{(}\NormalTok{local\_8 }\OperatorTok{!=}\NormalTok{ \_\_\_stack\_chk\_guard}\OperatorTok{)} \OperatorTok{\{}
-                    \CommentTok{/* }\AlertTok{WARNING}\CommentTok{: Subroutine does not return */}
-\NormalTok{    \_\_stack\_chk\_fail}\OperatorTok{(}\NormalTok{extraout\_x0\_02}\OperatorTok{);}
-  \OperatorTok{\}}
-  \ControlFlowTok{return}\OperatorTok{;}
-\OperatorTok{\}}
+\NormalTok{  uVar16 = 0;}
+\NormalTok{  local\_8 = \_\_\_stack\_chk\_guard;}
+\NormalTok{  pcVar18 = *(code **)(**(long **)(param\_1 + 8) + 0x5c0);}
+\NormalTok{  lVar22 = \_\_\_stack\_chk\_guard;}
+\NormalTok{  auVar26 = (*pcVar18)(*(long **)(param\_1 + 8));}
+\NormalTok{  pcVar9 = auVar26.\_0\_8\_;}
+\NormalTok{  operator.new(0x18,auVar26.\_8\_8\_,uVar16,pcVar18,lVar22,param\_6,param\_7,param\_8);}
+\NormalTok{  *extraout\_x0 = 0;}
+\NormalTok{  extraout\_x0[1] = 2;}
+\NormalTok{                    /* try \{ // try from 00109d54 to 00109d57 has its CatchHandler @ 0010a624 */}
+\NormalTok{  operator.new[](2);}
+\NormalTok{  *(undefined8 *)(extraout\_x0 + 4) = extraout\_x0\_00;}
+\NormalTok{  iVar7 = (**(code **)(**(long **)(param\_1 + 8) + 0x558))(*(long **)(param\_1 + 8),param\_2);}
+\NormalTok{  cVar24 = *pcVar9;}
+\NormalTok{  bVar15 = pcVar9[(long)iVar7 + {-}1];}
+\NormalTok{  iVar8 = iVar7;}
+\NormalTok{  if (0 \textless{} iVar7) \{}
+\NormalTok{    iVar17 = *extraout\_x0;}
+\NormalTok{    lVar22 = 0;}
+\NormalTok{    do \{}
+\NormalTok{      while( true ) \{}
+\NormalTok{        cVar4 = pcVar9[lVar22];}
+\NormalTok{        iVar8 = iVar8 + cVar4;}
+\NormalTok{        if (extraout\_x0[1] != iVar17) break;}
+\NormalTok{        iVar17 = iVar17 \textless{}\textless{} 1;}
+\NormalTok{        operator.new[]((long)iVar17);}
+\NormalTok{        memset(\_\_s,0,(long)iVar17);}
+\NormalTok{        memcpy(\_\_s,*(void **)(extraout\_x0 + 4),(long)*extraout\_x0);}
+\NormalTok{        if (*(void **)(extraout\_x0 + 4) != (void *)0x0) \{}
+\NormalTok{          operator.delete[](*(void **)(extraout\_x0 + 4));}
+\NormalTok{        \}}
+\NormalTok{        extraout\_x0[1] = iVar17;}
+\NormalTok{        lVar22 = lVar22 + 1;}
+\NormalTok{        *(void **)(extraout\_x0 + 4) = \_\_s;}
+\NormalTok{        *(char *)((long)\_\_s + (long)*extraout\_x0) = cVar4;}
+\NormalTok{        iVar17 = *extraout\_x0 + 1;}
+\NormalTok{        *extraout\_x0 = iVar17;}
+\NormalTok{        if (iVar7 \textless{}= (int)lVar22) goto LAB\_00109e48;}
+\NormalTok{      \}}
+\NormalTok{      lVar22 = lVar22 + 1;}
+\NormalTok{      *(char *)(*(long *)(extraout\_x0 + 4) + (long)iVar17) = cVar4;}
+\NormalTok{      iVar17 = *extraout\_x0 + 1;}
+\NormalTok{      *extraout\_x0 = iVar17;}
+\NormalTok{    \} while ((int)lVar22 \textless{} iVar7);}
+\NormalTok{  \}}
+\NormalTok{LAB\_00109e48:}
+\NormalTok{  (**(code **)(**(long **)(param\_1 + 8) + 0x600))(*(long **)(param\_1 + 8),param\_2,pcVar9,0);}
+\NormalTok{  bVar21 = 0;}
+\NormalTok{  if (iVar7 != 0) \{}
+\NormalTok{    bVar21 = (byte)(iVar8 / iVar7);}
+\NormalTok{  \}}
+\NormalTok{  uVar6 = 0;}
+\NormalTok{  if (iVar7 != 0) \{}
+\NormalTok{    uVar6 = (int)(iVar8 + (uint)bVar15 * (int)cVar24) / iVar7;}
+\NormalTok{  \}}
+\NormalTok{  cVar24 = (char)iVar8 {-} bVar21 * (char)iVar7;}
+\NormalTok{  std::to\_string((ulong *)\&local\_20,uVar6);}
+\NormalTok{  pcVar9 = local\_10;}
+\NormalTok{  if ((local\_20 \& 1) == 0) \{}
+\NormalTok{    pcVar9 = local\_1f;}
+\NormalTok{  \}}
+\NormalTok{  sVar10 = strlen(pcVar9);}
+\NormalTok{  iVar8 = (int)sVar10;}
+\NormalTok{  if (extraout\_x0[1] \textless{}= *extraout\_x0 + iVar8) \{}
+\NormalTok{    iVar7 = extraout\_x0[1] + iVar8;}
+\NormalTok{    extraout\_x0[1] = iVar7;}
+\NormalTok{    iVar7 = iVar7 * 2;}
+\NormalTok{    operator.new[]((long)iVar7);}
+\NormalTok{    memset(\_\_s\_00,0,(long)iVar7);}
+\NormalTok{    memcpy(\_\_s\_00,*(void **)(extraout\_x0 + 4),(long)*extraout\_x0);}
+\NormalTok{    if (*(void **)(extraout\_x0 + 4) != (void *)0x0) \{}
+\NormalTok{      operator.delete[](*(void **)(extraout\_x0 + 4));}
+\NormalTok{    \}}
+\NormalTok{    extraout\_x0[1] = iVar7;}
+\NormalTok{    *(void **)(extraout\_x0 + 4) = \_\_s\_00;}
+\NormalTok{  \}}
+\NormalTok{  if (0 \textless{} iVar8) \{}
+\NormalTok{    iVar7 = *extraout\_x0;}
+\NormalTok{    lVar22 = 0;}
+\NormalTok{    do \{}
+\NormalTok{      pcVar1 = pcVar9 + lVar22;}
+\NormalTok{      lVar22 = lVar22 + 1;}
+\NormalTok{      *(char *)(*(long *)(extraout\_x0 + 4) + (long)iVar7) = *pcVar1;}
+\NormalTok{      iVar7 = *extraout\_x0 + 1;}
+\NormalTok{      *extraout\_x0 = iVar7;}
+\NormalTok{    \} while ((int)lVar22 \textless{} iVar8);}
+\NormalTok{  \}}
+\NormalTok{  if (param\_3 != 0) \{}
+\NormalTok{                    /* try \{ // try from 00109f10 to 0010a5e3 has its CatchHandler @ 0010a638 */}
+\NormalTok{    iVar8 = (**(code **)(**(long **)(param\_1 + 8) + 0x558))(*(long **)(param\_1 + 8),param\_3);}
+\NormalTok{    lVar22 = (**(code **)(**(long **)(param\_1 + 8) + 0x5c0))(*(long **)(param\_1 + 8),param\_3,0);}
+\NormalTok{    if (extraout\_x0[1] \textless{}= iVar8 + *extraout\_x0) \{}
+\NormalTok{      iVar7 = iVar8 + extraout\_x0[1];}
+\NormalTok{      extraout\_x0[1] = iVar7;}
+\NormalTok{      iVar7 = iVar7 * 2;}
+\NormalTok{      operator.new[]((long)iVar7);}
+\NormalTok{      memset(\_\_s\_01,0,(long)iVar7);}
+\NormalTok{      memcpy(\_\_s\_01,*(void **)(extraout\_x0 + 4),(long)*extraout\_x0);}
+\NormalTok{      if (*(void **)(extraout\_x0 + 4) != (void *)0x0) \{}
+\NormalTok{        operator.delete[](*(void **)(extraout\_x0 + 4));}
+\NormalTok{      \}}
+\NormalTok{      extraout\_x0[1] = iVar7;}
+\NormalTok{      *(void **)(extraout\_x0 + 4) = \_\_s\_01;}
+\NormalTok{    \}}
+\NormalTok{    if (0 \textless{} iVar8) \{}
+\NormalTok{      iVar7 = *extraout\_x0;}
+\NormalTok{      lVar20 = 0;}
+\NormalTok{      do \{}
+\NormalTok{        puVar2 = (undefined1 *)(lVar22 + lVar20);}
+\NormalTok{        lVar20 = lVar20 + 1;}
+\NormalTok{        *(undefined1 *)(*(long *)(extraout\_x0 + 4) + (long)iVar7) = *puVar2;}
+\NormalTok{        iVar7 = *extraout\_x0 + 1;}
+\NormalTok{        *extraout\_x0 = iVar7;}
+\NormalTok{      \} while ((int)lVar20 \textless{} iVar8);}
+\NormalTok{    \}}
+\NormalTok{    (**(code **)(**(long **)(param\_1 + 8) + 0x600))(*(long **)(param\_1 + 8),param\_3,lVar22,0);}
+\NormalTok{    cVar24 = cVar24 + (char)iVar8;}
+\NormalTok{  \}}
+\NormalTok{  plVar23 = *(long **)(param\_1 + 8);}
+\NormalTok{  iVar8 = *extraout\_x0;}
+\NormalTok{  uVar25 = *(undefined8 *)(extraout\_x0 + 4);}
+\NormalTok{  uVar16 = (**(code **)(*plVar23 + 0x580))(plVar23,iVar8);}
+\NormalTok{  (**(code **)(*plVar23 + 0x680))(plVar23,uVar16,0,iVar8,uVar25);}
+\NormalTok{  operator.delete(*(void **)(extraout\_x0 + 4));}
+\NormalTok{  operator.delete(extraout\_x0);}
+\NormalTok{  puVar11 = (undefined8 *)}
+\NormalTok{            (**(code **)(**(long **)(param\_1 + 8) + 0x5c0))(*(long **)(param\_1 + 8),uVar16,0);}
+\NormalTok{  iVar8 = (**(code **)(**(long **)(param\_1 + 8) + 0x558))(*(long **)(param\_1 + 8),uVar16);}
+\NormalTok{  if (0 \textless{} iVar8) \{}
+\NormalTok{    uVar6 = (iVar8 {-} 0x10U \textgreater{}\textgreater{} 4) + 1;}
+\NormalTok{    iVar7 = uVar6 * 0x10;}
+\NormalTok{    if (iVar8 {-} 1U \textless{} 0xf) \{}
+\NormalTok{      iVar7 = 0;}
+\NormalTok{    \}}
+\NormalTok{    else \{}
+\NormalTok{      uVar14 = 0;}
+\NormalTok{      puVar19 = puVar11;}
+\NormalTok{      do \{}
+\NormalTok{        uVar12 = puVar19[1];}
+\NormalTok{        uVar25 = *puVar19;}
+\NormalTok{        uVar14 = uVar14 + 1;}
+\NormalTok{        puVar19[1] = CONCAT17((byte)((ulong)uVar12 \textgreater{}\textgreater{} 0x38) \^{} bVar21,}
+\NormalTok{                              CONCAT16((byte)((ulong)uVar12 \textgreater{}\textgreater{} 0x30) \^{} bVar21,}
+\NormalTok{                                       CONCAT15((byte)((ulong)uVar12 \textgreater{}\textgreater{} 0x28) \^{} bVar21,}
+\NormalTok{                                                CONCAT14((byte)((ulong)uVar12 \textgreater{}\textgreater{} 0x20) \^{} bVar21,}
+\NormalTok{                                                         CONCAT13((byte)((ulong)uVar12 \textgreater{}\textgreater{} 0x18) \^{}}
+\NormalTok{                                                                  bVar21,CONCAT12((byte)((ulong)}
+\NormalTok{                                                  uVar12 \textgreater{}\textgreater{} 0x10) \^{} bVar21,}
+\NormalTok{                                                  CONCAT11((byte)((ulong)uVar12 \textgreater{}\textgreater{} 8) \^{} bVar21,}
+\NormalTok{                                                           (byte)uVar12 \^{} bVar21)))))));}
+\NormalTok{        *puVar19 = CONCAT17((byte)((ulong)uVar25 \textgreater{}\textgreater{} 0x38) \^{} bVar21,}
+\NormalTok{                            CONCAT16((byte)((ulong)uVar25 \textgreater{}\textgreater{} 0x30) \^{} bVar21,}
+\NormalTok{                                     CONCAT15((byte)((ulong)uVar25 \textgreater{}\textgreater{} 0x28) \^{} bVar21,}
+\NormalTok{                                              CONCAT14((byte)((ulong)uVar25 \textgreater{}\textgreater{} 0x20) \^{} bVar21,}
+\NormalTok{                                                       CONCAT13((byte)((ulong)uVar25 \textgreater{}\textgreater{} 0x18) \^{}}
+\NormalTok{                                                                bVar21,CONCAT12((byte)((ulong)uVar25}
+\NormalTok{                                                                                      \textgreater{}\textgreater{} 0x10) \^{}}
+\NormalTok{                                                                                bVar21,CONCAT11((}
+\NormalTok{                                                  byte)((ulong)uVar25 \textgreater{}\textgreater{} 8) \^{} bVar21,}
+\NormalTok{                                                  (byte)uVar25 \^{} bVar21)))))));}
+\NormalTok{        puVar19 = puVar19 + 2;}
+\NormalTok{      \} while (uVar14 \textless{} uVar6);}
+\NormalTok{      if (iVar8 == iVar7) goto LAB\_0010a21c;}
+\NormalTok{    \}}
+\NormalTok{    iVar17 = iVar7 + 1;}
+\NormalTok{    *(byte *)((long)puVar11 + (long)iVar7) = bVar21 \^{} *(byte *)((long)puVar11 + (long)iVar7);}
+\NormalTok{    if (iVar17 \textless{} iVar8) \{}
+\NormalTok{      iVar3 = iVar7 + 2;}
+\NormalTok{      *(byte *)((long)puVar11 + (long)iVar17) = bVar21 \^{} *(byte *)((long)puVar11 + (long)iVar17);}
+\NormalTok{      if (iVar3 \textless{} iVar8) \{}
+\NormalTok{        iVar17 = iVar7 + 3;}
+\NormalTok{        *(byte *)((long)puVar11 + (long)iVar3) = bVar21 \^{} *(byte *)((long)puVar11 + (long)iVar3);}
+\NormalTok{        if (iVar17 \textless{} iVar8) \{}
+\NormalTok{          iVar3 = iVar7 + 4;}
+\NormalTok{          *(byte *)((long)puVar11 + (long)iVar17) = bVar21 \^{} *(byte *)((long)puVar11 + (long)iVar17)}
+\NormalTok{          ;}
+\NormalTok{          if (iVar3 \textless{} iVar8) \{}
+\NormalTok{            iVar17 = iVar7 + 5;}
+\NormalTok{            *(byte *)((long)puVar11 + (long)iVar3) = bVar21 \^{} *(byte *)((long)puVar11 + (long)iVar3)}
+\NormalTok{            ;}
+\NormalTok{            if (iVar17 \textless{} iVar8) \{}
+\NormalTok{              iVar3 = iVar7 + 6;}
+\NormalTok{              *(byte *)((long)puVar11 + (long)iVar17) =}
+\NormalTok{                   bVar21 \^{} *(byte *)((long)puVar11 + (long)iVar17);}
+\NormalTok{              if (iVar3 \textless{} iVar8) \{}
+\NormalTok{                iVar17 = iVar7 + 7;}
+\NormalTok{                *(byte *)((long)puVar11 + (long)iVar3) =}
+\NormalTok{                     bVar21 \^{} *(byte *)((long)puVar11 + (long)iVar3);}
+\NormalTok{                if (iVar17 \textless{} iVar8) \{}
+\NormalTok{                  iVar3 = iVar7 + 8;}
+\NormalTok{                  *(byte *)((long)puVar11 + (long)iVar17) =}
+\NormalTok{                       bVar21 \^{} *(byte *)((long)puVar11 + (long)iVar17);}
+\NormalTok{                  if (iVar3 \textless{} iVar8) \{}
+\NormalTok{                    iVar17 = iVar7 + 9;}
+\NormalTok{                    *(byte *)((long)puVar11 + (long)iVar3) =}
+\NormalTok{                         bVar21 \^{} *(byte *)((long)puVar11 + (long)iVar3);}
+\NormalTok{                    if (iVar17 \textless{} iVar8) \{}
+\NormalTok{                      iVar3 = iVar7 + 10;}
+\NormalTok{                      *(byte *)((long)puVar11 + (long)iVar17) =}
+\NormalTok{                           bVar21 \^{} *(byte *)((long)puVar11 + (long)iVar17);}
+\NormalTok{                      if (iVar3 \textless{} iVar8) \{}
+\NormalTok{                        iVar17 = iVar7 + 0xb;}
+\NormalTok{                        *(byte *)((long)puVar11 + (long)iVar3) =}
+\NormalTok{                             bVar21 \^{} *(byte *)((long)puVar11 + (long)iVar3);}
+\NormalTok{                        if (iVar17 \textless{} iVar8) \{}
+\NormalTok{                          iVar3 = iVar7 + 0xc;}
+\NormalTok{                          *(byte *)((long)puVar11 + (long)iVar17) =}
+\NormalTok{                               bVar21 \^{} *(byte *)((long)puVar11 + (long)iVar17);}
+\NormalTok{                          if (iVar3 \textless{} iVar8) \{}
+\NormalTok{                            iVar17 = iVar7 + 0xd;}
+\NormalTok{                            *(byte *)((long)puVar11 + (long)iVar3) =}
+\NormalTok{                                 bVar21 \^{} *(byte *)((long)puVar11 + (long)iVar3);}
+\NormalTok{                            if (iVar17 \textless{} iVar8) \{}
+\NormalTok{                              iVar7 = iVar7 + 0xe;}
+\NormalTok{                              *(byte *)((long)puVar11 + (long)iVar17) =}
+\NormalTok{                                   bVar21 \^{} *(byte *)((long)puVar11 + (long)iVar17);}
+\NormalTok{                              if (iVar7 \textless{} iVar8) \{}
+\NormalTok{                                *(byte *)((long)puVar11 + (long)iVar7) =}
+\NormalTok{                                     bVar21 \^{} *(byte *)((long)puVar11 + (long)iVar7);}
+\NormalTok{                              \}}
+\NormalTok{                            \}}
+\NormalTok{                          \}}
+\NormalTok{                        \}}
+\NormalTok{                      \}}
+\NormalTok{                    \}}
+\NormalTok{                  \}}
+\NormalTok{                \}}
+\NormalTok{              \}}
+\NormalTok{            \}}
+\NormalTok{          \}}
+\NormalTok{        \}}
+\NormalTok{      \}}
+\NormalTok{    \}}
+\NormalTok{  \}}
+\NormalTok{LAB\_0010a21c:}
+\NormalTok{  (**(code **)(**(long **)(param\_1 + 8) + 0x600))(*(long **)(param\_1 + 8),uVar16,puVar11,0);}
+\NormalTok{  uVar25 = (**(code **)(**(long **)(param\_1 + 8) + 0x30))}
+\NormalTok{                     (*(long **)(param\_1 + 8),"java/security/MessageDigest");}
+\NormalTok{  uVar12 = (**(code **)(**(long **)(param\_1 + 8) + 0x538))(*(long **)(param\_1 + 8),\&DAT\_00156fc0);}
+\NormalTok{  uVar13 = (**(code **)(**(long **)(param\_1 + 8) + 0x388))}
+\NormalTok{                     (*(long **)(param\_1 + 8),uVar25,"getInstance",}
+\NormalTok{                      "(Ljava/lang/String;)Ljava/security/MessageDigest;");}
+\NormalTok{  \_JNIEnv::CallStaticObjectMethod(*(long **)(param\_1 + 8),uVar25,uVar13,uVar12);}
+\NormalTok{  (**(code **)(**(long **)(param\_1 + 8) + 0xb8))(*(long **)(param\_1 + 8),uVar12);}
+\NormalTok{  uVar12 = (**(code **)(**(long **)(param\_1 + 8) + 0x108))}
+\NormalTok{                     (*(long **)(param\_1 + 8),uVar25,"update","([B)V");}
+\NormalTok{  \_JNIEnv::CallVoidMethod(*(long **)(param\_1 + 8),extraout\_x0\_01,uVar12,uVar16);}
+\NormalTok{  uVar12 = (**(code **)(**(long **)(param\_1 + 8) + 0x108))}
+\NormalTok{                     (*(long **)(param\_1 + 8),uVar25,"digest",\&DAT\_00157028);}
+\NormalTok{  \_JNIEnv::CallObjectMethod(*(long **)(param\_1 + 8),extraout\_x0\_01,uVar12);}
+\NormalTok{  (**(code **)(**(long **)(param\_1 + 8) + 0xb8))(*(long **)(param\_1 + 8),uVar25);}
+\NormalTok{  (**(code **)(**(long **)(param\_1 + 8) + 0xb8))(*(long **)(param\_1 + 8),extraout\_x0\_01);}
+\NormalTok{  (**(code **)(**(long **)(param\_1 + 8) + 0xb8))(*(long **)(param\_1 + 8),uVar16);}
+\NormalTok{  lVar22 = (**(code **)(**(long **)(param\_1 + 8) + 0x5c0))(*(long **)(param\_1 + 8),extraout\_x0\_02,0)}
+\NormalTok{  ;}
+\NormalTok{  local\_38[0] = 0xe2;}
+\NormalTok{  local\_38[1] = 0x5f;}
+\NormalTok{  local\_38[2] = 0x48;}
+\NormalTok{  local\_38[3] = 0x73;}
+\NormalTok{  local\_38[4] = 0x25;}
+\NormalTok{  local\_38[5] = 0xc6;}
+\NormalTok{  local\_38[6] = 0xe7;}
+\NormalTok{  local\_38[7] = 0x11;}
+\NormalTok{  local\_38[8] = 0x80;}
+\NormalTok{  local\_38[9] = 0x7c;}
+\NormalTok{  local\_38[10] = 0x46;}
+\NormalTok{  local\_38[0xe] = 0x3c;}
+\NormalTok{  local\_38[0xb] = 0xc3;}
+\NormalTok{  local\_38[0x10] = 0x3c;}
+\NormalTok{  local\_38[0xc] = 0xe3;}
+\NormalTok{  local\_38[0x11] = 0x77;}
+\NormalTok{  local\_38[0xd] = 0x1d;}
+\NormalTok{  local\_38[0x12] = 0x1e;}
+\NormalTok{  local\_38[0xf] = 0x97;}
+\NormalTok{  local\_38[0x13] = 1;}
+\NormalTok{  local\_38[0x14] = 0;}
+\NormalTok{  sVar10 = strlen((char *)local\_38);}
+\NormalTok{  iVar8 = (**(code **)(**(long **)(param\_1 + 8) + 0x558))(*(long **)(param\_1 + 8),extraout\_x0\_02);}
+\NormalTok{  if (0 \textless{} iVar8) \{}
+\NormalTok{    lVar20 = 0;}
+\NormalTok{    bVar15 = 0xe2;}
+\NormalTok{    iVar7 = 0;}
+\NormalTok{    while( true ) \{}
+\NormalTok{      bVar21 = *(byte *)(lVar22 + lVar20);}
+\NormalTok{      iVar17 = 0;}
+\NormalTok{      if (iVar8 != 0) \{}
+\NormalTok{        iVar17 = (int)(char)bVar21 / iVar8;}
+\NormalTok{      \}}
+\NormalTok{      iVar17 = (int)(char)bVar21 {-} iVar17 * iVar8;}
+\NormalTok{      if (iVar8 / 2 \textless{} iVar17) \{}
+\NormalTok{        bVar21 = bVar21 \^{} (char)(iVar8 / 2) + cVar24;}
+\NormalTok{        *(byte *)(lVar22 + lVar20) = bVar21;}
+\NormalTok{      \}}
+\NormalTok{      iVar7 = iVar7 + 1;}
+\NormalTok{      if ((int)sVar10 == iVar7) \{}
+\NormalTok{        iVar7 = 0;}
+\NormalTok{      \}}
+\NormalTok{      bVar5 = *(byte *)(lVar22 + iVar17);}
+\NormalTok{      *(byte *)(lVar22 + iVar17) = bVar21;}
+\NormalTok{      *(byte *)(lVar22 + lVar20) = bVar5 \^{} bVar15;}
+\NormalTok{      lVar20 = lVar20 + 1;}
+\NormalTok{      if (iVar8 \textless{}= (int)lVar20) break;}
+\NormalTok{      bVar15 = local\_38[iVar7];}
+\NormalTok{    \}}
+\NormalTok{  \}}
+\NormalTok{  (**(code **)(**(long **)(param\_1 + 8) + 0x600))(*(long **)(param\_1 + 8),extraout\_x0\_02,lVar22,0);}
+\NormalTok{  if ((local\_20 \& 1) != 0) \{}
+\NormalTok{    operator.delete(local\_10);}
+\NormalTok{  \}}
+\NormalTok{  if (local\_8 != \_\_\_stack\_chk\_guard) \{}
+\NormalTok{                    /* WARNING: Subroutine does not return */}
+\NormalTok{    \_\_stack\_chk\_fail(extraout\_x0\_02);}
+\NormalTok{  \}}
+\NormalTok{  return;}
+\NormalTok{\}}
 \end{Highlighting}
 \end{Shaded}
 
 \begin{Shaded}
 \begin{Highlighting}[]
 
-\CommentTok{/* }\AlertTok{WARNING}\CommentTok{: Globals starting with \textquotesingle{}\_\textquotesingle{} overlap smaller symbols at the same address */}
-\CommentTok{/* iapp::slky(iapp::Interact*, std::string, std::string) */}
+\NormalTok{/* WARNING: Globals starting with \textquotesingle{}\_\textquotesingle{} overlap smaller symbols at the same address */}
+\NormalTok{/* iapp::slky(iapp::Interact*, std::string, std::string) */}
 
-\DataTypeTok{void}\NormalTok{ iapp}\OperatorTok{::}\NormalTok{slky}\OperatorTok{(}\DataTypeTok{long}\NormalTok{ param\_1}\OperatorTok{,}\NormalTok{byte }\OperatorTok{*}\NormalTok{param\_2}\OperatorTok{,}\NormalTok{byte }\OperatorTok{*}\NormalTok{param\_3}\OperatorTok{)}
+\NormalTok{void iapp::slky(long param\_1,byte *param\_2,byte *param\_3)}
 
-\OperatorTok{\{}
-  \ExtensionTok{uint}\NormalTok{ uVar1}\OperatorTok{;}
-\NormalTok{  byte bVar2}\OperatorTok{;}
-  \DataTypeTok{char}\NormalTok{ cVar3}\OperatorTok{;}
-  \DataTypeTok{int}\NormalTok{ iVar4}\OperatorTok{;}
-  \ExtensionTok{uint}\NormalTok{ uVar5}\OperatorTok{;}
-  \DataTypeTok{size\_t}\NormalTok{ sVar6}\OperatorTok{;}
-\NormalTok{  undefined8 uVar7}\OperatorTok{;}
-  \DataTypeTok{char} \OperatorTok{*}\NormalTok{pcVar8}\OperatorTok{;}
-  \ExtensionTok{ulong} \OperatorTok{*}\NormalTok{puVar9}\OperatorTok{;}
-\NormalTok{  undefined8 }\OperatorTok{*}\NormalTok{puVar10}\OperatorTok{;}
-\NormalTok{  undefined8 uVar11}\OperatorTok{;}
-\NormalTok{  undefined8 uVar12}\OperatorTok{;}
-\NormalTok{  undefined8 uVar13}\OperatorTok{;}
-\NormalTok{  undefined8 extraout\_x0}\OperatorTok{;}
-\NormalTok{  undefined8 extraout\_x0\_00}\OperatorTok{;}
-  \DataTypeTok{long}\NormalTok{ lVar14}\OperatorTok{;}
-  \DataTypeTok{char} \OperatorTok{*}\NormalTok{pcVar15}\OperatorTok{;}
-\NormalTok{  byte }\OperatorTok{*}\NormalTok{pbVar16}\OperatorTok{;}
-\NormalTok{  byte bVar17}\OperatorTok{;}
-\NormalTok{  undefined8 }\OperatorTok{*}\NormalTok{puVar18}\OperatorTok{;}
-  \DataTypeTok{int}\NormalTok{ iVar19}\OperatorTok{;}
-  \ExtensionTok{ulong}\NormalTok{ uVar20}\OperatorTok{;}
-\NormalTok{  byte }\OperatorTok{*}\NormalTok{pbVar21}\OperatorTok{;}
-\NormalTok{  code }\OperatorTok{*}\NormalTok{pcVar22}\OperatorTok{;}
-\NormalTok{  code }\OperatorTok{*}\NormalTok{pcVar23}\OperatorTok{;}
-\NormalTok{  undefined8 in\_x6}\OperatorTok{;}
-  \DataTypeTok{long}\NormalTok{ lVar24}\OperatorTok{;}
-\NormalTok{  byte bVar25}\OperatorTok{;}
-  \DataTypeTok{long} \OperatorTok{*}\NormalTok{plVar26}\OperatorTok{;}
-  \DataTypeTok{char}\NormalTok{ cVar27}\OperatorTok{;}
-  \DataTypeTok{int}\NormalTok{ iVar28}\OperatorTok{;}
-  \DataTypeTok{int}\NormalTok{ iVar29}\OperatorTok{;}
-  \DataTypeTok{int}\NormalTok{ iVar30}\OperatorTok{;}
-  \DataTypeTok{int}\NormalTok{ iVar31}\OperatorTok{;}
-\NormalTok{  undefined8 local\_38}\OperatorTok{;}
-  \ExtensionTok{ulong}\NormalTok{ uStack\_30}\OperatorTok{;}
-  \DataTypeTok{char} \OperatorTok{*}\NormalTok{local\_28}\OperatorTok{;}
-\NormalTok{  undefined8 local\_20}\OperatorTok{;}
-\NormalTok{  undefined1 local\_18}\OperatorTok{;}
-\NormalTok{  undefined1 local\_17}\OperatorTok{;}
-\NormalTok{  undefined1 local\_16}\OperatorTok{;}
-\NormalTok{  undefined1 local\_15}\OperatorTok{;}
-\NormalTok{  undefined1 local\_14}\OperatorTok{;}
-\NormalTok{  undefined1 local\_13}\OperatorTok{;}
-\NormalTok{  undefined1 local\_12}\OperatorTok{;}
-\NormalTok{  undefined1 local\_11}\OperatorTok{;}
-\NormalTok{  undefined1 local\_10}\OperatorTok{;}
-\NormalTok{  undefined1 uStack\_f}\OperatorTok{;}
-\NormalTok{  undefined1 uStack\_e}\OperatorTok{;}
-\NormalTok{  undefined1 uStack\_d}\OperatorTok{;}
-  \ExtensionTok{uint}\NormalTok{ uStack\_c}\OperatorTok{;}
-  \DataTypeTok{long}\NormalTok{ local\_8}\OperatorTok{;}
+\NormalTok{\{}
+\NormalTok{  uint uVar1;}
+\NormalTok{  byte bVar2;}
+\NormalTok{  char cVar3;}
+\NormalTok{  int iVar4;}
+\NormalTok{  uint uVar5;}
+\NormalTok{  size\_t sVar6;}
+\NormalTok{  undefined8 uVar7;}
+\NormalTok{  char *pcVar8;}
+\NormalTok{  ulong *puVar9;}
+\NormalTok{  undefined8 *puVar10;}
+\NormalTok{  undefined8 uVar11;}
+\NormalTok{  undefined8 uVar12;}
+\NormalTok{  undefined8 uVar13;}
+\NormalTok{  undefined8 extraout\_x0;}
+\NormalTok{  undefined8 extraout\_x0\_00;}
+\NormalTok{  long lVar14;}
+\NormalTok{  char *pcVar15;}
+\NormalTok{  byte *pbVar16;}
+\NormalTok{  byte bVar17;}
+\NormalTok{  undefined8 *puVar18;}
+\NormalTok{  int iVar19;}
+\NormalTok{  ulong uVar20;}
+\NormalTok{  byte *pbVar21;}
+\NormalTok{  code *pcVar22;}
+\NormalTok{  code *pcVar23;}
+\NormalTok{  undefined8 in\_x6;}
+\NormalTok{  long lVar24;}
+\NormalTok{  byte bVar25;}
+\NormalTok{  long *plVar26;}
+\NormalTok{  char cVar27;}
+\NormalTok{  int iVar28;}
+\NormalTok{  int iVar29;}
+\NormalTok{  int iVar30;}
+\NormalTok{  int iVar31;}
+\NormalTok{  undefined8 local\_38;}
+\NormalTok{  ulong uStack\_30;}
+\NormalTok{  char *local\_28;}
+\NormalTok{  undefined8 local\_20;}
+\NormalTok{  undefined1 local\_18;}
+\NormalTok{  undefined1 local\_17;}
+\NormalTok{  undefined1 local\_16;}
+\NormalTok{  undefined1 local\_15;}
+\NormalTok{  undefined1 local\_14;}
+\NormalTok{  undefined1 local\_13;}
+\NormalTok{  undefined1 local\_12;}
+\NormalTok{  undefined1 local\_11;}
+\NormalTok{  undefined1 local\_10;}
+\NormalTok{  undefined1 uStack\_f;}
+\NormalTok{  undefined1 uStack\_e;}
+\NormalTok{  undefined1 uStack\_d;}
+\NormalTok{  uint uStack\_c;}
+\NormalTok{  long local\_8;}
   
-\NormalTok{  local\_8 }\OperatorTok{=}\NormalTok{ \_\_\_stack\_chk\_guard}\OperatorTok{;}
-\NormalTok{  pbVar21 }\OperatorTok{=}\NormalTok{ param\_2 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-\NormalTok{  plVar26 }\OperatorTok{=} \OperatorTok{*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{);}
-  \ControlFlowTok{if} \OperatorTok{((*}\NormalTok{param\_2 }\OperatorTok{\&} \DecValTok{1}\OperatorTok{)} \OperatorTok{!=} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    pbVar21 }\OperatorTok{=} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{**)(}\NormalTok{param\_2 }\OperatorTok{+} \BaseNTok{0x10}\OperatorTok{);}
-  \OperatorTok{\}}
-\NormalTok{  sVar6 }\OperatorTok{=}\NormalTok{ strlen}\OperatorTok{((}\DataTypeTok{char} \OperatorTok{*)}\NormalTok{pbVar21}\OperatorTok{);}
-\NormalTok{  uVar7 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(*}\NormalTok{plVar26 }\OperatorTok{+} \BaseNTok{0x580}\OperatorTok{))(}\NormalTok{plVar26}\OperatorTok{,}\NormalTok{sVar6 }\OperatorTok{\&} \BaseNTok{0xffffffff}\OperatorTok{);}
-\NormalTok{  pcVar23 }\OperatorTok{=} \OperatorTok{*(}\NormalTok{code }\OperatorTok{**)(*}\NormalTok{plVar26 }\OperatorTok{+} \BaseNTok{0x680}\OperatorTok{);}
-  \OperatorTok{(*}\NormalTok{pcVar23}\OperatorTok{)(}\NormalTok{plVar26}\OperatorTok{,}\NormalTok{uVar7}\OperatorTok{,}\DecValTok{0}\OperatorTok{,}\NormalTok{sVar6 }\OperatorTok{\&} \BaseNTok{0xffffffff}\OperatorTok{,}\NormalTok{pbVar21}\OperatorTok{);}
-\NormalTok{  pcVar8 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{char} \OperatorTok{*)(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x5c0}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar7}\OperatorTok{,}\DecValTok{0}\OperatorTok{);}
-\NormalTok{  iVar4 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x558}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar7}\OperatorTok{);}
-\NormalTok{  bVar17 }\OperatorTok{=}\NormalTok{ pcVar8}\OperatorTok{[(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar4 }\OperatorTok{+} \OperatorTok{{-}}\DecValTok{1}\OperatorTok{];}
-\NormalTok{  cVar27 }\OperatorTok{=} \OperatorTok{*}\NormalTok{pcVar8}\OperatorTok{;}
-\NormalTok{  iVar28 }\OperatorTok{=}\NormalTok{ iVar4}\OperatorTok{;}
-  \ControlFlowTok{if} \OperatorTok{(}\DecValTok{0} \OperatorTok{\textless{}}\NormalTok{ iVar4}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    uVar1 }\OperatorTok{=} \OperatorTok{(}\NormalTok{iVar4 }\OperatorTok{{-}} \BaseNTok{0x10}\BuiltInTok{U} \OperatorTok{\textgreater{}\textgreater{}} \DecValTok{4}\OperatorTok{)} \OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-\NormalTok{    iVar19 }\OperatorTok{=}\NormalTok{ uVar1 }\OperatorTok{*} \BaseNTok{0x10}\OperatorTok{;}
-    \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar4 }\OperatorTok{{-}} \DecValTok{1}\BuiltInTok{U} \OperatorTok{\textless{}} \BaseNTok{0xf}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{      iVar19 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-\NormalTok{      iVar29 }\OperatorTok{=}\NormalTok{ iVar4}\OperatorTok{;}
-    \OperatorTok{\}}
-    \ControlFlowTok{else} \OperatorTok{\{}
-\NormalTok{      iVar28 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-\NormalTok{      iVar29 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-\NormalTok{      iVar30 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-\NormalTok{      iVar31 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-\NormalTok{      uVar5 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-\NormalTok{      pcVar15 }\OperatorTok{=}\NormalTok{ pcVar8}\OperatorTok{;}
-      \ControlFlowTok{do} \OperatorTok{\{}
-\NormalTok{        uVar12 }\OperatorTok{=} \OperatorTok{*(}\NormalTok{undefined8 }\OperatorTok{*)(}\NormalTok{pcVar15 }\OperatorTok{+} \DecValTok{8}\OperatorTok{);}
-\NormalTok{        uVar11 }\OperatorTok{=} \OperatorTok{*(}\NormalTok{undefined8 }\OperatorTok{*)}\NormalTok{pcVar15}\OperatorTok{;}
-\NormalTok{        uVar5 }\OperatorTok{=}\NormalTok{ uVar5 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-\NormalTok{        iVar28 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\DataTypeTok{short}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x20}\OperatorTok{)} \OperatorTok{+}
-                 \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\DataTypeTok{short}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{+}
-                 \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\DataTypeTok{short}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar11 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x20}\OperatorTok{)} \OperatorTok{+} \OperatorTok{(}\DataTypeTok{short}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)}\NormalTok{uVar11 }\OperatorTok{+}\NormalTok{ iVar28}\OperatorTok{;}
-\NormalTok{        iVar29 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\DataTypeTok{short}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x28}\OperatorTok{)} \OperatorTok{+}
-                 \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\DataTypeTok{short}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \DecValTok{8}\OperatorTok{)} \OperatorTok{+}
-                 \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\DataTypeTok{short}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar11 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x28}\OperatorTok{)} \OperatorTok{+}
-                 \OperatorTok{(}\DataTypeTok{short}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar11 }\OperatorTok{\textgreater{}\textgreater{}} \DecValTok{8}\OperatorTok{)} \OperatorTok{+}\NormalTok{ iVar29}\OperatorTok{;}
-\NormalTok{        iVar30 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\DataTypeTok{short}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x30}\OperatorTok{)} \OperatorTok{+}
-                 \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\DataTypeTok{short}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x10}\OperatorTok{)} \OperatorTok{+}
-                 \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\DataTypeTok{short}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar11 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x30}\OperatorTok{)} \OperatorTok{+}
-                 \OperatorTok{(}\DataTypeTok{short}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar11 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x10}\OperatorTok{)} \OperatorTok{+}\NormalTok{ iVar30}\OperatorTok{;}
-\NormalTok{        iVar31 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\DataTypeTok{short}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x38}\OperatorTok{)} \OperatorTok{+}
-                 \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\DataTypeTok{short}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x18}\OperatorTok{)} \OperatorTok{+}
-                 \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\DataTypeTok{short}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar11 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x38}\OperatorTok{)} \OperatorTok{+}
-                 \OperatorTok{(}\DataTypeTok{short}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar11 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x18}\OperatorTok{)} \OperatorTok{+}\NormalTok{ iVar31}\OperatorTok{;}
-\NormalTok{        pcVar15 }\OperatorTok{=}\NormalTok{ pcVar15 }\OperatorTok{+} \BaseNTok{0x10}\OperatorTok{;}
-      \OperatorTok{\}} \ControlFlowTok{while} \OperatorTok{(}\NormalTok{uVar5 }\OperatorTok{\textless{}}\NormalTok{ uVar1}\OperatorTok{);}
-\NormalTok{      iVar29 }\OperatorTok{=}\NormalTok{ iVar28 }\OperatorTok{+}\NormalTok{ iVar29 }\OperatorTok{+}\NormalTok{ iVar30 }\OperatorTok{+}\NormalTok{ iVar31 }\OperatorTok{+}\NormalTok{ iVar4}\OperatorTok{;}
-\NormalTok{      iVar28 }\OperatorTok{=}\NormalTok{ iVar29}\OperatorTok{;}
-      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{==}\NormalTok{ iVar4}\OperatorTok{)} \ControlFlowTok{goto}\NormalTok{ LAB\_0010c6cc}\OperatorTok{;}
-    \OperatorTok{\}}
-\NormalTok{    iVar28 }\OperatorTok{=}\NormalTok{ iVar29 }\OperatorTok{+}\NormalTok{ pcVar8}\OperatorTok{[}\NormalTok{iVar19}\OperatorTok{];}
-    \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{1} \OperatorTok{\textless{}}\NormalTok{ iVar4}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{      iVar28 }\OperatorTok{=}\NormalTok{ iVar29 }\OperatorTok{+}\NormalTok{ pcVar8}\OperatorTok{[}\NormalTok{iVar19}\OperatorTok{]} \OperatorTok{+} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)}\NormalTok{pcVar8}\OperatorTok{[}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{1}\OperatorTok{];}
-      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{2} \OperatorTok{\textless{}}\NormalTok{ iVar4}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{        iVar28 }\OperatorTok{=}\NormalTok{ iVar28 }\OperatorTok{+}\NormalTok{ pcVar8}\OperatorTok{[}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{2}\OperatorTok{];}
-        \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{3} \OperatorTok{\textless{}}\NormalTok{ iVar4}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{          iVar28 }\OperatorTok{=}\NormalTok{ iVar28 }\OperatorTok{+}\NormalTok{ pcVar8}\OperatorTok{[}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{3}\OperatorTok{];}
-          \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{4} \OperatorTok{\textless{}}\NormalTok{ iVar4}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{            iVar28 }\OperatorTok{=}\NormalTok{ iVar28 }\OperatorTok{+}\NormalTok{ pcVar8}\OperatorTok{[}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{4}\OperatorTok{];}
-            \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{5} \OperatorTok{\textless{}}\NormalTok{ iVar4}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{              iVar28 }\OperatorTok{=}\NormalTok{ iVar28 }\OperatorTok{+}\NormalTok{ pcVar8}\OperatorTok{[}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{5}\OperatorTok{];}
-              \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{6} \OperatorTok{\textless{}}\NormalTok{ iVar4}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                iVar28 }\OperatorTok{=}\NormalTok{ iVar28 }\OperatorTok{+}\NormalTok{ pcVar8}\OperatorTok{[}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{6}\OperatorTok{];}
-                \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{7} \OperatorTok{\textless{}}\NormalTok{ iVar4}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                  iVar28 }\OperatorTok{=}\NormalTok{ iVar28 }\OperatorTok{+}\NormalTok{ pcVar8}\OperatorTok{[}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{7}\OperatorTok{];}
-                  \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{8} \OperatorTok{\textless{}}\NormalTok{ iVar4}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                    iVar28 }\OperatorTok{=}\NormalTok{ iVar28 }\OperatorTok{+}\NormalTok{ pcVar8}\OperatorTok{[}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{8}\OperatorTok{];}
-                    \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{9} \OperatorTok{\textless{}}\NormalTok{ iVar4}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                      iVar28 }\OperatorTok{=}\NormalTok{ iVar28 }\OperatorTok{+}\NormalTok{ pcVar8}\OperatorTok{[}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{9}\OperatorTok{];}
-                      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{10} \OperatorTok{\textless{}}\NormalTok{ iVar4}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                        iVar28 }\OperatorTok{=}\NormalTok{ iVar28 }\OperatorTok{+}\NormalTok{ pcVar8}\OperatorTok{[}\NormalTok{iVar19 }\OperatorTok{+} \DecValTok{10}\OperatorTok{];}
-                        \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{+} \BaseNTok{0xb} \OperatorTok{\textless{}}\NormalTok{ iVar4}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                          iVar28 }\OperatorTok{=}\NormalTok{ iVar28 }\OperatorTok{+}\NormalTok{ pcVar8}\OperatorTok{[}\NormalTok{iVar19 }\OperatorTok{+} \BaseNTok{0xb}\OperatorTok{];}
-                          \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{+} \BaseNTok{0xc} \OperatorTok{\textless{}}\NormalTok{ iVar4}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                            iVar28 }\OperatorTok{=}\NormalTok{ iVar28 }\OperatorTok{+}\NormalTok{ pcVar8}\OperatorTok{[}\NormalTok{iVar19 }\OperatorTok{+} \BaseNTok{0xc}\OperatorTok{];}
-                            \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{+} \BaseNTok{0xd} \OperatorTok{\textless{}}\NormalTok{ iVar4}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                              iVar28 }\OperatorTok{=}\NormalTok{ iVar28 }\OperatorTok{+}\NormalTok{ pcVar8}\OperatorTok{[}\NormalTok{iVar19 }\OperatorTok{+} \BaseNTok{0xd}\OperatorTok{];}
-                              \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{+} \BaseNTok{0xe} \OperatorTok{\textless{}}\NormalTok{ iVar4}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                                iVar28 }\OperatorTok{=}\NormalTok{ iVar28 }\OperatorTok{+}\NormalTok{ pcVar8}\OperatorTok{[}\NormalTok{iVar19 }\OperatorTok{+} \BaseNTok{0xe}\OperatorTok{];}
-                              \OperatorTok{\}}
-                            \OperatorTok{\}}
-                          \OperatorTok{\}}
-                        \OperatorTok{\}}
-                      \OperatorTok{\}}
-                    \OperatorTok{\}}
-                  \OperatorTok{\}}
-                \OperatorTok{\}}
-              \OperatorTok{\}}
-            \OperatorTok{\}}
-          \OperatorTok{\}}
-        \OperatorTok{\}}
-      \OperatorTok{\}}
-    \OperatorTok{\}}
-  \OperatorTok{\}}
-\NormalTok{LAB\_0010c6cc}\OperatorTok{:}
-\NormalTok{  pcVar22 }\OperatorTok{=} \OperatorTok{*(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x600}\OperatorTok{);}
-  \OperatorTok{(*}\NormalTok{pcVar22}\OperatorTok{)(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar7}\OperatorTok{,}\NormalTok{pcVar8}\OperatorTok{,}\DecValTok{0}\OperatorTok{);}
-  \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0xb8}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar7}\OperatorTok{);}
-\NormalTok{  bVar25 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-  \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar4 }\OperatorTok{!=} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    bVar25 }\OperatorTok{=} \OperatorTok{(}\NormalTok{byte}\OperatorTok{)(}\NormalTok{iVar28 }\OperatorTok{/}\NormalTok{ iVar4}\OperatorTok{);}
-  \OperatorTok{\}}
-\NormalTok{  uVar1 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-  \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar4 }\OperatorTok{!=} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    uVar1 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\NormalTok{iVar28 }\OperatorTok{+} \OperatorTok{(}\ExtensionTok{uint}\OperatorTok{)}\NormalTok{bVar17 }\OperatorTok{*} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)}\NormalTok{cVar27}\OperatorTok{)} \OperatorTok{/}\NormalTok{ iVar4}\OperatorTok{;}
-  \OperatorTok{\}}
-\NormalTok{  cVar27 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{char}\OperatorTok{)}\NormalTok{iVar28 }\OperatorTok{{-}}\NormalTok{ bVar25 }\OperatorTok{*} \OperatorTok{(}\DataTypeTok{char}\OperatorTok{)}\NormalTok{iVar4}\OperatorTok{;}
-  \BuiltInTok{std::}\NormalTok{to\_string}\OperatorTok{(\&}\NormalTok{local\_20}\OperatorTok{,}\NormalTok{uVar1}\OperatorTok{);}
-  \ControlFlowTok{if} \OperatorTok{((*}\NormalTok{param\_2 }\OperatorTok{\&} \DecValTok{1}\OperatorTok{)} \OperatorTok{==} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    pbVar21 }\OperatorTok{=}\NormalTok{ param\_2 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-\NormalTok{    uVar20 }\OperatorTok{=} \OperatorTok{(}\ExtensionTok{ulong}\OperatorTok{)((}\DataTypeTok{int}\OperatorTok{)(}\ExtensionTok{uint}\OperatorTok{)*}\NormalTok{param\_2 }\OperatorTok{\textgreater{}\textgreater{}} \DecValTok{1}\OperatorTok{);}
-  \OperatorTok{\}}
-  \ControlFlowTok{else} \OperatorTok{\{}
-\NormalTok{    pbVar21 }\OperatorTok{=} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{**)(}\NormalTok{param\_2 }\OperatorTok{+} \BaseNTok{0x10}\OperatorTok{);}
-\NormalTok{    uVar20 }\OperatorTok{=} \OperatorTok{*(}\ExtensionTok{ulong} \OperatorTok{*)(}\NormalTok{param\_2 }\OperatorTok{+} \DecValTok{8}\OperatorTok{);}
-  \OperatorTok{\}}
-                    \CommentTok{/* try \{ // try from 0010c734 to 0010c737 has its CatchHandler @ 0010ce68 */}
-\NormalTok{  puVar9 }\OperatorTok{=}\NormalTok{ FUN\_0010c310}\OperatorTok{(\&}\NormalTok{local\_20}\OperatorTok{,}\DecValTok{0}\OperatorTok{,}\NormalTok{pbVar21}\OperatorTok{,}\NormalTok{uVar20}\OperatorTok{,}\NormalTok{pcVar22}\OperatorTok{,}\NormalTok{pcVar23}\OperatorTok{,}\NormalTok{in\_x6}\OperatorTok{);}
-\NormalTok{  local\_38 }\OperatorTok{=} \OperatorTok{*}\NormalTok{puVar9}\OperatorTok{;}
-\NormalTok{  uStack\_30 }\OperatorTok{=}\NormalTok{ puVar9}\OperatorTok{[}\DecValTok{1}\OperatorTok{];}
-\NormalTok{  local\_28 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{char} \OperatorTok{*)}\NormalTok{puVar9}\OperatorTok{[}\DecValTok{2}\OperatorTok{];}
-  \OperatorTok{*}\NormalTok{puVar9 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-\NormalTok{  puVar9}\OperatorTok{[}\DecValTok{1}\OperatorTok{]} \OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-\NormalTok{  puVar9}\OperatorTok{[}\DecValTok{2}\OperatorTok{]} \OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-  \ControlFlowTok{if} \OperatorTok{(((}\NormalTok{byte}\OperatorTok{)}\NormalTok{local\_20 }\OperatorTok{\&} \DecValTok{1}\OperatorTok{)} \OperatorTok{!=} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-    \KeywordTok{operator}\OperatorTok{.}\KeywordTok{delete}\OperatorTok{((}\DataTypeTok{void} \OperatorTok{*)}\NormalTok{CONCAT44}\OperatorTok{(}\NormalTok{uStack\_c}\OperatorTok{,}\NormalTok{CONCAT13}\OperatorTok{(}\NormalTok{uStack\_d}\OperatorTok{,}\NormalTok{CONCAT12}\OperatorTok{(}\NormalTok{uStack\_e}\OperatorTok{,}\NormalTok{CONCAT11}\OperatorTok{(}\NormalTok{uStack\_f}\OperatorTok{,}
-\NormalTok{                                                  local\_10}\OperatorTok{)))));}
-  \OperatorTok{\}}
-\NormalTok{  bVar17 }\OperatorTok{=} \OperatorTok{*}\NormalTok{param\_3}\OperatorTok{;}
-  \ControlFlowTok{if} \OperatorTok{((}\NormalTok{bVar17 }\OperatorTok{\&} \DecValTok{1}\OperatorTok{)} \OperatorTok{==} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    sVar6 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{size\_t}\OperatorTok{)((}\DataTypeTok{int}\OperatorTok{)(}\ExtensionTok{uint}\OperatorTok{)}\NormalTok{bVar17 }\OperatorTok{\textgreater{}\textgreater{}} \DecValTok{1}\OperatorTok{);}
-  \OperatorTok{\}}
-  \ControlFlowTok{else} \OperatorTok{\{}
-\NormalTok{    sVar6 }\OperatorTok{=} \OperatorTok{*(}\DataTypeTok{size\_t} \OperatorTok{*)(}\NormalTok{param\_3 }\OperatorTok{+} \DecValTok{8}\OperatorTok{);}
-  \OperatorTok{\}}
-  \ControlFlowTok{if} \OperatorTok{(((}\NormalTok{byte}\OperatorTok{)}\NormalTok{Null }\OperatorTok{\&} \DecValTok{1}\OperatorTok{)} \OperatorTok{==} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-    \ControlFlowTok{if} \OperatorTok{(}\NormalTok{sVar6 }\OperatorTok{!=} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)((}\DataTypeTok{int}\OperatorTok{)(}\ExtensionTok{uint}\OperatorTok{)(}\NormalTok{byte}\OperatorTok{)}\NormalTok{Null }\OperatorTok{\textgreater{}\textgreater{}} \DecValTok{1}\OperatorTok{))} \ControlFlowTok{goto}\NormalTok{ LAB\_0010c790}\OperatorTok{;}
-\NormalTok{LAB\_0010cda4}\OperatorTok{:}
-    \ControlFlowTok{if} \OperatorTok{((}\NormalTok{bVar17 }\OperatorTok{\&} \DecValTok{1}\OperatorTok{)} \OperatorTok{==} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{      pbVar21 }\OperatorTok{=}\NormalTok{ DAT\_00176050}\OperatorTok{;}
-      \ControlFlowTok{if} \OperatorTok{(((}\NormalTok{byte}\OperatorTok{)}\NormalTok{Null }\OperatorTok{\&} \DecValTok{1}\OperatorTok{)} \OperatorTok{==} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{        pbVar21 }\OperatorTok{=} \OperatorTok{(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)\&}\NormalTok{Null }\OperatorTok{+} \DecValTok{1}\OperatorTok{);}
-      \OperatorTok{\}}
-      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{sVar6 }\OperatorTok{!=} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-        \ControlFlowTok{if} \OperatorTok{(}\NormalTok{param\_3}\OperatorTok{[}\DecValTok{1}\OperatorTok{]} \OperatorTok{==} \OperatorTok{*}\NormalTok{pbVar21}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{          pbVar16 }\OperatorTok{=}\NormalTok{ param\_3 }\OperatorTok{+} \DecValTok{2}\OperatorTok{;}
-          \ControlFlowTok{do} \OperatorTok{\{}
-\NormalTok{            pbVar21 }\OperatorTok{=}\NormalTok{ pbVar21 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-            \ControlFlowTok{if} \OperatorTok{(}\NormalTok{pbVar16 }\OperatorTok{==}\NormalTok{ param\_3 }\OperatorTok{+}\NormalTok{ sVar6 }\OperatorTok{+} \DecValTok{1}\OperatorTok{)} \ControlFlowTok{goto}\NormalTok{ LAB\_0010c7bc}\OperatorTok{;}
-\NormalTok{            bVar2 }\OperatorTok{=} \OperatorTok{*}\NormalTok{pbVar16}\OperatorTok{;}
-\NormalTok{            pbVar16 }\OperatorTok{=}\NormalTok{ pbVar16 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-          \OperatorTok{\}} \ControlFlowTok{while} \OperatorTok{(*}\NormalTok{pbVar21 }\OperatorTok{==}\NormalTok{ bVar2}\OperatorTok{);}
-        \OperatorTok{\}}
-\NormalTok{LAB\_0010ce20}\OperatorTok{:}
-\NormalTok{        pbVar21 }\OperatorTok{=}\NormalTok{ param\_3 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-\NormalTok{        uVar20 }\OperatorTok{=} \OperatorTok{(}\ExtensionTok{ulong}\OperatorTok{)((}\DataTypeTok{int}\OperatorTok{)(}\ExtensionTok{uint}\OperatorTok{)}\NormalTok{bVar17 }\OperatorTok{\textgreater{}\textgreater{}} \DecValTok{1}\OperatorTok{);}
-        \ControlFlowTok{goto}\NormalTok{ LAB\_0010c7a4}\OperatorTok{;}
-      \OperatorTok{\}}
-    \OperatorTok{\}}
-    \ControlFlowTok{else} \OperatorTok{\{}
-\NormalTok{      pbVar21 }\OperatorTok{=} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{**)(}\NormalTok{param\_3 }\OperatorTok{+} \BaseNTok{0x10}\OperatorTok{);}
-\NormalTok{      pbVar16 }\OperatorTok{=} \OperatorTok{(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)\&}\NormalTok{Null }\OperatorTok{+} \DecValTok{1}\OperatorTok{);}
-      \ControlFlowTok{if} \OperatorTok{(((}\NormalTok{byte}\OperatorTok{)}\NormalTok{Null }\OperatorTok{\&} \DecValTok{1}\OperatorTok{)} \OperatorTok{!=} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{        pbVar16 }\OperatorTok{=}\NormalTok{ DAT\_00176050}\OperatorTok{;}
-      \OperatorTok{\}}
-\NormalTok{      iVar28 }\OperatorTok{=}\NormalTok{ memcmp}\OperatorTok{(}\NormalTok{pbVar21}\OperatorTok{,}\NormalTok{pbVar16}\OperatorTok{,}\NormalTok{sVar6}\OperatorTok{);}
-      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar28 }\OperatorTok{!=} \DecValTok{0}\OperatorTok{)} \ControlFlowTok{goto}\NormalTok{ LAB\_0010c79c}\OperatorTok{;}
-    \OperatorTok{\}}
-  \OperatorTok{\}}
-  \ControlFlowTok{else} \OperatorTok{\{}
-    \ControlFlowTok{if} \OperatorTok{(}\NormalTok{sVar6 }\OperatorTok{==}\NormalTok{ DAT\_00176048}\OperatorTok{)} \ControlFlowTok{goto}\NormalTok{ LAB\_0010cda4}\OperatorTok{;}
-\NormalTok{LAB\_0010c790}\OperatorTok{:}
-    \ControlFlowTok{if} \OperatorTok{((}\NormalTok{bVar17 }\OperatorTok{\&} \DecValTok{1}\OperatorTok{)} \OperatorTok{==} \DecValTok{0}\OperatorTok{)} \ControlFlowTok{goto}\NormalTok{ LAB\_0010ce20}\OperatorTok{;}
-\NormalTok{    pbVar21 }\OperatorTok{=} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{**)(}\NormalTok{param\_3 }\OperatorTok{+} \BaseNTok{0x10}\OperatorTok{);}
-\NormalTok{LAB\_0010c79c}\OperatorTok{:}
-\NormalTok{    uVar20 }\OperatorTok{=} \OperatorTok{*(}\ExtensionTok{ulong} \OperatorTok{*)(}\NormalTok{param\_3 }\OperatorTok{+} \DecValTok{8}\OperatorTok{);}
-\NormalTok{LAB\_0010c7a4}\OperatorTok{:}
-                    \CommentTok{/* try \{ // try from 0010c7a8 to 0010cd3b has its CatchHandler @ 0010ce84 */}
-\NormalTok{    FUN\_0010bea4}\OperatorTok{(\&}\NormalTok{local\_38}\OperatorTok{,}\NormalTok{pbVar21}\OperatorTok{,}\NormalTok{uVar20}\OperatorTok{);}
-    \ControlFlowTok{if} \OperatorTok{((*}\NormalTok{param\_3 }\OperatorTok{\&} \DecValTok{1}\OperatorTok{)} \OperatorTok{==} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{      cVar3 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{char}\OperatorTok{)((}\DataTypeTok{int}\OperatorTok{)(}\ExtensionTok{uint}\OperatorTok{)*}\NormalTok{param\_3 }\OperatorTok{\textgreater{}\textgreater{}} \DecValTok{1}\OperatorTok{);}
-    \OperatorTok{\}}
-    \ControlFlowTok{else} \OperatorTok{\{}
-\NormalTok{      cVar3 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{char}\OperatorTok{)*(}\NormalTok{undefined8 }\OperatorTok{*)(}\NormalTok{param\_3 }\OperatorTok{+} \DecValTok{8}\OperatorTok{);}
-    \OperatorTok{\}}
-\NormalTok{    cVar27 }\OperatorTok{=}\NormalTok{ cVar27 }\OperatorTok{+}\NormalTok{ cVar3}\OperatorTok{;}
-  \OperatorTok{\}}
-\NormalTok{LAB\_0010c7bc}\OperatorTok{:}
-\NormalTok{  plVar26 }\OperatorTok{=} \OperatorTok{*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{);}
-\NormalTok{  pcVar8 }\OperatorTok{=}\NormalTok{ local\_28}\OperatorTok{;}
-  \ControlFlowTok{if} \OperatorTok{((}\NormalTok{local\_38 }\OperatorTok{\&} \DecValTok{1}\OperatorTok{)} \OperatorTok{==} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    pcVar8 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{char} \OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)\&}\NormalTok{local\_38 }\OperatorTok{+} \DecValTok{1}\OperatorTok{);}
-  \OperatorTok{\}}
-\NormalTok{  sVar6 }\OperatorTok{=}\NormalTok{ strlen}\OperatorTok{(}\NormalTok{pcVar8}\OperatorTok{);}
-\NormalTok{  uVar7 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(*}\NormalTok{plVar26 }\OperatorTok{+} \BaseNTok{0x580}\OperatorTok{))(}\NormalTok{plVar26}\OperatorTok{,}\NormalTok{sVar6 }\OperatorTok{\&} \BaseNTok{0xffffffff}\OperatorTok{);}
-  \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(*}\NormalTok{plVar26 }\OperatorTok{+} \BaseNTok{0x680}\OperatorTok{))(}\NormalTok{plVar26}\OperatorTok{,}\NormalTok{uVar7}\OperatorTok{,}\DecValTok{0}\OperatorTok{,}\NormalTok{sVar6 }\OperatorTok{\&} \BaseNTok{0xffffffff}\OperatorTok{,}\NormalTok{pcVar8}\OperatorTok{);}
-\NormalTok{  puVar10 }\OperatorTok{=} \OperatorTok{(}\NormalTok{undefined8 }\OperatorTok{*)}
-            \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x5c0}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar7}\OperatorTok{,}\DecValTok{0}\OperatorTok{);}
-\NormalTok{  iVar28 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x558}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar7}\OperatorTok{);}
-  \ControlFlowTok{if} \OperatorTok{(}\DecValTok{0} \OperatorTok{\textless{}}\NormalTok{ iVar28}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    uVar1 }\OperatorTok{=} \OperatorTok{(}\NormalTok{iVar28 }\OperatorTok{{-}} \BaseNTok{0x10}\BuiltInTok{U} \OperatorTok{\textgreater{}\textgreater{}} \DecValTok{4}\OperatorTok{)} \OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-\NormalTok{    iVar4 }\OperatorTok{=}\NormalTok{ uVar1 }\OperatorTok{*} \BaseNTok{0x10}\OperatorTok{;}
-    \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar28 }\OperatorTok{{-}} \DecValTok{1}\BuiltInTok{U} \OperatorTok{\textless{}} \BaseNTok{0xf}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{      iVar4 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-    \OperatorTok{\}}
-    \ControlFlowTok{else} \OperatorTok{\{}
-\NormalTok{      uVar5 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-\NormalTok{      puVar18 }\OperatorTok{=}\NormalTok{ puVar10}\OperatorTok{;}
-      \ControlFlowTok{do} \OperatorTok{\{}
-\NormalTok{        uVar12 }\OperatorTok{=}\NormalTok{ puVar18}\OperatorTok{[}\DecValTok{1}\OperatorTok{];}
-\NormalTok{        uVar11 }\OperatorTok{=} \OperatorTok{*}\NormalTok{puVar18}\OperatorTok{;}
-\NormalTok{        uVar5 }\OperatorTok{=}\NormalTok{ uVar5 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-\NormalTok{        puVar18}\OperatorTok{[}\DecValTok{1}\OperatorTok{]} \OperatorTok{=}\NormalTok{ CONCAT17}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x38}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar25}\OperatorTok{,}
-\NormalTok{                              CONCAT16}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x30}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar25}\OperatorTok{,}
-\NormalTok{                                       CONCAT15}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x28}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar25}\OperatorTok{,}
-\NormalTok{                                                CONCAT14}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x20}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar25}\OperatorTok{,}
-\NormalTok{                                                         CONCAT13}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x18}\OperatorTok{)} \OperatorTok{\^{}}
-\NormalTok{                                                                  bVar25}\OperatorTok{,}\NormalTok{CONCAT12}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}
-\NormalTok{                                                  uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x10}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar25}\OperatorTok{,}
-\NormalTok{                                                  CONCAT11}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\textgreater{}\textgreater{}} \DecValTok{8}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar25}\OperatorTok{,}
-                                                           \OperatorTok{(}\NormalTok{byte}\OperatorTok{)}\NormalTok{uVar12 }\OperatorTok{\^{}}\NormalTok{ bVar25}\OperatorTok{)))))));}
-        \OperatorTok{*}\NormalTok{puVar18 }\OperatorTok{=}\NormalTok{ CONCAT17}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar11 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x38}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar25}\OperatorTok{,}
-\NormalTok{                            CONCAT16}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar11 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x30}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar25}\OperatorTok{,}
-\NormalTok{                                     CONCAT15}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar11 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x28}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar25}\OperatorTok{,}
-\NormalTok{                                              CONCAT14}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar11 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x20}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar25}\OperatorTok{,}
-\NormalTok{                                                       CONCAT13}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar11 }\OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x18}\OperatorTok{)} \OperatorTok{\^{}}
-\NormalTok{                                                                bVar25}\OperatorTok{,}\NormalTok{CONCAT12}\OperatorTok{((}\NormalTok{byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar11}
-                                                                                      \OperatorTok{\textgreater{}\textgreater{}} \BaseNTok{0x10}\OperatorTok{)} \OperatorTok{\^{}}
-\NormalTok{                                                                                bVar25}\OperatorTok{,}\NormalTok{CONCAT11}\OperatorTok{((}
-\NormalTok{                                                  byte}\OperatorTok{)((}\ExtensionTok{ulong}\OperatorTok{)}\NormalTok{uVar11 }\OperatorTok{\textgreater{}\textgreater{}} \DecValTok{8}\OperatorTok{)} \OperatorTok{\^{}}\NormalTok{ bVar25}\OperatorTok{,}
-                                                  \OperatorTok{(}\NormalTok{byte}\OperatorTok{)}\NormalTok{uVar11 }\OperatorTok{\^{}}\NormalTok{ bVar25}\OperatorTok{)))))));}
-\NormalTok{        puVar18 }\OperatorTok{=}\NormalTok{ puVar18 }\OperatorTok{+} \DecValTok{2}\OperatorTok{;}
-      \OperatorTok{\}} \ControlFlowTok{while} \OperatorTok{(}\NormalTok{uVar5 }\OperatorTok{\textless{}}\NormalTok{ uVar1}\OperatorTok{);}
-      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar28 }\OperatorTok{==}\NormalTok{ iVar4}\OperatorTok{)} \ControlFlowTok{goto}\NormalTok{ LAB\_0010ca3c}\OperatorTok{;}
-    \OperatorTok{\}}
-\NormalTok{    iVar19 }\OperatorTok{=}\NormalTok{ iVar4 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-    \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar4}\OperatorTok{)} \OperatorTok{=}\NormalTok{ bVar25 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar4}\OperatorTok{);}
-    \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{\textless{}}\NormalTok{ iVar28}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{      iVar29 }\OperatorTok{=}\NormalTok{ iVar4 }\OperatorTok{+} \DecValTok{2}\OperatorTok{;}
-      \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar19}\OperatorTok{)} \OperatorTok{=}\NormalTok{ bVar25 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar19}\OperatorTok{);}
-      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar29 }\OperatorTok{\textless{}}\NormalTok{ iVar28}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{        iVar19 }\OperatorTok{=}\NormalTok{ iVar4 }\OperatorTok{+} \DecValTok{3}\OperatorTok{;}
-        \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar29}\OperatorTok{)} \OperatorTok{=}\NormalTok{ bVar25 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar29}\OperatorTok{);}
-        \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{\textless{}}\NormalTok{ iVar28}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{          iVar29 }\OperatorTok{=}\NormalTok{ iVar4 }\OperatorTok{+} \DecValTok{4}\OperatorTok{;}
-          \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar19}\OperatorTok{)} \OperatorTok{=}\NormalTok{ bVar25 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar19}\OperatorTok{)}
-          \OperatorTok{;}
-          \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar29 }\OperatorTok{\textless{}}\NormalTok{ iVar28}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{            iVar19 }\OperatorTok{=}\NormalTok{ iVar4 }\OperatorTok{+} \DecValTok{5}\OperatorTok{;}
-            \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar29}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                 bVar25 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar29}\OperatorTok{);}
-            \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{\textless{}}\NormalTok{ iVar28}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{              iVar29 }\OperatorTok{=}\NormalTok{ iVar4 }\OperatorTok{+} \DecValTok{6}\OperatorTok{;}
-              \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar19}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                   bVar25 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar19}\OperatorTok{);}
-              \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar29 }\OperatorTok{\textless{}}\NormalTok{ iVar28}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                iVar19 }\OperatorTok{=}\NormalTok{ iVar4 }\OperatorTok{+} \DecValTok{7}\OperatorTok{;}
-                \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar29}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                     bVar25 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar29}\OperatorTok{);}
-                \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{\textless{}}\NormalTok{ iVar28}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                  iVar29 }\OperatorTok{=}\NormalTok{ iVar4 }\OperatorTok{+} \DecValTok{8}\OperatorTok{;}
-                  \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar19}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                       bVar25 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar19}\OperatorTok{);}
-                  \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar29 }\OperatorTok{\textless{}}\NormalTok{ iVar28}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                    iVar19 }\OperatorTok{=}\NormalTok{ iVar4 }\OperatorTok{+} \DecValTok{9}\OperatorTok{;}
-                    \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar29}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                         bVar25 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar29}\OperatorTok{);}
-                    \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{\textless{}}\NormalTok{ iVar28}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                      iVar29 }\OperatorTok{=}\NormalTok{ iVar4 }\OperatorTok{+} \DecValTok{10}\OperatorTok{;}
-                      \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar19}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                           bVar25 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar19}\OperatorTok{);}
-                      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar29 }\OperatorTok{\textless{}}\NormalTok{ iVar28}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                        iVar19 }\OperatorTok{=}\NormalTok{ iVar4 }\OperatorTok{+} \BaseNTok{0xb}\OperatorTok{;}
-                        \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar29}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                             bVar25 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar29}\OperatorTok{);}
-                        \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{\textless{}}\NormalTok{ iVar28}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                          iVar29 }\OperatorTok{=}\NormalTok{ iVar4 }\OperatorTok{+} \BaseNTok{0xc}\OperatorTok{;}
-                          \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar19}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                               bVar25 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar19}\OperatorTok{);}
-                          \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar29 }\OperatorTok{\textless{}}\NormalTok{ iVar28}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                            iVar19 }\OperatorTok{=}\NormalTok{ iVar4 }\OperatorTok{+} \BaseNTok{0xd}\OperatorTok{;}
-                            \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar29}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                                 bVar25 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar29}\OperatorTok{);}
-                            \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar19 }\OperatorTok{\textless{}}\NormalTok{ iVar28}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{                              iVar4 }\OperatorTok{=}\NormalTok{ iVar4 }\OperatorTok{+} \BaseNTok{0xe}\OperatorTok{;}
-                              \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar19}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                                   bVar25 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar19}\OperatorTok{);}
-                              \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar4 }\OperatorTok{\textless{}}\NormalTok{ iVar28}\OperatorTok{)} \OperatorTok{\{}
-                                \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar4}\OperatorTok{)} \OperatorTok{=}
-\NormalTok{                                     bVar25 }\OperatorTok{\^{}} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)}\NormalTok{puVar10 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar4}\OperatorTok{);}
-                              \OperatorTok{\}}
-                            \OperatorTok{\}}
-                          \OperatorTok{\}}
-                        \OperatorTok{\}}
-                      \OperatorTok{\}}
-                    \OperatorTok{\}}
-                  \OperatorTok{\}}
-                \OperatorTok{\}}
-              \OperatorTok{\}}
-            \OperatorTok{\}}
-          \OperatorTok{\}}
-        \OperatorTok{\}}
-      \OperatorTok{\}}
-    \OperatorTok{\}}
-  \OperatorTok{\}}
-\NormalTok{LAB\_0010ca3c}\OperatorTok{:}
-  \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x600}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar7}\OperatorTok{,}\NormalTok{puVar10}\OperatorTok{,}\DecValTok{0}\OperatorTok{);}
-\NormalTok{  uVar11 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x30}\OperatorTok{))}
-                     \OperatorTok{(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\StringTok{"java/security/MessageDigest"}\OperatorTok{);}
-\NormalTok{  uVar12 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x538}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),\&}\NormalTok{DAT\_00156fc0}\OperatorTok{);}
-\NormalTok{  uVar13 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x388}\OperatorTok{))}
-                     \OperatorTok{(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar11}\OperatorTok{,}\StringTok{"getInstance"}\OperatorTok{,}
-                      \StringTok{"(Ljava/lang/String;)Ljava/security/MessageDigest;"}\OperatorTok{);}
-\NormalTok{  \_JNIEnv}\OperatorTok{::}\NormalTok{CallStaticObjectMethod}\OperatorTok{(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar11}\OperatorTok{,}\NormalTok{uVar13}\OperatorTok{,}\NormalTok{uVar12}\OperatorTok{);}
-  \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0xb8}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar12}\OperatorTok{);}
-\NormalTok{  uVar12 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x108}\OperatorTok{))}
-                     \OperatorTok{(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar11}\OperatorTok{,}\StringTok{"update"}\OperatorTok{,}\StringTok{"([B)V"}\OperatorTok{);}
-\NormalTok{  \_JNIEnv}\OperatorTok{::}\NormalTok{CallVoidMethod}\OperatorTok{(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{extraout\_x0}\OperatorTok{,}\NormalTok{uVar12}\OperatorTok{,}\NormalTok{uVar7}\OperatorTok{);}
-\NormalTok{  uVar12 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x108}\OperatorTok{))}
-                     \OperatorTok{(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar11}\OperatorTok{,}\StringTok{"digest"}\OperatorTok{,\&}\NormalTok{DAT\_00157028}\OperatorTok{);}
-\NormalTok{  \_JNIEnv}\OperatorTok{::}\NormalTok{CallObjectMethod}\OperatorTok{(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{extraout\_x0}\OperatorTok{,}\NormalTok{uVar12}\OperatorTok{);}
-  \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0xb8}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar11}\OperatorTok{);}
-  \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0xb8}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{extraout\_x0}\OperatorTok{);}
-  \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0xb8}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{uVar7}\OperatorTok{);}
-\NormalTok{  lVar14 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x5c0}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{extraout\_x0\_00}\OperatorTok{,}\DecValTok{0}\OperatorTok{)}
-  \OperatorTok{;}
-\NormalTok{  local\_20}\OperatorTok{.}\NormalTok{\_0\_1\_ }\OperatorTok{=} \BaseNTok{0xe2}\OperatorTok{;}
-\NormalTok{  local\_20}\OperatorTok{.}\NormalTok{\_1\_1\_ }\OperatorTok{=} \BaseNTok{0x5f}\OperatorTok{;}
-\NormalTok{  local\_20}\OperatorTok{.}\NormalTok{\_2\_1\_ }\OperatorTok{=} \BaseNTok{0x48}\OperatorTok{;}
-\NormalTok{  local\_20}\OperatorTok{.}\NormalTok{\_3\_1\_ }\OperatorTok{=} \BaseNTok{0x73}\OperatorTok{;}
-\NormalTok{  local\_20}\OperatorTok{.}\NormalTok{\_4\_1\_ }\OperatorTok{=} \BaseNTok{0x25}\OperatorTok{;}
-\NormalTok{  local\_20}\OperatorTok{.}\NormalTok{\_5\_1\_ }\OperatorTok{=} \BaseNTok{0xc6}\OperatorTok{;}
-\NormalTok{  local\_20}\OperatorTok{.}\NormalTok{\_6\_1\_ }\OperatorTok{=} \BaseNTok{0xe7}\OperatorTok{;}
-\NormalTok{  local\_20}\OperatorTok{.}\NormalTok{\_7\_1\_ }\OperatorTok{=} \BaseNTok{0x11}\OperatorTok{;}
-\NormalTok{  local\_18 }\OperatorTok{=} \BaseNTok{0x80}\OperatorTok{;}
-\NormalTok{  local\_17 }\OperatorTok{=} \BaseNTok{0x7c}\OperatorTok{;}
-\NormalTok{  local\_16 }\OperatorTok{=} \BaseNTok{0x46}\OperatorTok{;}
-\NormalTok{  local\_12 }\OperatorTok{=} \BaseNTok{0x3c}\OperatorTok{;}
-\NormalTok{  local\_15 }\OperatorTok{=} \BaseNTok{0xc3}\OperatorTok{;}
-\NormalTok{  local\_10 }\OperatorTok{=} \BaseNTok{0x3c}\OperatorTok{;}
-\NormalTok{  local\_14 }\OperatorTok{=} \BaseNTok{0xe3}\OperatorTok{;}
-\NormalTok{  uStack\_f }\OperatorTok{=} \BaseNTok{0x77}\OperatorTok{;}
-\NormalTok{  local\_13 }\OperatorTok{=} \BaseNTok{0x1d}\OperatorTok{;}
-\NormalTok{  uStack\_e }\OperatorTok{=} \BaseNTok{0x1e}\OperatorTok{;}
-\NormalTok{  local\_11 }\OperatorTok{=} \BaseNTok{0x97}\OperatorTok{;}
-\NormalTok{  uStack\_d }\OperatorTok{=} \DecValTok{1}\OperatorTok{;}
-\NormalTok{  uStack\_c }\OperatorTok{=}\NormalTok{ uStack\_c }\OperatorTok{\&} \BaseNTok{0xffffff00}\OperatorTok{;}
-\NormalTok{  sVar6 }\OperatorTok{=}\NormalTok{ strlen}\OperatorTok{((}\DataTypeTok{char} \OperatorTok{*)\&}\NormalTok{local\_20}\OperatorTok{);}
-\NormalTok{  iVar28 }\OperatorTok{=} \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x558}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{extraout\_x0\_00}\OperatorTok{);}
-  \ControlFlowTok{if} \OperatorTok{(}\DecValTok{0} \OperatorTok{\textless{}}\NormalTok{ iVar28}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{    lVar24 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-\NormalTok{    bVar17 }\OperatorTok{=} \BaseNTok{0xe2}\OperatorTok{;}
-\NormalTok{    iVar4 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-    \ControlFlowTok{while}\OperatorTok{(} \KeywordTok{true} \OperatorTok{)} \OperatorTok{\{}
-\NormalTok{      bVar25 }\OperatorTok{=} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)(}\NormalTok{lVar14 }\OperatorTok{+}\NormalTok{ lVar24}\OperatorTok{);}
-\NormalTok{      iVar19 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar28 }\OperatorTok{!=} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{        iVar19 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)}\NormalTok{bVar25 }\OperatorTok{/}\NormalTok{ iVar28}\OperatorTok{;}
-      \OperatorTok{\}}
-\NormalTok{      iVar19 }\OperatorTok{=} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)(}\DataTypeTok{char}\OperatorTok{)}\NormalTok{bVar25 }\OperatorTok{{-}}\NormalTok{ iVar19 }\OperatorTok{*}\NormalTok{ iVar28}\OperatorTok{;}
-      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar28 }\OperatorTok{/} \DecValTok{2} \OperatorTok{\textless{}}\NormalTok{ iVar19}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{        bVar25 }\OperatorTok{=}\NormalTok{ bVar25 }\OperatorTok{\^{}} \OperatorTok{(}\DataTypeTok{char}\OperatorTok{)(}\NormalTok{iVar28 }\OperatorTok{/} \DecValTok{2}\OperatorTok{)} \OperatorTok{+}\NormalTok{ cVar27}\OperatorTok{;}
-        \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)(}\NormalTok{lVar14 }\OperatorTok{+}\NormalTok{ lVar24}\OperatorTok{)} \OperatorTok{=}\NormalTok{ bVar25}\OperatorTok{;}
-      \OperatorTok{\}}
-\NormalTok{      iVar4 }\OperatorTok{=}\NormalTok{ iVar4 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-      \ControlFlowTok{if} \OperatorTok{((}\DataTypeTok{int}\OperatorTok{)}\NormalTok{sVar6 }\OperatorTok{==}\NormalTok{ iVar4}\OperatorTok{)} \OperatorTok{\{}
-\NormalTok{        iVar4 }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}
-      \OperatorTok{\}}
-\NormalTok{      bVar2 }\OperatorTok{=} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)(}\NormalTok{lVar14 }\OperatorTok{+}\NormalTok{ iVar19}\OperatorTok{);}
-      \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)(}\NormalTok{lVar14 }\OperatorTok{+}\NormalTok{ iVar19}\OperatorTok{)} \OperatorTok{=}\NormalTok{ bVar25}\OperatorTok{;}
-      \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)(}\NormalTok{lVar14 }\OperatorTok{+}\NormalTok{ lVar24}\OperatorTok{)} \OperatorTok{=}\NormalTok{ bVar2 }\OperatorTok{\^{}}\NormalTok{ bVar17}\OperatorTok{;}
-\NormalTok{      lVar24 }\OperatorTok{=}\NormalTok{ lVar24 }\OperatorTok{+} \DecValTok{1}\OperatorTok{;}
-      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{iVar28 }\OperatorTok{\textless{}=} \OperatorTok{(}\DataTypeTok{int}\OperatorTok{)}\NormalTok{lVar24}\OperatorTok{)} \ControlFlowTok{break}\OperatorTok{;}
-\NormalTok{      bVar17 }\OperatorTok{=} \OperatorTok{*(}\NormalTok{byte }\OperatorTok{*)((}\DataTypeTok{long}\OperatorTok{)\&}\NormalTok{local\_20 }\OperatorTok{+} \OperatorTok{(}\DataTypeTok{long}\OperatorTok{)}\NormalTok{iVar4}\OperatorTok{);}
-    \OperatorTok{\}}
-  \OperatorTok{\}}
-  \OperatorTok{(**(}\NormalTok{code }\OperatorTok{**)(**(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{)} \OperatorTok{+} \BaseNTok{0x600}\OperatorTok{))(*(}\DataTypeTok{long} \OperatorTok{**)(}\NormalTok{param\_1 }\OperatorTok{+} \DecValTok{8}\OperatorTok{),}\NormalTok{extraout\_x0\_00}\OperatorTok{,}\NormalTok{lVar14}\OperatorTok{,}\DecValTok{0}\OperatorTok{);}
-  \ControlFlowTok{if} \OperatorTok{((}\NormalTok{local\_38 }\OperatorTok{\&} \DecValTok{1}\OperatorTok{)} \OperatorTok{!=} \DecValTok{0}\OperatorTok{)} \OperatorTok{\{}
-    \KeywordTok{operator}\OperatorTok{.}\KeywordTok{delete}\OperatorTok{(}\NormalTok{local\_28}\OperatorTok{);}
-  \OperatorTok{\}}
-  \ControlFlowTok{if} \OperatorTok{(}\NormalTok{local\_8 }\OperatorTok{!=}\NormalTok{ \_\_\_stack\_chk\_guard}\OperatorTok{)} \OperatorTok{\{}
-                    \CommentTok{/* }\AlertTok{WARNING}\CommentTok{: Subroutine does not return */}
-\NormalTok{    \_\_stack\_chk\_fail}\OperatorTok{(}\NormalTok{extraout\_x0\_00}\OperatorTok{);}
-  \OperatorTok{\}}
-  \ControlFlowTok{return}\OperatorTok{;}
-\OperatorTok{\}}
+\NormalTok{  local\_8 = \_\_\_stack\_chk\_guard;}
+\NormalTok{  pbVar21 = param\_2 + 1;}
+\NormalTok{  plVar26 = *(long **)(param\_1 + 8);}
+\NormalTok{  if ((*param\_2 \& 1) != 0) \{}
+\NormalTok{    pbVar21 = *(byte **)(param\_2 + 0x10);}
+\NormalTok{  \}}
+\NormalTok{  sVar6 = strlen((char *)pbVar21);}
+\NormalTok{  uVar7 = (**(code **)(*plVar26 + 0x580))(plVar26,sVar6 \& 0xffffffff);}
+\NormalTok{  pcVar23 = *(code **)(*plVar26 + 0x680);}
+\NormalTok{  (*pcVar23)(plVar26,uVar7,0,sVar6 \& 0xffffffff,pbVar21);}
+\NormalTok{  pcVar8 = (char *)(**(code **)(**(long **)(param\_1 + 8) + 0x5c0))(*(long **)(param\_1 + 8),uVar7,0);}
+\NormalTok{  iVar4 = (**(code **)(**(long **)(param\_1 + 8) + 0x558))(*(long **)(param\_1 + 8),uVar7);}
+\NormalTok{  bVar17 = pcVar8[(long)iVar4 + {-}1];}
+\NormalTok{  cVar27 = *pcVar8;}
+\NormalTok{  iVar28 = iVar4;}
+\NormalTok{  if (0 \textless{} iVar4) \{}
+\NormalTok{    uVar1 = (iVar4 {-} 0x10U \textgreater{}\textgreater{} 4) + 1;}
+\NormalTok{    iVar19 = uVar1 * 0x10;}
+\NormalTok{    if (iVar4 {-} 1U \textless{} 0xf) \{}
+\NormalTok{      iVar19 = 0;}
+\NormalTok{      iVar29 = iVar4;}
+\NormalTok{    \}}
+\NormalTok{    else \{}
+\NormalTok{      iVar28 = 0;}
+\NormalTok{      iVar29 = 0;}
+\NormalTok{      iVar30 = 0;}
+\NormalTok{      iVar31 = 0;}
+\NormalTok{      uVar5 = 0;}
+\NormalTok{      pcVar15 = pcVar8;}
+\NormalTok{      do \{}
+\NormalTok{        uVar12 = *(undefined8 *)(pcVar15 + 8);}
+\NormalTok{        uVar11 = *(undefined8 *)pcVar15;}
+\NormalTok{        uVar5 = uVar5 + 1;}
+\NormalTok{        iVar28 = (int)(short)(char)((ulong)uVar12 \textgreater{}\textgreater{} 0x20) +}
+\NormalTok{                 (int)(short)(char)uVar12 +}
+\NormalTok{                 (int)(short)(char)((ulong)uVar11 \textgreater{}\textgreater{} 0x20) + (short)(char)uVar11 + iVar28;}
+\NormalTok{        iVar29 = (int)(short)(char)((ulong)uVar12 \textgreater{}\textgreater{} 0x28) +}
+\NormalTok{                 (int)(short)(char)((ulong)uVar12 \textgreater{}\textgreater{} 8) +}
+\NormalTok{                 (int)(short)(char)((ulong)uVar11 \textgreater{}\textgreater{} 0x28) +}
+\NormalTok{                 (short)(char)((ulong)uVar11 \textgreater{}\textgreater{} 8) + iVar29;}
+\NormalTok{        iVar30 = (int)(short)(char)((ulong)uVar12 \textgreater{}\textgreater{} 0x30) +}
+\NormalTok{                 (int)(short)(char)((ulong)uVar12 \textgreater{}\textgreater{} 0x10) +}
+\NormalTok{                 (int)(short)(char)((ulong)uVar11 \textgreater{}\textgreater{} 0x30) +}
+\NormalTok{                 (short)(char)((ulong)uVar11 \textgreater{}\textgreater{} 0x10) + iVar30;}
+\NormalTok{        iVar31 = (int)(short)(char)((ulong)uVar12 \textgreater{}\textgreater{} 0x38) +}
+\NormalTok{                 (int)(short)(char)((ulong)uVar12 \textgreater{}\textgreater{} 0x18) +}
+\NormalTok{                 (int)(short)(char)((ulong)uVar11 \textgreater{}\textgreater{} 0x38) +}
+\NormalTok{                 (short)(char)((ulong)uVar11 \textgreater{}\textgreater{} 0x18) + iVar31;}
+\NormalTok{        pcVar15 = pcVar15 + 0x10;}
+\NormalTok{      \} while (uVar5 \textless{} uVar1);}
+\NormalTok{      iVar29 = iVar28 + iVar29 + iVar30 + iVar31 + iVar4;}
+\NormalTok{      iVar28 = iVar29;}
+\NormalTok{      if (iVar19 == iVar4) goto LAB\_0010c6cc;}
+\NormalTok{    \}}
+\NormalTok{    iVar28 = iVar29 + pcVar8[iVar19];}
+\NormalTok{    if (iVar19 + 1 \textless{} iVar4) \{}
+\NormalTok{      iVar28 = iVar29 + pcVar8[iVar19] + (int)pcVar8[iVar19 + 1];}
+\NormalTok{      if (iVar19 + 2 \textless{} iVar4) \{}
+\NormalTok{        iVar28 = iVar28 + pcVar8[iVar19 + 2];}
+\NormalTok{        if (iVar19 + 3 \textless{} iVar4) \{}
+\NormalTok{          iVar28 = iVar28 + pcVar8[iVar19 + 3];}
+\NormalTok{          if (iVar19 + 4 \textless{} iVar4) \{}
+\NormalTok{            iVar28 = iVar28 + pcVar8[iVar19 + 4];}
+\NormalTok{            if (iVar19 + 5 \textless{} iVar4) \{}
+\NormalTok{              iVar28 = iVar28 + pcVar8[iVar19 + 5];}
+\NormalTok{              if (iVar19 + 6 \textless{} iVar4) \{}
+\NormalTok{                iVar28 = iVar28 + pcVar8[iVar19 + 6];}
+\NormalTok{                if (iVar19 + 7 \textless{} iVar4) \{}
+\NormalTok{                  iVar28 = iVar28 + pcVar8[iVar19 + 7];}
+\NormalTok{                  if (iVar19 + 8 \textless{} iVar4) \{}
+\NormalTok{                    iVar28 = iVar28 + pcVar8[iVar19 + 8];}
+\NormalTok{                    if (iVar19 + 9 \textless{} iVar4) \{}
+\NormalTok{                      iVar28 = iVar28 + pcVar8[iVar19 + 9];}
+\NormalTok{                      if (iVar19 + 10 \textless{} iVar4) \{}
+\NormalTok{                        iVar28 = iVar28 + pcVar8[iVar19 + 10];}
+\NormalTok{                        if (iVar19 + 0xb \textless{} iVar4) \{}
+\NormalTok{                          iVar28 = iVar28 + pcVar8[iVar19 + 0xb];}
+\NormalTok{                          if (iVar19 + 0xc \textless{} iVar4) \{}
+\NormalTok{                            iVar28 = iVar28 + pcVar8[iVar19 + 0xc];}
+\NormalTok{                            if (iVar19 + 0xd \textless{} iVar4) \{}
+\NormalTok{                              iVar28 = iVar28 + pcVar8[iVar19 + 0xd];}
+\NormalTok{                              if (iVar19 + 0xe \textless{} iVar4) \{}
+\NormalTok{                                iVar28 = iVar28 + pcVar8[iVar19 + 0xe];}
+\NormalTok{                              \}}
+\NormalTok{                            \}}
+\NormalTok{                          \}}
+\NormalTok{                        \}}
+\NormalTok{                      \}}
+\NormalTok{                    \}}
+\NormalTok{                  \}}
+\NormalTok{                \}}
+\NormalTok{              \}}
+\NormalTok{            \}}
+\NormalTok{          \}}
+\NormalTok{        \}}
+\NormalTok{      \}}
+\NormalTok{    \}}
+\NormalTok{  \}}
+\NormalTok{LAB\_0010c6cc:}
+\NormalTok{  pcVar22 = *(code **)(**(long **)(param\_1 + 8) + 0x600);}
+\NormalTok{  (*pcVar22)(*(long **)(param\_1 + 8),uVar7,pcVar8,0);}
+\NormalTok{  (**(code **)(**(long **)(param\_1 + 8) + 0xb8))(*(long **)(param\_1 + 8),uVar7);}
+\NormalTok{  bVar25 = 0;}
+\NormalTok{  if (iVar4 != 0) \{}
+\NormalTok{    bVar25 = (byte)(iVar28 / iVar4);}
+\NormalTok{  \}}
+\NormalTok{  uVar1 = 0;}
+\NormalTok{  if (iVar4 != 0) \{}
+\NormalTok{    uVar1 = (int)(iVar28 + (uint)bVar17 * (int)cVar27) / iVar4;}
+\NormalTok{  \}}
+\NormalTok{  cVar27 = (char)iVar28 {-} bVar25 * (char)iVar4;}
+\NormalTok{  std::to\_string(\&local\_20,uVar1);}
+\NormalTok{  if ((*param\_2 \& 1) == 0) \{}
+\NormalTok{    pbVar21 = param\_2 + 1;}
+\NormalTok{    uVar20 = (ulong)((int)(uint)*param\_2 \textgreater{}\textgreater{} 1);}
+\NormalTok{  \}}
+\NormalTok{  else \{}
+\NormalTok{    pbVar21 = *(byte **)(param\_2 + 0x10);}
+\NormalTok{    uVar20 = *(ulong *)(param\_2 + 8);}
+\NormalTok{  \}}
+\NormalTok{                    /* try \{ // try from 0010c734 to 0010c737 has its CatchHandler @ 0010ce68 */}
+\NormalTok{  puVar9 = FUN\_0010c310(\&local\_20,0,pbVar21,uVar20,pcVar22,pcVar23,in\_x6);}
+\NormalTok{  local\_38 = *puVar9;}
+\NormalTok{  uStack\_30 = puVar9[1];}
+\NormalTok{  local\_28 = (char *)puVar9[2];}
+\NormalTok{  *puVar9 = 0;}
+\NormalTok{  puVar9[1] = 0;}
+\NormalTok{  puVar9[2] = 0;}
+\NormalTok{  if (((byte)local\_20 \& 1) != 0) \{}
+\NormalTok{    operator.delete((void *)CONCAT44(uStack\_c,CONCAT13(uStack\_d,CONCAT12(uStack\_e,CONCAT11(uStack\_f,}
+\NormalTok{                                                  local\_10)))));}
+\NormalTok{  \}}
+\NormalTok{  bVar17 = *param\_3;}
+\NormalTok{  if ((bVar17 \& 1) == 0) \{}
+\NormalTok{    sVar6 = (size\_t)((int)(uint)bVar17 \textgreater{}\textgreater{} 1);}
+\NormalTok{  \}}
+\NormalTok{  else \{}
+\NormalTok{    sVar6 = *(size\_t *)(param\_3 + 8);}
+\NormalTok{  \}}
+\NormalTok{  if (((byte)Null \& 1) == 0) \{}
+\NormalTok{    if (sVar6 != (long)((int)(uint)(byte)Null \textgreater{}\textgreater{} 1)) goto LAB\_0010c790;}
+\NormalTok{LAB\_0010cda4:}
+\NormalTok{    if ((bVar17 \& 1) == 0) \{}
+\NormalTok{      pbVar21 = DAT\_00176050;}
+\NormalTok{      if (((byte)Null \& 1) == 0) \{}
+\NormalTok{        pbVar21 = (byte *)((long)\&Null + 1);}
+\NormalTok{      \}}
+\NormalTok{      if (sVar6 != 0) \{}
+\NormalTok{        if (param\_3[1] == *pbVar21) \{}
+\NormalTok{          pbVar16 = param\_3 + 2;}
+\NormalTok{          do \{}
+\NormalTok{            pbVar21 = pbVar21 + 1;}
+\NormalTok{            if (pbVar16 == param\_3 + sVar6 + 1) goto LAB\_0010c7bc;}
+\NormalTok{            bVar2 = *pbVar16;}
+\NormalTok{            pbVar16 = pbVar16 + 1;}
+\NormalTok{          \} while (*pbVar21 == bVar2);}
+\NormalTok{        \}}
+\NormalTok{LAB\_0010ce20:}
+\NormalTok{        pbVar21 = param\_3 + 1;}
+\NormalTok{        uVar20 = (ulong)((int)(uint)bVar17 \textgreater{}\textgreater{} 1);}
+\NormalTok{        goto LAB\_0010c7a4;}
+\NormalTok{      \}}
+\NormalTok{    \}}
+\NormalTok{    else \{}
+\NormalTok{      pbVar21 = *(byte **)(param\_3 + 0x10);}
+\NormalTok{      pbVar16 = (byte *)((long)\&Null + 1);}
+\NormalTok{      if (((byte)Null \& 1) != 0) \{}
+\NormalTok{        pbVar16 = DAT\_00176050;}
+\NormalTok{      \}}
+\NormalTok{      iVar28 = memcmp(pbVar21,pbVar16,sVar6);}
+\NormalTok{      if (iVar28 != 0) goto LAB\_0010c79c;}
+\NormalTok{    \}}
+\NormalTok{  \}}
+\NormalTok{  else \{}
+\NormalTok{    if (sVar6 == DAT\_00176048) goto LAB\_0010cda4;}
+\NormalTok{LAB\_0010c790:}
+\NormalTok{    if ((bVar17 \& 1) == 0) goto LAB\_0010ce20;}
+\NormalTok{    pbVar21 = *(byte **)(param\_3 + 0x10);}
+\NormalTok{LAB\_0010c79c:}
+\NormalTok{    uVar20 = *(ulong *)(param\_3 + 8);}
+\NormalTok{LAB\_0010c7a4:}
+\NormalTok{                    /* try \{ // try from 0010c7a8 to 0010cd3b has its CatchHandler @ 0010ce84 */}
+\NormalTok{    FUN\_0010bea4(\&local\_38,pbVar21,uVar20);}
+\NormalTok{    if ((*param\_3 \& 1) == 0) \{}
+\NormalTok{      cVar3 = (char)((int)(uint)*param\_3 \textgreater{}\textgreater{} 1);}
+\NormalTok{    \}}
+\NormalTok{    else \{}
+\NormalTok{      cVar3 = (char)*(undefined8 *)(param\_3 + 8);}
+\NormalTok{    \}}
+\NormalTok{    cVar27 = cVar27 + cVar3;}
+\NormalTok{  \}}
+\NormalTok{LAB\_0010c7bc:}
+\NormalTok{  plVar26 = *(long **)(param\_1 + 8);}
+\NormalTok{  pcVar8 = local\_28;}
+\NormalTok{  if ((local\_38 \& 1) == 0) \{}
+\NormalTok{    pcVar8 = (char *)((long)\&local\_38 + 1);}
+\NormalTok{  \}}
+\NormalTok{  sVar6 = strlen(pcVar8);}
+\NormalTok{  uVar7 = (**(code **)(*plVar26 + 0x580))(plVar26,sVar6 \& 0xffffffff);}
+\NormalTok{  (**(code **)(*plVar26 + 0x680))(plVar26,uVar7,0,sVar6 \& 0xffffffff,pcVar8);}
+\NormalTok{  puVar10 = (undefined8 *)}
+\NormalTok{            (**(code **)(**(long **)(param\_1 + 8) + 0x5c0))(*(long **)(param\_1 + 8),uVar7,0);}
+\NormalTok{  iVar28 = (**(code **)(**(long **)(param\_1 + 8) + 0x558))(*(long **)(param\_1 + 8),uVar7);}
+\NormalTok{  if (0 \textless{} iVar28) \{}
+\NormalTok{    uVar1 = (iVar28 {-} 0x10U \textgreater{}\textgreater{} 4) + 1;}
+\NormalTok{    iVar4 = uVar1 * 0x10;}
+\NormalTok{    if (iVar28 {-} 1U \textless{} 0xf) \{}
+\NormalTok{      iVar4 = 0;}
+\NormalTok{    \}}
+\NormalTok{    else \{}
+\NormalTok{      uVar5 = 0;}
+\NormalTok{      puVar18 = puVar10;}
+\NormalTok{      do \{}
+\NormalTok{        uVar12 = puVar18[1];}
+\NormalTok{        uVar11 = *puVar18;}
+\NormalTok{        uVar5 = uVar5 + 1;}
+\NormalTok{        puVar18[1] = CONCAT17((byte)((ulong)uVar12 \textgreater{}\textgreater{} 0x38) \^{} bVar25,}
+\NormalTok{                              CONCAT16((byte)((ulong)uVar12 \textgreater{}\textgreater{} 0x30) \^{} bVar25,}
+\NormalTok{                                       CONCAT15((byte)((ulong)uVar12 \textgreater{}\textgreater{} 0x28) \^{} bVar25,}
+\NormalTok{                                                CONCAT14((byte)((ulong)uVar12 \textgreater{}\textgreater{} 0x20) \^{} bVar25,}
+\NormalTok{                                                         CONCAT13((byte)((ulong)uVar12 \textgreater{}\textgreater{} 0x18) \^{}}
+\NormalTok{                                                                  bVar25,CONCAT12((byte)((ulong)}
+\NormalTok{                                                  uVar12 \textgreater{}\textgreater{} 0x10) \^{} bVar25,}
+\NormalTok{                                                  CONCAT11((byte)((ulong)uVar12 \textgreater{}\textgreater{} 8) \^{} bVar25,}
+\NormalTok{                                                           (byte)uVar12 \^{} bVar25)))))));}
+\NormalTok{        *puVar18 = CONCAT17((byte)((ulong)uVar11 \textgreater{}\textgreater{} 0x38) \^{} bVar25,}
+\NormalTok{                            CONCAT16((byte)((ulong)uVar11 \textgreater{}\textgreater{} 0x30) \^{} bVar25,}
+\NormalTok{                                     CONCAT15((byte)((ulong)uVar11 \textgreater{}\textgreater{} 0x28) \^{} bVar25,}
+\NormalTok{                                              CONCAT14((byte)((ulong)uVar11 \textgreater{}\textgreater{} 0x20) \^{} bVar25,}
+\NormalTok{                                                       CONCAT13((byte)((ulong)uVar11 \textgreater{}\textgreater{} 0x18) \^{}}
+\NormalTok{                                                                bVar25,CONCAT12((byte)((ulong)uVar11}
+\NormalTok{                                                                                      \textgreater{}\textgreater{} 0x10) \^{}}
+\NormalTok{                                                                                bVar25,CONCAT11((}
+\NormalTok{                                                  byte)((ulong)uVar11 \textgreater{}\textgreater{} 8) \^{} bVar25,}
+\NormalTok{                                                  (byte)uVar11 \^{} bVar25)))))));}
+\NormalTok{        puVar18 = puVar18 + 2;}
+\NormalTok{      \} while (uVar5 \textless{} uVar1);}
+\NormalTok{      if (iVar28 == iVar4) goto LAB\_0010ca3c;}
+\NormalTok{    \}}
+\NormalTok{    iVar19 = iVar4 + 1;}
+\NormalTok{    *(byte *)((long)puVar10 + (long)iVar4) = bVar25 \^{} *(byte *)((long)puVar10 + (long)iVar4);}
+\NormalTok{    if (iVar19 \textless{} iVar28) \{}
+\NormalTok{      iVar29 = iVar4 + 2;}
+\NormalTok{      *(byte *)((long)puVar10 + (long)iVar19) = bVar25 \^{} *(byte *)((long)puVar10 + (long)iVar19);}
+\NormalTok{      if (iVar29 \textless{} iVar28) \{}
+\NormalTok{        iVar19 = iVar4 + 3;}
+\NormalTok{        *(byte *)((long)puVar10 + (long)iVar29) = bVar25 \^{} *(byte *)((long)puVar10 + (long)iVar29);}
+\NormalTok{        if (iVar19 \textless{} iVar28) \{}
+\NormalTok{          iVar29 = iVar4 + 4;}
+\NormalTok{          *(byte *)((long)puVar10 + (long)iVar19) = bVar25 \^{} *(byte *)((long)puVar10 + (long)iVar19)}
+\NormalTok{          ;}
+\NormalTok{          if (iVar29 \textless{} iVar28) \{}
+\NormalTok{            iVar19 = iVar4 + 5;}
+\NormalTok{            *(byte *)((long)puVar10 + (long)iVar29) =}
+\NormalTok{                 bVar25 \^{} *(byte *)((long)puVar10 + (long)iVar29);}
+\NormalTok{            if (iVar19 \textless{} iVar28) \{}
+\NormalTok{              iVar29 = iVar4 + 6;}
+\NormalTok{              *(byte *)((long)puVar10 + (long)iVar19) =}
+\NormalTok{                   bVar25 \^{} *(byte *)((long)puVar10 + (long)iVar19);}
+\NormalTok{              if (iVar29 \textless{} iVar28) \{}
+\NormalTok{                iVar19 = iVar4 + 7;}
+\NormalTok{                *(byte *)((long)puVar10 + (long)iVar29) =}
+\NormalTok{                     bVar25 \^{} *(byte *)((long)puVar10 + (long)iVar29);}
+\NormalTok{                if (iVar19 \textless{} iVar28) \{}
+\NormalTok{                  iVar29 = iVar4 + 8;}
+\NormalTok{                  *(byte *)((long)puVar10 + (long)iVar19) =}
+\NormalTok{                       bVar25 \^{} *(byte *)((long)puVar10 + (long)iVar19);}
+\NormalTok{                  if (iVar29 \textless{} iVar28) \{}
+\NormalTok{                    iVar19 = iVar4 + 9;}
+\NormalTok{                    *(byte *)((long)puVar10 + (long)iVar29) =}
+\NormalTok{                         bVar25 \^{} *(byte *)((long)puVar10 + (long)iVar29);}
+\NormalTok{                    if (iVar19 \textless{} iVar28) \{}
+\NormalTok{                      iVar29 = iVar4 + 10;}
+\NormalTok{                      *(byte *)((long)puVar10 + (long)iVar19) =}
+\NormalTok{                           bVar25 \^{} *(byte *)((long)puVar10 + (long)iVar19);}
+\NormalTok{                      if (iVar29 \textless{} iVar28) \{}
+\NormalTok{                        iVar19 = iVar4 + 0xb;}
+\NormalTok{                        *(byte *)((long)puVar10 + (long)iVar29) =}
+\NormalTok{                             bVar25 \^{} *(byte *)((long)puVar10 + (long)iVar29);}
+\NormalTok{                        if (iVar19 \textless{} iVar28) \{}
+\NormalTok{                          iVar29 = iVar4 + 0xc;}
+\NormalTok{                          *(byte *)((long)puVar10 + (long)iVar19) =}
+\NormalTok{                               bVar25 \^{} *(byte *)((long)puVar10 + (long)iVar19);}
+\NormalTok{                          if (iVar29 \textless{} iVar28) \{}
+\NormalTok{                            iVar19 = iVar4 + 0xd;}
+\NormalTok{                            *(byte *)((long)puVar10 + (long)iVar29) =}
+\NormalTok{                                 bVar25 \^{} *(byte *)((long)puVar10 + (long)iVar29);}
+\NormalTok{                            if (iVar19 \textless{} iVar28) \{}
+\NormalTok{                              iVar4 = iVar4 + 0xe;}
+\NormalTok{                              *(byte *)((long)puVar10 + (long)iVar19) =}
+\NormalTok{                                   bVar25 \^{} *(byte *)((long)puVar10 + (long)iVar19);}
+\NormalTok{                              if (iVar4 \textless{} iVar28) \{}
+\NormalTok{                                *(byte *)((long)puVar10 + (long)iVar4) =}
+\NormalTok{                                     bVar25 \^{} *(byte *)((long)puVar10 + (long)iVar4);}
+\NormalTok{                              \}}
+\NormalTok{                            \}}
+\NormalTok{                          \}}
+\NormalTok{                        \}}
+\NormalTok{                      \}}
+\NormalTok{                    \}}
+\NormalTok{                  \}}
+\NormalTok{                \}}
+\NormalTok{              \}}
+\NormalTok{            \}}
+\NormalTok{          \}}
+\NormalTok{        \}}
+\NormalTok{      \}}
+\NormalTok{    \}}
+\NormalTok{  \}}
+\NormalTok{LAB\_0010ca3c:}
+\NormalTok{  (**(code **)(**(long **)(param\_1 + 8) + 0x600))(*(long **)(param\_1 + 8),uVar7,puVar10,0);}
+\NormalTok{  uVar11 = (**(code **)(**(long **)(param\_1 + 8) + 0x30))}
+\NormalTok{                     (*(long **)(param\_1 + 8),"java/security/MessageDigest");}
+\NormalTok{  uVar12 = (**(code **)(**(long **)(param\_1 + 8) + 0x538))(*(long **)(param\_1 + 8),\&DAT\_00156fc0);}
+\NormalTok{  uVar13 = (**(code **)(**(long **)(param\_1 + 8) + 0x388))}
+\NormalTok{                     (*(long **)(param\_1 + 8),uVar11,"getInstance",}
+\NormalTok{                      "(Ljava/lang/String;)Ljava/security/MessageDigest;");}
+\NormalTok{  \_JNIEnv::CallStaticObjectMethod(*(long **)(param\_1 + 8),uVar11,uVar13,uVar12);}
+\NormalTok{  (**(code **)(**(long **)(param\_1 + 8) + 0xb8))(*(long **)(param\_1 + 8),uVar12);}
+\NormalTok{  uVar12 = (**(code **)(**(long **)(param\_1 + 8) + 0x108))}
+\NormalTok{                     (*(long **)(param\_1 + 8),uVar11,"update","([B)V");}
+\NormalTok{  \_JNIEnv::CallVoidMethod(*(long **)(param\_1 + 8),extraout\_x0,uVar12,uVar7);}
+\NormalTok{  uVar12 = (**(code **)(**(long **)(param\_1 + 8) + 0x108))}
+\NormalTok{                     (*(long **)(param\_1 + 8),uVar11,"digest",\&DAT\_00157028);}
+\NormalTok{  \_JNIEnv::CallObjectMethod(*(long **)(param\_1 + 8),extraout\_x0,uVar12);}
+\NormalTok{  (**(code **)(**(long **)(param\_1 + 8) + 0xb8))(*(long **)(param\_1 + 8),uVar11);}
+\NormalTok{  (**(code **)(**(long **)(param\_1 + 8) + 0xb8))(*(long **)(param\_1 + 8),extraout\_x0);}
+\NormalTok{  (**(code **)(**(long **)(param\_1 + 8) + 0xb8))(*(long **)(param\_1 + 8),uVar7);}
+\NormalTok{  lVar14 = (**(code **)(**(long **)(param\_1 + 8) + 0x5c0))(*(long **)(param\_1 + 8),extraout\_x0\_00,0)}
+\NormalTok{  ;}
+\NormalTok{  local\_20.\_0\_1\_ = 0xe2;}
+\NormalTok{  local\_20.\_1\_1\_ = 0x5f;}
+\NormalTok{  local\_20.\_2\_1\_ = 0x48;}
+\NormalTok{  local\_20.\_3\_1\_ = 0x73;}
+\NormalTok{  local\_20.\_4\_1\_ = 0x25;}
+\NormalTok{  local\_20.\_5\_1\_ = 0xc6;}
+\NormalTok{  local\_20.\_6\_1\_ = 0xe7;}
+\NormalTok{  local\_20.\_7\_1\_ = 0x11;}
+\NormalTok{  local\_18 = 0x80;}
+\NormalTok{  local\_17 = 0x7c;}
+\NormalTok{  local\_16 = 0x46;}
+\NormalTok{  local\_12 = 0x3c;}
+\NormalTok{  local\_15 = 0xc3;}
+\NormalTok{  local\_10 = 0x3c;}
+\NormalTok{  local\_14 = 0xe3;}
+\NormalTok{  uStack\_f = 0x77;}
+\NormalTok{  local\_13 = 0x1d;}
+\NormalTok{  uStack\_e = 0x1e;}
+\NormalTok{  local\_11 = 0x97;}
+\NormalTok{  uStack\_d = 1;}
+\NormalTok{  uStack\_c = uStack\_c \& 0xffffff00;}
+\NormalTok{  sVar6 = strlen((char *)\&local\_20);}
+\NormalTok{  iVar28 = (**(code **)(**(long **)(param\_1 + 8) + 0x558))(*(long **)(param\_1 + 8),extraout\_x0\_00);}
+\NormalTok{  if (0 \textless{} iVar28) \{}
+\NormalTok{    lVar24 = 0;}
+\NormalTok{    bVar17 = 0xe2;}
+\NormalTok{    iVar4 = 0;}
+\NormalTok{    while( true ) \{}
+\NormalTok{      bVar25 = *(byte *)(lVar14 + lVar24);}
+\NormalTok{      iVar19 = 0;}
+\NormalTok{      if (iVar28 != 0) \{}
+\NormalTok{        iVar19 = (int)(char)bVar25 / iVar28;}
+\NormalTok{      \}}
+\NormalTok{      iVar19 = (int)(char)bVar25 {-} iVar19 * iVar28;}
+\NormalTok{      if (iVar28 / 2 \textless{} iVar19) \{}
+\NormalTok{        bVar25 = bVar25 \^{} (char)(iVar28 / 2) + cVar27;}
+\NormalTok{        *(byte *)(lVar14 + lVar24) = bVar25;}
+\NormalTok{      \}}
+\NormalTok{      iVar4 = iVar4 + 1;}
+\NormalTok{      if ((int)sVar6 == iVar4) \{}
+\NormalTok{        iVar4 = 0;}
+\NormalTok{      \}}
+\NormalTok{      bVar2 = *(byte *)(lVar14 + iVar19);}
+\NormalTok{      *(byte *)(lVar14 + iVar19) = bVar25;}
+\NormalTok{      *(byte *)(lVar14 + lVar24) = bVar2 \^{} bVar17;}
+\NormalTok{      lVar24 = lVar24 + 1;}
+\NormalTok{      if (iVar28 \textless{}= (int)lVar24) break;}
+\NormalTok{      bVar17 = *(byte *)((long)\&local\_20 + (long)iVar4);}
+\NormalTok{    \}}
+\NormalTok{  \}}
+\NormalTok{  (**(code **)(**(long **)(param\_1 + 8) + 0x600))(*(long **)(param\_1 + 8),extraout\_x0\_00,lVar14,0);}
+\NormalTok{  if ((local\_38 \& 1) != 0) \{}
+\NormalTok{    operator.delete(local\_28);}
+\NormalTok{  \}}
+\NormalTok{  if (local\_8 != \_\_\_stack\_chk\_guard) \{}
+\NormalTok{                    /* WARNING: Subroutine does not return */}
+\NormalTok{    \_\_stack\_chk\_fail(extraout\_x0\_00);}
+\NormalTok{  \}}
+\NormalTok{  return;}
+\NormalTok{\}}
 \end{Highlighting}
 \end{Shaded}
 
