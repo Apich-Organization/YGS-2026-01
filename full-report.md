@@ -10,6 +10,8 @@
 
 **Author:** Apich Organization Security Team
 
+**DOI:** 10.5281/zenodo.18320726
+
 ---
 
 ## **1. Executive Summary**
