@@ -15,7 +15,7 @@ Related malware sample YGS-2026-02 was submitted by **Xiaoru Zhang** (Apich Orga
 
 ### **Reporting & Coordination**
 
-The initial report was submitted to the **TSRC** on January 20, 2026, at 13:43 CST, with subsequent revisions finalized at 17:29 and 17:59 CST.
+The initial report was submitted to the **TSRC** on January 20, 2026, at 13:43 CST, with subsequent revisions finalized at 17:29 and 17:59 CST. The reports are formally submitted to CNCERT on January 21, 2026, at 21:44 CST.
 
 ### **Conclusion of Internal Operations**
 
