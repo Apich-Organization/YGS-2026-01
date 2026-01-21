@@ -1,5 +1,6 @@
-*.pdf
-*.gpg
-*.pgp
-*.asc
+# *.pdf
+# *.gpg
+# *.pgp
+# *.asc
 *.txt
+*.tmp
