@@ -4,11 +4,14 @@
 
 This malware sample was submitted by **Xiaoru Zhang** (Apich Organization) on January 19, 2026, at 23:12 CST.
 
+Related malware sample YGS-2026-02 was submitted by **Xiaoru Zhang** (Apich Organization) on January 20, 2026, at 23:12 CST.
+
 ### **Analysis Timeline**
 
 * **Initial Response:** January 20, 2026, at 01:13 CST.
 * **Phase I Analysis:** Conducted by **Xinyu Yang** (Apich Organization Security Team); completed January 20, 2026, at 13:04 CST.
 * **Phase II Analysis:** Conducted by **Xinyu Yang** (Apich Organization Security Team); completed January 20, 2026, at 17:24 CST.
+* **Phase III Analysis (Analysis of YGS-2026-02):** Conducted by **Xinyu Yang** (Apich Organization Security Team); completed January 21, 2026, at 20:34 CST.
 
 ### **Reporting & Coordination**
 
