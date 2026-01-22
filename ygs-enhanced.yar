@@ -35,10 +35,7 @@ rule iApp_YGS_Detection_Enhanced {
         $k4 = { 54 D7 23 0A 2C BD 29 95 }
 
     condition:
-        // Case 1-A: ELF file with known native malicious logic
-        (uint32(0) == 0x464c457f) or
-
-        // Case 1-B: ELF file with known native malicious logic strings
+        // Case 1: Files with known native malicious logic strings
         ($fn_slky and $fn_asendn) or
 
         // Case 2: APK structure with spaced package name
