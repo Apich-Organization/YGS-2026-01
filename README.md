@@ -14,4 +14,6 @@ Report on related malware sample YGS-2026-02 could be seen in the [ygs-2026-02.m
 
 The published version of these reports could be find in the [zenodo-reports.md](zenodo-reports.md).
 
+The yara rules could be find in the [ygs-normal.yar](ygs-normal.yar) and [ygs-enhanced.yar](ygs-enhanced.yar).
+
 URGENT: Active C2 infrastructure detected at 107.151.212.80 and other ips. Victims wide spread in China. TSRC and CNCERT notified via public disclosure due to gateway blocks which make normal disclosure impossible.
