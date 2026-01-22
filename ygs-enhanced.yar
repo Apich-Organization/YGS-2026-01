@@ -8,8 +8,7 @@ rule iApp_YGS_Detection_Enhanced {
 
     strings:
         /* --- Behavioral & Heuristic Patterns --- */
-        // Matches CJK characters followed by a space (Example: 戸 籍 开 道 助 手)
-        $spaced_pkg = /([\x4e00-\x9fff]\x20){3,}/
+        $spaced_pkg = /.\s+(.\s+)*./
 
         /* --- Native Library Artifacts --- */
         $lib_so = "ygsiyu" wide ascii nocase
