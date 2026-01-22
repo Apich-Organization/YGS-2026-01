@@ -15,7 +15,7 @@ Related malware sample YGS-2026-02 was submitted by **Xiaoru Zhang** (Apich Orga
 
 ### **Reporting & Coordination**
 
-The initial report was submitted to the **TSRC** on January 20, 2026, at 13:43 CST, with subsequent revisions finalized at 17:29 and 17:59 CST. The reports are formally submitted to CNCERT on January 21, 2026, at 21:44 CST.
+The initial report was submitted to the **TSRC** on January 20, 2026, at 13:43 CST, with subsequent revisions finalized at 17:29 and 17:59 CST. Due to mailing system errors and latency, multiple copies of the reports were resubmitted again to the **TSRC** on January 21, 2026, using various methods (including mailing and wechat official accounts of **TSRC**, e.g.); however, no response has been received yet till the publishing of these reports. Thus, the reports are formally submitted to CNCERT on January 21, 2026, at 21:44 CST.
 
 ### **Conclusion of Internal Operations**
 
@@ -26,3 +26,7 @@ Furthermore, our team will continue to actively monitor and track all future var
 ### **Special Thanks**
 
 We would like to extend our sincere gratitude to all members and external contributors who provided invaluable assistance throughout this analysis.
+
+### **Personal Acknowledgement**
+
+The authors acknowledge the diligent administrative support recieved from the Physics Olympic Coaching Team of Jinan Zhensheng Middle School. Also, special thanks is given to Zining Li, Xiaoru Zhang and Yinxian Li for their continuous support and understanding of this investigation.
