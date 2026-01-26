@@ -1,2 +1,4 @@
 *.apk filter=lfs diff=lfs merge=lfs -text
 libygsiyu.so.gzf filter=lfs diff=lfs merge=lfs -text
+malware-20260120001(origin=刷[[:space:]]刀[[:space:]]体[[:space:]]质.apk.1).apk.asc filter=lfs diff=lfs merge=lfs -text
+malware-20260121001(origin=戸[[:space:]]籍[[:space:]]开[[:space:]]道[[:space:]]助[[:space:]]手.apk.1).apk.asc filter=lfs diff=lfs merge=lfs -text
