@@ -1,0 +1,281 @@
+Received: from IA3PR01MB8722.prod.exchangelabs.com (2603:10b6:208:53b::6) by
+ BYAPR01MB5574.prod.exchangelabs.com with HTTPS; Tue, 27 Jan 2026 01:33:02
+ +0000
+Received: from DU2PR04CA0343.eurprd04.prod.outlook.com (2603:10a6:10:2b4::29)
+ by IA3PR01MB8722.prod.exchangelabs.com (2603:10b6:208:53b::6) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.9542.15; Tue, 27 Jan 2026 01:33:00 +0000
+Received: from DB1PEPF00039230.eurprd03.prod.outlook.com
+ (2603:10a6:10:2b4:cafe::33) by DU2PR04CA0343.outlook.office365.com
+ (2603:10a6:10:2b4::29) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.9542.16 via Frontend Transport; Tue,
+ 27 Jan 2026 01:32:20 +0000
+Authentication-Results: spf=pass (sender IP is 43.154.209.5)
+ smtp.mailfrom=huorong.cn; dkim=none (message not signed)
+ header.d=none;dmarc=bestguesspass action=none
+ header.from=huorong.cn;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of huorong.cn designates
+ 43.154.209.5 as permitted sender) receiver=protection.outlook.com;
+ client-ip=43.154.209.5; helo=bg5.exmail.qq.com; pr=C
+Received: from bg5.exmail.qq.com (43.154.209.5) by
+ DB1PEPF00039230.mail.protection.outlook.com (10.167.8.103) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.9542.4 via Frontend Transport; Tue, 27 Jan 2026 01:32:56 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:56D748651F1D544B56B1568D6D4F5AEE7C96015C8F587FDF1ECE97DCA3E228A7;UpperCasedChecksum:2E8633227F5F0D944CF9F8F62F4439EA28D77CFEB199FDBFDF217671111D769D;SizeAsReceived:2310;Count:23
+X-QQ-mid: esmtpgz13t1769477573te50d433b
+X-QQ-Originating-IP: mQjiPPKXgKO74S4wxewS7IUgVrHeFykFzog2QtA0Uj4=
+Received: from WIN-LJ4I5K96JRT ( [114.242.60.52])
+	by bizesmtp.qq.com (ESMTP) with SMTP id 0
+	for <Pana.Yang@hotmail.com>; Tue, 27 Jan 2026 09:32:52 +0800 (CST)
+X-QQ-SSF: 0001000000000000000000000000000
+X-QQ-GoodBg: 2
+X-BIZMAIL-ID: 10940648568351763635
+Date: Tue, 27 Jan 2026 09:32:55 +0800
+From: =?GB2312?B?sLLIq8q10enK0g==?= <seclab@huorong.cn>
+To: Pana Yang <Pana.Yang@hotmail.com>
+Subject: =?GB2312?B?u9i4tDogudjT2llHU7zS1+W85LX9yO28/rXEvfS8sbGouOY=?=
+References: <BYAPR01MB55749E6684030D7BB6172AC8EE93A@BYAPR01MB5574.prod.exchangelabs.com>
+X-GUID: 6F578333-2B35-4939-BFDE-FD14F77A3E77
+X-Has-Attach: no
+X-Mailer: Foxmail 7.2.25.433[cn]
+Message-ID: <4EA1B2A2F98688B8+202601270932545693941@huorong.cn>
+Content-Type: multipart/alternative;
+	boundary="----=_001_NextPart087282164823_=----"
+X-QQ-SENDSIZE: 520
+Feedback-ID: esmtpgz:huorong.cn:qybglogicsvrgz:qybglogicsvrgz3a-1
+X-QQ-XMAILINFO: NzOHSugmTg7X1V3i6VcPrO0ZaJIuwrwfFbY535U5Vub7Nn/8W50Z43iK
+	PmJ7ilo8Sx4+Tcq5yYd+1OPjJmy9d/068Uyjp0lKlVVMz/Ma//3GB6s1rDwX7N9Fhcv73vW
+	4Z4HY3vo94jxFVb71c+yHJqganzb2pcihFVFgD/vl5fXzQZa7qptSezcbDc85zDTLDj11jZ
+	HLc856yx9ye9B2CqyVaKlJggEaMjCV4VW+YgemZL8A5r55b5GoCy5aO45p6kZY1sGtALrhv
+	QkETgiXaSoLgNlZ6HI4PHg0KLBrj1PeIEZ/vhk/PkplnLcR+ngMwG/bMj7hqeymKRYAAoXD
+	Nz280x4rlEA4m2ic/kL4Rj2fhU2V1bSYzCGSbY+qq3eVof+np7uFX6R9hkXKVarHMRuvZnh
+	AChxVlDBMakmBgAv/9uPk3XrvJ/2al6eZnnV6lO8T7cReUIOYI1BCoXlurnZcZLIQ8pkqTG
+	Ccu+Yol4Ev9ctWYWVlVwtmVew5Q4WnLKtxT+ATi2jYpizYK+9UVRmp54aLNokJ/41ipTDau
+	suiKWoQsdIFai+M6Gya42xmXwm59NVcJhZGKGonsJJdWc5vr7zJRLJ8fZI9IYZcMHALIGkq
+	YgE8bdl21EjohoGxsQqI9g/e/GzxhZ3mWFwq8J7LkVBW+/86xyXqEitPM7ylCIyQVdbHCKU
+	K7W2wjMmBixj0TTltch0wdaWZ1+O7KFe6Jgt7yaFjOMHFAyJpMN3gJYcqrIqPorEGGTYF2h
+	yljXyx5czWyah90VNK+xvd/7LTNXMGFu1NZNoaORi4Qeti+y4U1ndlzH8QN90RpCsLO3suB
+	XphZZePMSY/UNsHn2OPr6YO74LEbcbav4TaTmnxooL0/FxYK9M4Kz95EjL8sse5m0LjAEPb
+	JqULQCZFWm+UzPOPLdR9AEqU21xv3Dd95UW3SklO8xJDwrnBMviLDm/bRDKlFeHZot9Kuvq
+	hY0JF3ai7gn02XfixfydPfqmhp4q4TL/3TsHKvPK1Og+eUz+XSg5Ni4t4Fw9JPJ486IQcp2
+	PBZJs2CbXKXnATfhD2UMHNQ7nJTBn/ESoJhh3kTq3Zeradbf4C96OjzDt+lI85AX+XOELBV
+	e3qHXkcjl4G
+X-QQ-XMRINFO: Nq+8W0+stu50VeFptZlS4/EI/9GzyRh6Ng==
+X-QQ-RECHKSPAM: 0
+X-IncomingHeaderCount: 23
+Return-Path: seclab@huorong.cn
+X-MS-Exchange-Organization-ExpirationStartTime: 27 Jan 2026 01:32:56.8787
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 8f2c80b1-4255-4c54-a894-08de5d43ffc9
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: DB1PEPF00039230:EE_|IA3PR01MB8722:EE_|BYAPR01MB5574:EE_
+X-MS-Exchange-Organization-AuthSource: DB1PEPF00039230.eurprd03.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 1/26/2026 10:57:50 PM
+X-MS-Office365-Filtering-Correlation-Id: 8f2c80b1-4255-4c54-a894-08de5d43ffc9
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 43.154.209.5
+X-SID-PRA: SECLAB@HUORONG.CN
+X-SID-Result: PASS
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;ARA:1444111002|9400799043|461199028|1370799030|1360799030|1380799030|440099028|3412199025|30041999003;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 27 Jan 2026 01:32:56.2607
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8f2c80b1-4255-4c54-a894-08de5d43ffc9
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: DB1PEPF00039230.eurprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: IA3PR01MB8722
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:05.7801772
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.9542.003
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:1;dest:I;OFR:SpamFilterPass;ENG:(5062000311)(920221119095)(90000117)(920221120095)(90013020)(91025020)(91040095)(9050020)(9060121)(9100341)(1010050)(944500132)(2008001181)(4810010)(4910033)(9920006)(9510006)(10105021)(9320005)(9230038)(120001);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?gb2312?B?SDlWOEhPc3ZKN0FTalNid2JCS1FOZzJyUy9EcDdyZitXRVcyeXA4TmZHdmpS?=
+ =?gb2312?B?MHlpa0xNMDlyTjJxRjNIZzQvRVRkVjV6cWwxV3pZY0hxblk0bVdjdXhQcFpu?=
+ =?gb2312?B?ZUV4QUhRMElXa1VBSjRSenA5U0V0Nm0wV1ludjRQeStYOXdsMDRCam1CNU1k?=
+ =?gb2312?B?NFRPMDExZWtiME9LVjVNOFhGRFpXcW84VlJlV1Vqa3EwZ3lrNVVyTTlTSWxo?=
+ =?gb2312?B?VVhJa085RVpValB0eDJGaUxUR3ZCcFNjYUJ3VHgzdDhYZlUxVWxYTnY3VzFQ?=
+ =?gb2312?B?ZjdZeDhCYzlISS9zYXV2dDVZZTdvZlRCNzFVc1lZMEhrd1pZVFJuWGp6RlFL?=
+ =?gb2312?B?VzFFTCtlaExpc0V5TEhPa1RzMStScEdnMlFFa1p3a1g5R2o3M3NZWUFKNS9n?=
+ =?gb2312?B?Q2cwYzFFQVRiZ1RzV25ZZ0JWaWtiNzlpMWxVUDB1MWlveWVpN3N4Y2JLYXpM?=
+ =?gb2312?B?MVFBbXBNbW5BNEExZzNJd0VXV0hvaDhpYWJnOXgrMlF2M2hnUzUxblhBb0xO?=
+ =?gb2312?B?SXZDL3ZuNFZYT0tMY1FHOU9OOERVamdpTURnTDZrZ0xyWjlHcjYrUUZBdjd1?=
+ =?gb2312?B?RlNHZURacnFsTEJNUU44WFdrdVJ5RkkrTWRvKzBFeG5mbi9HZmhRdXlTcXRS?=
+ =?gb2312?B?NVdPb1VLaXFBSGZrbG8rMjJZMjRBejRBK2dEbkRMK0p0TlRrZGhudVkyVTND?=
+ =?gb2312?B?d09IUzVSZm5CQ0x1OUtjejJHTzQxWXpiSXVvbm5ycWhKUjJpbkowSlRFMkhU?=
+ =?gb2312?B?a3UvWHd1Z2xDVjNqQzdqN1ZVNGM5ZUQ4RUxOWXJXK0hnRUttNXVYa2E1Ung5?=
+ =?gb2312?B?cmorVW1nQWFHZldGVWxVU1F3YUZhcElTRWZPOG9RTjVESzhlYTk0akNmZWZH?=
+ =?gb2312?B?UEFGc1dqSk9WTnIyODJTNitLdjZZMkZtUzhBYndyRWJ5U1dPM0w2MmU3QlRk?=
+ =?gb2312?B?VHFFT0tka2ttSXB6aFYwcDRpcVBJWW5yUXBId3cvT3YyR0l1QS9Qa3czWFhN?=
+ =?gb2312?B?V0FEem82dEFhRXRIUWlTdjdDVzI0dyttTklweFUrNnJwMHJYVmRYaWQ1ajRh?=
+ =?gb2312?B?UnVoWHQ0eHUremk5MjlxMEVDbDF5UVY0NWJ1bHdwQXFZN0d4MSsxNXhsbllM?=
+ =?gb2312?B?WHhRa1A5SHJBb0JSaUtneFNqY2Roc2FpM25YTk83Z1I1UCs0VDVKNGQ5Qjll?=
+ =?gb2312?B?dHZBWkVXQm0rZlh5SkxYbHR1Tmd5dVhSSVFKSnpoZEJvM25wNU1oZTVvTFlx?=
+ =?gb2312?B?SWZWaE5TOHdNaDBqZDFVeExJN3lKVFg2Y0JiaGptUkFzcmttR2dtMlRyL2xJ?=
+ =?gb2312?B?VGtJelRyZHg1K0RFWGZENURwUHd3QVFvYWJDZHNpTU1NT2h1ckR5OEgvakFz?=
+ =?gb2312?B?Yi8vNnZLMzJZRndKZVNHQS83NW1kUDRVclZNZVVTakpRc1Yzd0E2K0d4WGdN?=
+ =?gb2312?B?b3ZXcVV1Wkc0dUpTWjV1eDM2MG5GVldHV3YyMlEwUUdoMFRwMGJDdkQ5RDc3?=
+ =?gb2312?B?OWlNR2VYYVhMYjlUOTQ2VU54Q2RkSEhVRmIxWDZhYnlkVXI0Yld4SzVlRVV0?=
+ =?gb2312?B?SklwdURNcXJsT2Fnb095OFlVa2xHZExiQU9qak5WOElzM2dLZUhWcVlaZ2lW?=
+ =?gb2312?B?aWhuS2pST1ZRVFd5OXAybUFrN21pZ3RIWnJHRy9GNis4TVV5OVEzVFZHVWJT?=
+ =?gb2312?B?RkRDb2oxNHVORS85L1E0K201dnE5SS9xLzkySngrSHRHaWJORDk1MUxqNEtr?=
+ =?gb2312?B?NGpiSHlvRjRNOFVBd1Q0TW1vYXFYM3h2Yi9LbzlLRC9sNGlGRTk2azg0elNQ?=
+ =?gb2312?B?aWtNcUxyRnlVNFlCRVoyTEdaRGtOTXBPUWxFQlE3VTVxZFdhN1I2dWJyYk1o?=
+ =?gb2312?B?TkJsRmk1N2ZYZW10ZVhJc2NZM2JtVkNoWXpYc2hmRjZlcWtFbzIwdTc5eDR5?=
+ =?gb2312?B?WDE5YmlvTDFwSG5yZXRsM2p5NWlKL2pMYzZXd25paWliRmwzY1k0RTlDZHJj?=
+ =?gb2312?B?K1JZZlVQak9OazlzS09MWnF4NkxJdlU0R1V3VGRaNWdCQ2sreHFGaWFhdmRj?=
+ =?gb2312?B?OVRYSWdnWllTUWtyVGxyLzNHcVNWWXovdlk0dzN4K3FZVDUrTTcwVnVXV2N6?=
+ =?gb2312?B?dEg0UkthNkFBRUpheGVmTDBDck9KOTN0RWZ2Z2dZZnFwNXFrVEhaMlNjR2Vw?=
+ =?gb2312?B?OW5lVnJtaEZHZS9uSTQwVVU0ZlJQNEQ5Z2VnSnBqV1FLOFdLNHBRRGRXRGdi?=
+ =?gb2312?B?amJXUEFRUXlibHBzVmJSTGo3QTJ1M0J1VWxZWk5lQzdzQXdrYWgrQXZXays2?=
+ =?gb2312?B?RStLK3N6Z05mU2x0czlxRWhzOFkxZFV4NUxlbGdDRXI5aEZVNkxQQ3h1QkFt?=
+ =?gb2312?B?bUFmV0x3ZTBiK3FKU3I0NTVXNzlTV0hsV1Uvd0w4NjdpTE5jbG9MWDRGM3B4?=
+ =?gb2312?B?UFAzQW4xMXZWQXJMdEtzbnhtMjdIMVlmUldXbGovZFlFU0RXcXlNM1NkQlM0?=
+ =?gb2312?B?bVhJSXF3U2tuWjZ2T2g1dDVYK3VmRVlBM21TVkNpZnhSN1RicHp2ZDJLMkxZ?=
+ =?gb2312?B?MlhEWHd1bHdGd21rQndLSzJ3U2QvdjV1S1pnWklGQ1ZKMHFvZkg2S0FjVzV0?=
+ =?gb2312?B?TmZVM1VaN0JyRnErT3F5R1NCTGE1WmVBTUdibEtxdlM4b3VjYTBBb3VPcXls?=
+ =?gb2312?B?eG5YRlNORnE4ZjBENzFQRkFDdXgrWHdjaWxCdVkwUlJmbnJGeFhXT2JGY0t1?=
+ =?gb2312?B?ZmVlb2tSaElZQysyeGJuOUhFb3lZV01IbnRZZjljMWZZTFRBRG1FcE5ISDE3?=
+ =?gb2312?Q?qIjOd8uCU50TU0hYSewl0=3D?=
+MIME-Version: 1.0
+
+------=_001_NextPart087282164823_=----
+Content-Type: text/plain; charset="GB2312"
+Content-Transfer-Encoding: base64
+
+xPq6w6OstvHS4s7EvP7S0bSmwO2jrL38xtqw5rG+yf28trrzvLS/ybLpybGjrLjQ0LvE+rXEt7TA
+oaGjDQoNCg0KDQpzZWNsYWJAaHVvcm9uZy5jbg0KIA0Kt6K8/sjLo7ogUGFuYSBZYW5nDQq3osvN
+yrG85KO6IDIwMjYtMDEtMjYgMTM6NTcNCsrVvP7Iy6O6IHNlY2xhYkBodW9yb25nLmNuDQrW98zi
+o7ogudjT2llHU7zS1+W85LX9yO28/rXEvfS8sbGouOYNCtfwvrS1xLvwyN6wssiryrXR6crSzcW2
+06O6DQrO0jHUwjIxyNXB6LO/yrG31srXtM7K1bW9wcvSu7Cy17+2y7zktf3I7bz+0fmxvqOsy+a6
+87+q1bnBy8PcvK+1xLfWzvbR0L6/o6yyotPatM7I1b+qyry24LTOytTNvM/yVFNSQ7rNQ05DRVJU
+sai45qOstavKx8/yVFNSQ7XEsai45sLFtM6zosrUvvmxu7fAu/DHvb7c0MWjrM/yQ05DRVJUtcSx
+qLjm0rLSycvGsbu69sLUoaO1sci7vqG53MjntMvO0sPHyNTIu8/g0MXO0sPHtcTH6bGovNvWtaGj
+08nT2kMyu7nU2rvutq+jrLKix9K4+b7dxL/HsMfpsai4w7rasvrNxbvv1sHJ2bTTMjAyNcTqMTDU
+wr+qyry77ravo6yyoryr09C/ycTc19QyMDE5xOq78rj81Oe+zdLRvq2/qsq8u+62r6Osyty6ptXf
+yv3Bv7/JxNy9z7TzoaMNCrjDvNLX5cS+wu2x7c/Ws/bD98/UtcS5pNK1u6/J+rL6yvTQ1KOsy+TI
+u860wPvTwzBkYXnCqba0o6y1q8bkyrW8ysTcwaa96Nb609q498Dg0tHT0Lmkvt+077W9wcu63Ljf
+y67XvKOsvt/T0LjfzqO6ptDUoaO+38zlvLzK9c+4vdq9z86quLTU09XiwO+yu7n9tuDXuMr2o6y1
+q7/J0tS88rWlzOG1vbXEysfI50x1YUphdmG9xbG+u6/Wp7PWoaLU2srcuqbV38nosbjJz8b0tq/O
+otDNaHR0cGS3/s7xxvehok5hdGl2ZbLjvNPD3LXItcijrMbkx9TD3MrWts624NH5x9KzycSjv+m7
+r9DOzKyhow0KztLDx72rvNPD3LXE0bnL9bD8t8XU2sHLo7ogaHR0cHM6Ly9naXRodWIuY29tL0Fw
+aWNoLU9yZ2FuaXphdGlvbi9ZR1MtMjAyNi9yZWxlYXNlcy90YWcvdjQtcmMuMQ0K1K2xvs/r0qrK
+udPDR1BHvNPD3M2o0MW1q8q1yvTDu9PQ1dK1vbnzy761xLmr1L/U2bzT1q7KsbzkvfTGyNPaysfW
+sb3TsNHD3NS/t8XU2tXiwO/By6O6NTcwYzQxN2Y5OTg0OWEyMmRkZDY3OGU2NjM4YWE2NmUwYWFj
+YTMwZjU1NzYwYzhmYTQ1N2RkZDNmZDY4MWY2NDhhODQwYTU1NjkzNTUzMjUzOTRlYmUyNTM0NzYx
+ODZiY2Q0MWZkMWNjNWQ1MDNjMWZhZDE2OWJlMWJmZDdkZjQNCtG5y/Ww/MTazsS8/r/JxNzC1M/U
+u+zC0qOsxuTW0LXEemVub2RvLXJlcG9ydC5tZMrHu+PX3LDmsb61xLGouOahow0K0LvQu6OsDQpB
+cGljaCBPcmdhbml6YXRpb24gU2VjdXJpdHkgVGVhbQ0KDQo=
+
+------=_001_NextPart087282164823_=----
+Content-Type: text/html; charset="GB2312"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dgb2312"><=
+style>body { line-height: 1.5; }blockquote { margin-top: 0px; margin-bottom=
+: 0px; margin-left: 0.5em; }div.FoxDiv20260127093159625870 { }body { font-s=
+ize: 14px; font-family: "Microsoft YaHei UI"; color: rgb(0, 0, 0); line-hei=
+ght: 1.5; }</style></head><body>=0A=
+<div><span></span>=C4=FA=BA=C3=A3=AC=B6=F1=D2=E2=CE=C4=BC=FE=D2=D1=B4=A6=C0=
+=ED=A3=AC=BD=FC=C6=DA=B0=E6=B1=BE=C9=FD=BC=B6=BA=F3=BC=B4=BF=C9=B2=E9=C9=B1=
+=A3=AC=B8=D0=D0=BB=C4=FA=B5=C4=B7=B4=C0=A1=A1=A3</div>=0A=
+<div><br></div><hr style=3D"WIDTH: 210px; HEIGHT: 1px" color=3D"#b5c4df" si=
+ze=3D"1" align=3D"left">=0A=
+<div><span><div style=3D"MARGIN: 10px; FONT-FAMILY: verdana; FONT-SIZE: 10p=
+t"><div>seclab@huorong.cn</div></div></span></div>=0A=
+<blockquote style=3D"margin-Top: 0px; margin-Bottom: 0px; margin-Left: 0.5e=
+m; margin-Right: inherit"><div>&nbsp;</div><div style=3D"border:none;border=
+-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm 0cm 0cm"><div style=3D"PADDING-R=
+IGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 12px;FONT-FAMILY:tahoma;COLOR:#000=
+000; BACKGROUND: #efefef; PADDING-BOTTOM: 8px; PADDING-TOP: 8px"><div><b>=
+=B7=A2=BC=FE=C8=CB=A3=BA</b>&nbsp;<a href=3D"mailto:Pana.Yang@hotmail.com">=
+Pana Yang</a></div><div><b>=B7=A2=CB=CD=CA=B1=BC=E4=A3=BA</b>&nbsp;2026-01-=
+26&nbsp;13:57</div><div><b>=CA=D5=BC=FE=C8=CB=A3=BA</b>&nbsp;<a href=3D"mai=
+lto:seclab@huorong.cn">seclab@huorong.cn</a></div><div><b>=D6=F7=CC=E2=A3=
+=BA</b>&nbsp;=B9=D8=D3=DAYGS=BC=D2=D7=E5=BC=E4=B5=FD=C8=ED=BC=FE=B5=C4=BD=
+=F4=BC=B1=B1=A8=B8=E6</div></div></div><div><div class=3D"FoxDiv20260127093=
+159625870">=0A=
+<div style=3D"font-family: Aptos, &quot;Aptos_EmbeddedFont&quot;, &quot;Apt=
+os_MSFontService&quot;, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: rgb(0, 0, 0);" class=3D"elementToProof">=0A=
+=D7=F0=BE=B4=B5=C4=BB=F0=C8=DE=B0=B2=C8=AB=CA=B5=D1=E9=CA=D2=CD=C5=B6=D3=A3=
+=BA</div>=0A=
+<div style=3D"font-family: Aptos, &quot;Aptos_EmbeddedFont&quot;, &quot;Apt=
+os_MSFontService&quot;, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: rgb(0, 0, 0);" class=3D"elementToProof">=0A=
+=CE=D21=D4=C221=C8=D5=C1=E8=B3=BF=CA=B1=B7=D6=CA=D7=B4=CE=CA=D5=B5=BD=C1=CB=
+=D2=BB=B0=B2=D7=BF=B6=CB=BC=E4=B5=FD=C8=ED=BC=FE=D1=F9=B1=BE=A3=AC=CB=E6=BA=
+=F3=BF=AA=D5=B9=C1=CB=C3=DC=BC=AF=B5=C4=B7=D6=CE=F6=D1=D0=BE=BF=A3=AC=B2=A2=
+=D3=DA=B4=CE=C8=D5=BF=AA=CA=BC=B6=E0=B4=CE=CA=D4=CD=BC=CF=F2TSRC=BA=CDCNCER=
+T=B1=A8=B8=E6=A3=AC=B5=AB=CA=C7=CF=F2TSRC=B5=C4=B1=A8=B8=E6=C2=C5=B4=CE=B3=
+=A2=CA=D4=BE=F9=B1=BB=B7=C0=BB=F0=C7=BD=BE=DC=D0=C5=A3=AC=CF=F2CNCERT=B5=C4=
+=B1=A8=B8=E6=D2=B2=D2=C9=CB=C6=B1=BB=BA=F6=C2=D4=A1=A3=B5=B1=C8=BB=BE=A1=B9=
+=DC=C8=E7=B4=CB=CE=D2=C3=C7=C8=D4=C8=BB=CF=E0=D0=C5=CE=D2=C3=C7=B5=C4=C7=E9=
+=B1=A8=BC=DB=D6=B5=A1=A3=D3=C9=D3=DAC2=BB=B9=D4=DA=BB=EE=B6=AF=A3=AC=B2=A2=
+=C7=D2=B8=F9=BE=DD=C4=BF=C7=B0=C7=E9=B1=A8=B8=C3=BA=DA=B2=FA=CD=C5=BB=EF=D6=
+=C1=C9=D9=B4=D32025=C4=EA10=D4=C2=BF=AA=CA=BC=BB=EE=B6=AF=A3=AC=B2=A2=BC=AB=
+=D3=D0=BF=C9=C4=DC=D7=D42019=C4=EA=BB=F2=B8=FC=D4=E7=BE=CD=D2=D1=BE=AD=BF=
+=AA=CA=BC=BB=EE=B6=AF=A3=AC=CA=DC=BA=A6=D5=DF=CA=FD=C1=BF=BF=C9=C4=DC=BD=CF=
+=B4=F3=A1=A3</div>=0A=
+<div style=3D"font-family: Aptos, &quot;Aptos_EmbeddedFont&quot;, &quot;Apt=
+os_MSFontService&quot;, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: rgb(0, 0, 0);" class=3D"elementToProof">=0A=
+=B8=C3=BC=D2=D7=E5=C4=BE=C2=ED=B1=ED=CF=D6=B3=F6=C3=F7=CF=D4=B5=C4=B9=A4=D2=
+=B5=BB=AF=C9=FA=B2=FA=CA=F4=D0=D4=A3=AC=CB=E4=C8=BB=CE=B4=C0=FB=D3=C30day=
+=C2=A9=B6=B4=A3=AC=B5=AB=C6=E4=CA=B5=BC=CA=C4=DC=C1=A6=BD=E8=D6=FA=D3=DA=B8=
+=F7=C0=E0=D2=D1=D3=D0=B9=A4=BE=DF=B4=EF=B5=BD=C1=CB=BA=DC=B8=DF=CB=AE=D7=BC=
+=A3=AC=BE=DF=D3=D0=B8=DF=CE=A3=BA=A6=D0=D4=A1=A3=BE=DF=CC=E5=BC=BC=CA=F5=CF=
+=B8=BD=DA=BD=CF=CE=AA=B8=B4=D4=D3=D5=E2=C0=EF=B2=BB=B9=FD=B6=E0=D7=B8=CA=F6=
+=A3=AC=B5=AB=BF=C9=D2=D4=BC=F2=B5=A5=CC=E1=B5=BD=B5=C4=CA=C7=C8=E7LuaJava=
+=BD=C5=B1=BE=BB=AF=D6=A7=B3=D6=A1=A2=D4=DA=CA=DC=BA=A6=D5=DF=C9=E8=B1=B8=C9=
+=CF=C6=F4=B6=AF=CE=A2=D0=CDhttpd=B7=FE=CE=F1=C6=F7=A1=A2Native=B2=E3=BC=D3=
+=C3=DC=B5=C8=B5=C8=A3=AC=C6=E4=C7=D4=C3=DC=CA=D6=B6=CE=B6=E0=D1=F9=C7=D2=B3=
+=C9=C4=A3=BF=E9=BB=AF=D0=CE=CC=AC=A1=A3</div>=0A=
+<div style=3D"font-family: Aptos, &quot;Aptos_EmbeddedFont&quot;, &quot;Apt=
+os_MSFontService&quot;, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: rgb(0, 0, 0);" class=3D"elementToProof">=0A=
+=CE=D2=C3=C7=BD=AB=BC=D3=C3=DC=B5=C4=D1=B9=CB=F5=B0=FC=B7=C5=D4=DA=C1=CB=A3=
+=BA <a href=3D"https://github.com/Apich-Organization/YGS-2026/releases/tag/=
+v4-rc.1">=0A=
+https://github.com/Apich-Organization/YGS-2026/releases/tag/v4-rc.1</a></di=
+v>=0A=
+<div style=3D"font-family: Aptos, &quot;Aptos_EmbeddedFont&quot;, &quot;Apt=
+os_MSFontService&quot;, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: rgb(0, 0, 0);" class=3D"elementToProof">=0A=
+=D4=AD=B1=BE=CF=EB=D2=AA=CA=B9=D3=C3GPG=BC=D3=C3=DC=CD=A8=D0=C5=B5=AB=CA=B5=
+=CA=F4=C3=BB=D3=D0=D5=D2=B5=BD=B9=F3=CB=BE=B5=C4=B9=AB=D4=BF=D4=D9=BC=D3=D6=
+=AE=CA=B1=BC=E4=BD=F4=C6=C8=D3=DA=CA=C7=D6=B1=BD=D3=B0=D1=C3=DC=D4=BF=B7=C5=
+=D4=DA=D5=E2=C0=EF=C1=CB=A3=BA570c417f99849a22ddd678e6638aa66e0aaca30f55760=
+c8fa457ddd3fd681f648a840a5569355325394ebe253476186bcd41fd1cc5d503c1fad169be=
+1bfd7df4</div>=0A=
+<div style=3D"font-family: Aptos, &quot;Aptos_EmbeddedFont&quot;, &quot;Apt=
+os_MSFontService&quot;, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: rgb(0, 0, 0);" class=3D"elementToProof">=0A=
+=D1=B9=CB=F5=B0=FC=C4=DA=CE=C4=BC=FE=BF=C9=C4=DC=C2=D4=CF=D4=BB=EC=C2=D2=A3=
+=AC=C6=E4=D6=D0=B5=C4zenodo-report.md=CA=C7=BB=E3=D7=DC=B0=E6=B1=BE=B5=C4=
+=B1=A8=B8=E6=A1=A3</div>=0A=
+<div style=3D"font-family: Aptos, &quot;Aptos_EmbeddedFont&quot;, &quot;Apt=
+os_MSFontService&quot;, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: rgb(0, 0, 0);" class=3D"elementToProof">=0A=
+=D0=BB=D0=BB=A3=AC</div>=0A=
+<div style=3D"font-family: Aptos, &quot;Aptos_EmbeddedFont&quot;, &quot;Apt=
+os_MSFontService&quot;, Calibri, Helvetica, sans-serif; font-size: 12pt; co=
+lor: rgb(0, 0, 0);" class=3D"elementToProof">=0A=
+Apich Organization Security Team<br>=0A=
+<br>=0A=
+</div>=0A=
+</div></div></blockquote>=0A=
+</body></html>=
+
+------=_001_NextPart087282164823_=------

@@ -1,0 +1,31 @@
+## 5.5 Advanced Evasion: Hardware-Level Sandboxing
+
+To successfully execute the Frida-based "Ghost" Hook, the environment must bypass multi-stage anti-analysis checks that specifically target virtualized environments and debugging frameworks.
+
+### 5.5.1 The "Real Machine" Requirement
+
+Modern iApp payloads often query the hardware abstraction layer (HAL) to detect emulators. To counter this, a **Real Machine Sandbox (RMS)** is mandatory.
+
+* **Hardware Spoofing:** Use a physical Android device with a "User-Debug" build or a rooted stock ROM.
+* **Thermal/Sensor Validation:** Malware often checks for the presence of a battery, accelerometer data, or light sensor changes. An RMS ensures these system properties return realistic, fluctuating values that an emulator cannot easily simulate.
+* **Network Fingerprinting:** Emulators often share the host's bridge IP. The RMS should be placed behind a dedicated cellular hotspot or a VPN-configured router to hide data-center IP ranges.
+
+### 5.5.2 Bypassing Heuristic "Tracer" Detection
+
+The `slky` routine is protected by checks that monitor the `/proc/self/status` and `/proc/self/maps` files for strings like `frida`, `gum-js`, or a non-zero `TracerPid`.
+
+**Advanced Frida Stealth Techniques:**
+
+1. **Instruction Patching (The "Skip"):** Instead of hiding Frida, use Frida to patch the anti-debug function in memory. Find the code that calls `exit()` or `abort()` upon detecting a debugger and replace it with `NOP` (No-Operation) instructions or a `RET` (Return).
+2. **Kernel-Level Masking (KPROBES):** For sophisticated samples, use a custom kernel (like **KernelSU**) that can hide the "su" binary and the "frida-server" process from the user-space entirely.
+3. **D-Bus Protocol Obfuscation:** Standard Frida communication uses the D-Bus protocol on a fixed port. Compiling a custom version of Frida with a modified string for the D-Bus communication prevents "String Scanning" detection.
+
+### 5.5.3 Dynamic Context Recovery
+
+The goal of the RMS is to reach the **"Decryption Threshold"**—the point where the app believes it is safe and executes `asendn`.
+
+**The Strategy for the Apich Team:**
+
+* **Step 1:** Flash a clean, physical device with a "Hidden Root" solution (Magisk + DenyList or KernelSU).
+* **Step 2:** Deploy a custom-compiled Frida-Gadget as a `.so` library inside the APK itself, rather than using an external server. This makes the instrumentation look like a native part of the app's own process.
+* **Step 3:** Use **Frida-Stalker** to follow the execution of the `slky` loop. This allows us to record every transformation made to the buffer without triggering "Breakpoint" detection.

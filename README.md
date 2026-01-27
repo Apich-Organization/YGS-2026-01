@@ -16,6 +16,6 @@ The published version of these reports could be find in the [zenodo-reports.md](
 
 The yara rules could be find in the [ygs-normal.yar](ygs-normal.yar) and [ygs-enhanced.yar](ygs-enhanced.yar).
 
-URGENT: Active C2 infrastructure detected at 107.151.212.80 and other ips. Victims wide spread in China. TSRC and CNCERT notified via public disclosure due to gateway blocks which make normal disclosure impossible.
+**URGENT**: Active C2 infrastructure detected at 107.151.212.80 and other ips. Victims wide spread in China. TSRC and CNCERT notified via public disclosure due to gateway blocks which make normal disclosure impossible.
 
-Update: Active C2 infrastructure detected. Victims wide spread in China. TSRC and CNCERT notified but unresponsive after more than 72 hours. Public disclosure might be needed. This repository is now private and more information will be publicly available after we get the agreement from CNCERT. Any organization member accessing this repository shall obey these documents: GFNDP, SOP, SSC-Pledge.
+**UPDATE(2026-01-27 CST)**: Huorong Security Lab has confirmed that the threat is now contained; consequently, we are releasing our full investigation findings. While some materials in this repository contain data that could theoretically be leveraged for social engineering, we have verified that all such information is strictly limited to our isolated testing environment.
