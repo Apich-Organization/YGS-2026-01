@@ -19,3 +19,7 @@ The yara rules could be find in the [ygs-normal.yar](ygs-normal.yar) and [ygs-en
 **URGENT**: Active C2 infrastructure detected at 107.151.212.80 and other ips. Victims wide spread in China. TSRC and CNCERT notified via public disclosure due to gateway blocks which make normal disclosure impossible.
 
 **UPDATE(2026-01-27 CST)**: Huorong Security Lab has confirmed that the threat is now contained; consequently, we are releasing our full investigation findings. While some materials in this repository contain data that could theoretically be leveraged for social engineering, we have verified that all such information is strictly limited to our isolated testing environment.
+
+**UPDATE(2026-01-29 CST)**: It seems that the Huorong Security Lab has only added the samples' signature into their threat database and nothing more has been done; consequently, we will keep reporting.
+
+**UPDATE(2026-02-18 CST)**: As our reporting has failed to receive a substantive response, we are now proceeding with full public disclosure.
