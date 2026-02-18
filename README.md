@@ -22,4 +22,4 @@ The yara rules could be find in the [ygs-normal.yar](ygs-normal.yar) and [ygs-en
 
 **UPDATE(2026-01-29 CST)**: It seems that the Huorong Security Lab has only added the samples' signature into their threat database and nothing more has been done; consequently, we will keep reporting.
 
-**UPDATE(2026-02-18 CST)**: As our reporting has failed to receive a substantive response, we are now proceeding with full public disclosure.
+**UPDATE(2026-02-18 CST)**: Following the lack of a substantive response to our reporting, we are proceeding with full public disclosure. The Antian CERT similarly failed to provide a meaningful response, if they responded at all.
