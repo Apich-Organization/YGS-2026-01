@@ -1,0 +1,698 @@
+X-Lms-Pvf: MnwyfDB8fDh1jVLLzug0RThrSSDC6KWC279CMoPxBU6GkTEFNeok8z/5QMqG/OP76tSwYqg+F/Inq+AdTu11wyIQZfQ/n1q3gvI7LX7aWwcnHZJrgV5njecO1zsejK7IsVPzUkADEA==
+From: "Xinyu Yang" <xinyu.yang@apich.org>
+Subject: =?UTF-8?B?WUdTLTIwMjYg5a625peP77ya6ZKI5a+55pS/5Yqh5Lq65ZGY55qESURF?= =?UTF-8?B?5L6b5bqU6ZO+5oSf5p+T5by66ZKI5a+55oCn5oiQ57uE57uH6buR5LqnL+WPrw==?= =?UTF-8?B?6IO95aKD5aSW5Yq/5Yqb5riX6YCP5Li65Li75a+855qE5a6J5Y2T56uv5pyo6ams?= =?UTF-8?B?5a625peP55qE57Sn5oCl5YiG5p6Q5oql5ZGK77yIQzLlrZjmtLsg5bey5Zug5oql?= =?UTF-8?B?5ZGK5rig6YGT5LiN55WF5a+86Ie05Lil6YeN5ouW5bu277yJ?=
+X-Original-From: Xinyu Yang <xinyu.yang@apich.org>
+Autocrypt: addr=xinyu.yang@apich.org; keydata= xjMEaZXeCRYJKwYBBAHaRw8BAQdAKvZ4MtwFhDKfTElZwP0mosM7oHA86fhHldsVc/ZIoWHN IVhpbnl1IFlhbmcgPHhpbnl1LnlhbmdAYXBpY2gub3JnPsKPBBMWCAA3FiEEc+HKOfwyvTbl Pk/yyvau7ZwNng0FAmmV3gkFCQlmAYACGwMECwkIBwUVCAkKCwUWAgMBAAAKCRDK9q7tnA2e DXlFAP9pf8D57IE764s7mOUNLs7vteTwrdO6q74H8AuiUB39CgEA4FVy/UqN5w7oEiiReMge g+bG1HGT1zUPDfMSiSGzJQLOOARpld4KEgorBgEEAZdVAQUBAQdAxwS3sMsE+q9dheFnLBuj khWoG35JG8z5ZSYcJxT+yl8DAQgHwn4EGBYIACYWIQRz4co5/DK9NuU+T/LK9q7tnA2eDQUC aZXeCgUJCWYBgAIbDAAKCRDK9q7tnA2eDSTkAQCEAoR8KV1wJACsW4tcalOgUzWjEWDCbYqd EMLlh6GYeQD9FNJXW75QhKZr3Zjt3R6zXpDTBUaBbCI+a+ZfGxfY4QY=
+To: <cncert@cert.org.cn>
+Date: Fri, 20 Feb 2026 19:45:54 +0800
+Organization: Apich Organization
+Content-Language: en-US
+User-Agent: Mozilla Thunderbird
+Received: from [192.168.31.185] ([91.201.66.146]) by smtp.larksuite.com with ESMTPS; Fri, 20 Feb 2026 11:46:02 +0000
+Message-Id: <17fac814-1dc4-443a-8952-7298f7102736@apich.org>
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary=bd63e51d1377022ca82a064351cb4513f1bc28390e83a132d7ce8702f142
+
+--bd63e51d1377022ca82a064351cb4513f1bc28390e83a132d7ce8702f142
+Content-Type: multipart/alternative;
+ boundary=d77bf5e9e56145ed79668a1db31db02c573f3b22b16fe7716b246c086d01
+
+--d77bf5e9e56145ed79668a1db31db02c573f3b22b16fe7716b246c086d01
+Content-Transfer-Encoding: base64
+Content-Type: text/plain; charset=UTF-8
+
+KuWwiuaVrOeahENOQ0VSVOWboumYn++8mioNCg0K5oiR5Lus5piv54us56uL5a6J5YWo56CU56m2
+5Zui6Zif77yM5aSa5pel5Lul5YmN5o6l5pS25Yiw5bm25YiG5p6Q5LqG5LiA57O75YiX5paw5Z6L
+5a6J5Y2T56uv6Ze06LCN6L2v5Lu25Y+Y5L2T77yM5bm26K+V5Zu+5ZCRQW50aWFuIA0KQ0VSVOOA
+gVRTUkPnrYnmiqXlkYrkvYblnYfooqvlv73nlaXvvIzngavnu5Llronlhajlrp7pqozlrqTliJnk
+u4XmianlhYXkuoblhbbmjIfnurnlupPvvIznuqbkuIDkuKrmnIjliY3lkJHotLXlj7jnmoTmiqXl
+kYrkuqbmnKrmlLbliLDlm57lpI3jgILnhLbogIznjrDlnKhDMui/mOWcqOa0u+i3g++8jOW5tuag
+ueaNruaIkeS7rOWIhuaekOW+l+WIsOeahOaDheaKpeivpem7keS6p+e7hOe7h+W+iOWPr+iDveS6
+jjIwMTnlubTliY3lkI7lt7Lnu4/lvIDlp4vmtLvliqjvvIzlj5flrrPogIXlj5HlhoXlj6/og73l
+vojlub/jgILlho3liqDkuYvlhbbpg6jliIblj5jkvZPmnInmmI7mmL7lr7nmlL/liqHkurrlkZjn
+moTpkojlr7nmgKfvvIzkuJTlhbbmioDmnK/omb3kuI3mtonlj4owZGF55ryP5rSe5L2G5YW257uE
+5ZCI55u45b2T5paw6aKW77yM5pWF5oiR5Lus6K6k5Li65LuN54S25pyJ5oql5ZGK55qE5b+F6KaB
+5oCn44CC6K+l6buR5Lqn5Zui5LyZ5qC55o2u5pyA5paw5oOF5oql5bqU5YyF5ous6Iez5bCRMjEz
+5Lq677yM5bm25Y+v6IO96Ieq5pyA5pepMjAxOeW5tOS+v+W8gOWni+a0u+WKqO+8jOWFtuinhOao
+oeS5i+W3qOWkp+S5n+S9v+WFtuWinuWKoOS6huacieWig+WkluWKv+WKm+a4l+mAj+aTjeaOp+ea
+hOWPr+iDveaAp++8jOS9huWFtueugOWNleaKgOacr+mUmeivr+S4jumrmOmYtuaKgOacr+iDveWK
+m+W5tuWtmOeahOeJueeCueWPiOivtOaYjuWFtuWPr+iDveS4uuiHqueJueWumuS4iue6p+iOt+WP
+luaIluaal+W4gui0reS5sOaguOW/g+aooeWdl++8jOiHquihjOe7hOijhei/kOe7tO+8jOWFt+S9
+k+e7k+iuuuaIkeS7rOWPl+mZkOS6juebuOWFs+azleW+i+azleinhOWFs+S6juWPluivgeW3peS9
+nOeahOmZkOWItuaaguaXtuaXoOazleW+l+WHuuehruWumuaAp+e7k+iuuu+8jOS9huWPluivgeW3
+peS9nOeahOi3r+W+hOaIkeS7rOW3sue7j+WcqOaKpeWRiuS4reWujOWFqOaMh+aYjuOAgumZhOS7
+tuS4uuaIkeS7rOaUvuWcqEdpdEh1YiANClJlbGVhc2XkuIrnmoTlvLrliqDlr4bmnZDmlpnljIXl
+jovnvKnljIXnmoRyZWxlYXNl5a6M5pW05oCn5qCh6aqM5L+h5oGv77yM5Y+v5L6b5qC46aqM44CC
+DQoNCuS4uuS6humBv+WFjeWGjeasoeiiq+WInee6p+WIhuaekOW4iOaIluWuouacjeW/veeVpeaI
+keS7rOS4i+mdoueugOWNleWIl+S4gOS4i+WIhuaekOaRmOimge+8mg0KDQoqMS4g5qC45b+D6L29
+6I235p625p6E77yaIOWkmuW8leaTjuWKqOaAgeaJp+ihjOS9k+ezuyoNCg0KWUdTIOacqOmprOWu
+tuaXj+aUvuW8g+S6huS8oOe7n+eahCBKYXZhIOWNleS4gOi9veiNt++8jOaehOW7uuS6huS4gOWl
+l+KAnE5hdGl2ZeW8leaTjiArIOiEmuacrOino+aekOWZqCArIA0K5Yqo5oCB5Y+N5bCE4oCd55qE
+5aSN5p2C5p625p6E77yaDQoNCiogaUFwcC9ZdUNvZGUg5rex5bqm5a6a5Yi277yaIOWIqeeUqCBg
+bGlieWdzaXl1LnNvYCDpqbHliqggYEFpZF9ZdUNvZGVYYCANCuino+aekOWZqO+8jOebtOaOpeWc
+qOWGheWtmOS4reaJp+ihjCBgLml5dWAg5oiWIGAubXl1YCDohJrmnKzjgILov5nnp43pgLvovpHl
+rozlhajohLHnprsgREVYIA0K6Z2Z5oCB5qOA5rWL77yM5L2/5a6J5YWo5Y6C5ZWG55qE5bi46KeE
+5byV5pOO5Y+q6IO955yL5Yiw5ZCI5rOV55qEIGlBcHAg5qGG5p625bGC44CCDQoqIEJlYW5TaGVs
+bCAoQlNIKSDliqjmgIHms6jlhaXvvJog5YaF572uIGBic2hgIOino+mHiuWZqO+8jOmAmui/hyBg
+YnNoL3V0aWwvSHR0cGRgIA0K5byA5ZCv5pys5ZywIEhUVFAg55uR5ZCs77yM5a6e546w5Y2z5pe2
+5Luj56CB5rOo5YWlIChSQ0Up44CC5pS75Ye76ICF5Y+v6YCa6L+HIFBPU1Qg6K+35rGC5LiL5Y+R
+IEphdmEgDQrmupDnoIHlubblnKjlj5flrrPnq6/nm7TmjqXnvJbor5Hov5DooYzjgIINCiogQ2xh
+c3NMb2FkZXIg5Yqr5oyB77yaIOmAmui/h+WPjeWwhOevoeaUuSBgQWN0aXZpdHlUaHJlYWRgIOS4
+reeahCBgbVBhY2thZ2VzYCANCuWtl+aute+8jOWunueOsCBSdW50aW1lIEhvdC1Td2Fw77yM5bCG
+5ZCI5rOVIEFwcCDov5vnqIvpgLvovpHlrozlhajmm7/mjaLkuLrmgbbmhI8gYGxpYi5zb2AgDQro
+vb3ojbfjgIINCg0KKjIuIOeLrOWIm+eahOWvueaKl+S4jua3t+a3huaImOacryoNCg0KKiBVRTQg
+6LWE5rqQ6Iao6IOA5LiO4oCc57qi6bKx6bG84oCdIChSZWQgSGVycmluZynvvJoNCiog5ZyoIGBh
+c3NldHMvYCDnm67lvZXloavlhYXmlbDlgI3kuo7ovb3ojbfkvZPnp6/nmoQgVW5yZWFsIEVuZ2lu
+ZSA0IOi1hOa6kOaWh+S7tu+8iGAuc2F2YCwgDQpgLmluaWDvvInjgIINCiog5YW25LitWUdTLTIw
+MjYtMDHnlpHkvLzmlYXmhI/mmrTpnLLkuIDkuKrnroDljZXnmoQgWE9SIOmAu+i+kSAoc2xreeeu
+l+azlSkgDQrlkozpobrluo/pgJLlop7nmoTkvKrpgKDmlofku7blpLTvvIzor7Hlr7zliIbmnpDk
+urrlkZjov5vlhaXigJzmrbvlvqrnjq/igJ3miJbor6/liKTkuLrliJ3nuqfmnKjpqazjgIINCg0K
+KiDnrb7lkI3nu5HlrprnmoQgQUVTLTEyOC1DQkMg5L2T57O777yaDQoqIOWFtuS4rVlHUy0yMDI2
+LTAy55aR5Ly855yf5q2j55qE6L296I236Kej5a+G5a+G6ZKl5LiN5YaN56Gs57yW56CB77yM6ICM
+5piv6YCa6L+HIEpOSSDosIPnlKjojrflj5YgQVBLIA0K55qEIENFUlQuUlNBIOetvuWQjSBNRDXv
+vIzkvZzkuLogQUVTIOWvhumSpeeUn+aIkOeahCANClNlZWTjgILov5nlr7zoh7Tku7vkvZXohLHl
+o7Pph43nrb7lkI3jgIHoh6rliqjljJbmspnnrrHov5DooYzpg73kvJrlm6Dlr4bpkqXlpLHmlYjo
+gIzlr7zoh7Top6Plr4blkI7nmoTku6PnoIHkubHnoIHjgIINCiog5pyJ5YWz5LqOIE5hdGl2ZSDl
+sYLnmoTop6Plr4bnrpfms5Xlh7rkuo7miJHku6zkurrlipvkuI7ml7bpl7TnmoTpmZDliLblsJrm
+nKrlrozmiJDlrozlhajliIbmnpDjgIINCg0KKiDnjq/looPmhI/or4YgKEFudGktQW5hbHlzaXMp
+77yaDQoqIOehrOS7tuaMh+e6ueagoemqjO+8miDkuKXoi5vmo4DmtYsgYHFlbXUuaHcubWFpbmtl
+eXNg44CBYHBlcnNpc3Quc3lzLnVpLmh3YCANCuetieezu+e7n+WxnuaAp+OAgg0KKiDkuqTkupLo
+r7Hlr7zvvJogDQrnm5HmjqfnlLXmsaDlhYXnlLXnirbmgIHjgIHlsY/luZXkuq7luqblj5jljJbl
+j4rkvKDmhJ/lmajms6LliqjvvIznoa7kv53lj6rlnKjniannkIbnnJ/mnLrkuJTnlKjmiLfmtLvo
+t4Pml7bop6blj5HmoLjlv4Pnm5HmjqfjgIINCg0KKjMuIOS+m+W6lOmTvuaUu+WHu+S4juaMgeS5
+heWMlu+8iElERS1Xb3Jt77yJKg0KDQoqIOmAkuW9kuaEn+afk+mAu+i+ke+8miDmgbbmhI/ohJrm
+nKzkvJrpgY3ljoYgYC9zZGNhcmQvaUFwcC9Qcm9qZWN0QXBwL2DjgIINCiog5Luj56CB5rOo5YWl
+54K577yaIOeyvuWHhuWumuS9jemhueebruWFpeWPoyBgbWlhbi5peXVgIOeahCBgbG9hZGluZ2Ag
+DQrkuovku7bvvIzlsIbop6Plr4bpgLvovpHlkozmgbbmhI8gTVAzICjlrp7pmYXkuLrovb3ojbcp
+IOazqOWFpeWIsOW8gOWPkeiAheeahOaWsOmhueebruS4reOAgg0KKiDnu5PmnpzvvJogDQrooqvm
+hJ/mn5PlvIDlj5HogIXlj5HluIPnmoTmiYDmnInlkIjms5XlupTnlKjpg73lsIbmiJDkuLror6Xm
+nKjpqaznmoTkvKDmkq3oioLngrnvvIzlrp7njrDku47igJzkuKrkurrlj5flrrPigJ3liLDigJzl
+vIDlj5HogIXnlJ/mgIHmsaHmn5PigJ3nmoTot6jotorjgIINCg0KKjQuIOS4k+mhueebkeaOp+iD
+veWKm+S4jiBDMiDlrp7miJjnu4boioIqDQoNCiogTG9nY2F0IOebkeaOp+a1ge+8miDliKnnlKgg
+YEFEUlRgIOadg+mZkOaMgee7reaKk+WPluezu+e7n+aXpeW/l++8jOmHjeeCuei/h+a7pOWMheWQ
+q+WFs+mUruivjeeahCBPVFAgDQrnn63kv6HjgIHmlK/ku5jku6TniYzjgIINCiog6ZqQ6JS95Y+W
+6K+B77yaIOmAmui/hyBgU3VyZmFjZVRleHR1cmVgIOW8gOWQryAxeDEg5YOP57Sg6ZqQ6JeP55u4
+5py66aKE6KeI77yM57uV6L+HIEFuZHJvaWQgDQoxMisg55qE5pGE5YOP5aS05p2D6ZmQ5o+Q56S6
+44CCDQoqIEMyIOaetuaehOS4jua8j+a0nu+8mg0KKiDkuK3ovazpk77vvJog5Yip55So6Zi/6YeM
+5LqR77yI576O5Zu977yJ5YGa56ys5LiA5bGCIFByb3h5IChgZG9jcS5jbmAp77yM5ZCO56uv6JC9
+5Zyw5ZyoIElJUyANCjEwLjDjgIINCiog5pWw5o2u5rOE6Zyy54K577yaIEMyIOerr+eahCBgcGhw
+TXlBZG1pbiAoOTk556uv5Y+jKWAg5a2Y5Zyo6YWN572u6aOO6ZmpIO+8iHBocE15QWRtaW4gDQo1
+LjIuMC1yYy4x77yJ77yM5LiU5pWw5o2u5bqTIChNeVNRTCA4LjAuMzkpIOW8gOaUviBgMzMwNmAg
+56uv5Y+j44CCDQoNCio1LiDlhbPplK4gSW9DIOS4jiDotYTkuqflhbPogZQqDQoNCiog5qC45b+D
+5qC35pysIEhhc2jvvJogDQpgX2YwNDk5MGM0ZjE5MWE4ODkwZDM1YTI4ZjdhYTRiNWRiMzk2NWFl
+MTgwNTNiYTljMWJmNTU0YTY3MTkxMTI2NTdfYCANCihQVUJH5Y+Y5L2TKSwgDQpgX2U5MGUyMDQ3
+MDgxNDA5MGQ0ZDVjNjk3ZDE4NjBkNzZjNDEyZWE2NDk5NzhjNmZhMDlkM2I4NmRlNTJkOWQyY2Zf
+YCANCijmiLfnsY3lj5jkvZMp44CCDQoqIOm7keS6p+e+pOe7hO+8miBRUee+pCBgNzM0NjI4Mzg3
+YCAo6JqC6JqB5bel5L2c5a6kL0FudCANClN0dWRpbynjgILvvIjmraTkuLrnlLHmoLfmnKzlhoXl
+jIXlkKvnmoTliqDlo7PlkI7nmoTmupDmlofku7bohLHlo7PlkI7ojrflvpfnmoTigJzmi5vli5/k
+v6Hmga/igJ3miYDlvpfvvIzlr7nlhbbmtLvliqjml7bpl7TlpKfnuqboh6oyMDE56LW355qE5oOF
+5oql5Lqm55Sx5q2k5Lyw566X77yb6Iul5LuF5qC55o2u6YOo5YiG5Y+X5a6z6ICF55qE5Zue5b+G
+77yM5Zyo56eB5Z+f576k6IGK5aSn6IyD5Zu05Lyg5pKt5Lqm6Iez5bCR5Y+v6L+95rqv5YiwMjAy
+NeW5tDEw5pyI77yJDQoqIOWtmOa0u+WfuuehgOiuvuaWve+8miBgMTA3LjE1MS4yMTIuODBgICjl
+kI7nq6/nnJ/lrp5JUCksIGBodC5idTg0LmNvbWAgKOW/g+i3s+acjeWKoeWZqCnjgIINCg0K6K+m
+57uG5Yqg5a+G5pWw5o2u5YyF77yI5YyF5ZCr5qC35pys5ZKM5YiG5p6Q5oql5ZGK562J77yJ77ya
+aHR0cHM6Ly9naXRodWIuY29tL0FwaWNoLU9yZ2FuaXphdGlvbi9ZR1MtMjAyNi9yZWxlYXNlcy90
+YWcvdjQNCuino+WvhuWvhumSpe+8miANCl9mMTU1OTFlZDYyYTJkYjgzMDdmMDIyNGI1MDcyMTYw
+YmZlZmE3Y2Y2YzFjMDI1MmY2MmU1MWMyYzAwOGUwN2E5NzI5NTU2NmYwNWU3YjEwN2Q0NjUyN2I1
+ZGU2ZDRjMmMyZjZiYzUyZDIzMzYyYjdmMDI0OTlmNDQ5YWNiNDkxOV8NCg0K5q2k5oOF5oql5Lqm
+5bey5Zug5ZCE57G75Y6f5Zug5ouW5bu25LqG5pWw5pel77yM5bm46ICMQzLku43nhLblrZjmtLvv
+vIzkuZ/luIzmnJvotLXlj7jliIbmnpDluIjlm6LpmJ/lj6/ku6XlsL3lv6vlpITnkIbjgILmiJHk
+u6zlrp7lsZ7kurrlipvotYTph5Hml7bpl7TlnYfmnInpmZDvvIzpg6jliIblj6/og73nmoTliIbm
+npDlgY/lt67lj4rmiqXlkYrnlaXkubHkuqbluIzmnJvmtbfmtrXjgILvvIjmiYDmnInmg4XmiqXo
+mb3nhLblm6Dngavnu5LnmoTmnInor6/lr7zmgKflj43ppojmm77pg6jliIblhazlvIDov4fvvIzk
+vYbnm67liY3pmaR5YXJh6KeE5YiZ5aSW5Z2H5aSE5LqOcmVzdHJpY3RlZOaIluiAhXByaXZhdGXn
+irbmgIHvvIzlubbmnKrlhazlvIDvvIzmiJHku6zlnKjliIbmnpDov4fnqIvkuK3kuqbkuKXmoLzp
+gbXlrojkuobnm7jlhbPms5Xlvovms5Xop4TlhbPkuo7lj5bor4Hlt6XkvZznlYznur/nmoTopoHm
+sYLvvIkNCg0KKuiwouiwou+8jCoNCipBcGljaCBPcmdhbml6YXRpb24gU2VjdXJpdHkgVGVhbSoN
+Cg0KLS0tDQoNCi/vvIjkuIvmlrnnmoTnlLXlrZDpgq7ku7bnrb7lkI3moI/kuLrnu4Tnu4fnu5/k
+uIDmoIflh4bvvIzmnJvotLXlj7jmtbfmtrXvvIkvDQoNCi0tIA0KTG9nbyAJDQpZb3VycyBzaW5j
+ZXJlbHksDQoqWGlueXUgWWFuZyo=
+
+--d77bf5e9e56145ed79668a1db31db02c573f3b22b16fe7716b246c086d01
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html><html><head>
+
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8=
+"/>
+  </head>
+  <body>
+    <div class=3D"XbIp4 jmmB7 customScrollBar GNqVo allowTextSelection">
+      <div tabindex=3D"0" aria-label=3D"Message body" role=3D"document" cla=
+ss=3D"OuGoX BIZfh" id=3D"UniqueMessageBody_1">
+        <div>
+          <div>
+            <div dir=3D"ltr">
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;" data-olk-copy-source=3D"MessageBody"><b>=E5=
+=B0=8A=E6=95=AC=E7=9A=84CNCERT=E5=9B=A2=E9=98=9F=EF=BC=9A</b></div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">=E6=88=91=E4=BB=AC=E6=98=AF=E7=8B=AC=E7=AB=
+=8B=E5=AE=89=E5=85=A8=E7=A0=94=E7=A9=B6=E5=9B=A2=E9=98=9F=EF=BC=8C=E5=A4=9A=
+=E6=97=A5=E4=BB=A5=E5=89=8D=E6=8E=A5=E6=94=B6=E5=88=B0=E5=B9=B6=E5=88=86=E6=
+=9E=90=E4=BA=86=E4=B8=80=E7=B3=BB=E5=88=97=E6=96=B0=E5=9E=8B=E5=AE=89=E5=8D=
+=93=E7=AB=AF=E9=97=B4=E8=B0=8D=E8=BD=AF=E4=BB=B6=E5=8F=98=E4=BD=93=EF=BC=8C=
+=E5=B9=B6=E8=AF=95=E5=9B=BE=E5=90=91Antian
+CERT=E3=80=81TSRC=E7=AD=89=E6=8A=A5=E5=91=8A=E4=BD=86=E5=9D=87=E8=A2=AB=E5=
+=BF=BD=E7=95=A5=EF=BC=8C=E7=81=AB=E7=BB=92=E5=AE=89=E5=85=A8=E5=AE=9E=E9=AA=
+=8C=E5=AE=A4=E5=88=99=E4=BB=85=E6=89=A9=E5=85=85=E4=BA=86=E5=85=B6=E6=8C=87=
+=E7=BA=B9=E5=BA=93=EF=BC=8C=E7=BA=A6=E4=B8=80=E4=B8=AA=E6=9C=88=E5=89=8D=E5=
+=90=91=E8=B4=B5=E5=8F=B8=E7=9A=84=E6=8A=A5=E5=91=8A=E4=BA=A6=E6=9C=AA=E6=94=
+=B6=E5=88=B0=E5=9B=9E=E5=A4=8D=E3=80=82=E7=84=B6=E8=80=8C=E7=8E=B0=E5=9C=A8=
+C2=E8=BF=98=E5=9C=A8=E6=B4=BB=E8=B7=83=EF=BC=8C=E5=B9=B6=E6=A0=B9=E6=8D=AE=
+=E6=88=91=E4=BB=AC=E5=88=86=E6=9E=90=E5=BE=97=E5=88=B0=E7=9A=84=E6=83=85=E6=
+=8A=A5=E8=AF=A5=E9=BB=91=E4=BA=A7=E7=BB=84=E7=BB=87=E5=BE=88=E5=8F=AF=E8=83=
+=BD=E4=BA=8E2019=E5=B9=B4=E5=89=8D=E5=90=8E=E5=B7=B2=E7=BB=8F=E5=BC=80=E5=
+=A7=8B=E6=B4=BB=E5=8A=A8=EF=BC=8C=E5=8F=97=E5=AE=B3=E8=80=85=E5=8F=91=E5=86=
+=85=E5=8F=AF=E8=83=BD=E5=BE=88=E5=B9=BF=E3=80=82=E5=86=8D=E5=8A=A0=E4=B9=8B=
+=E5=85=B6=E9=83=A8=E5=88=86=E5=8F=98=E4=BD=93=E6=9C=89=E6=98=8E=E6=98=BE=E5=
+=AF=B9=E6=94=BF=E5=8A=A1=E4=BA=BA=E5=91=98=E7=9A=84=E9=92=88=E5=AF=B9=E6=80=
+=A7=EF=BC=8C=E4=B8=94=E5=85=B6=E6=8A=80=E6=9C=AF=E8=99=BD=E4=B8=8D=E6=B6=89=
+=E5=8F=8A0day=E6=BC=8F=E6=B4=9E=E4=BD=86=E5=85=B6=E7=BB=84=E5=90=88=E7=9B=
+=B8=E5=BD=93=E6=96=B0=E9=A2=96=EF=BC=8C=E6=95=85=E6=88=91=E4=BB=AC=E8=AE=A4=
+=E4=B8=BA=E4=BB=8D=E7=84=B6=E6=9C=89=E6=8A=A5=E5=91=8A=E7=9A=84=E5=BF=85=E8=
+=A6=81=E6=80=A7=E3=80=82=E8=AF=A5=E9=BB=91=E4=BA=A7=E5=9B=A2=E4=BC=99=E6=A0=
+=B9=E6=8D=AE=E6=9C=80=E6=96=B0=E6=83=85=E6=8A=A5=E5=BA=94=E5=8C=85=E6=8B=AC=
+=E8=87=B3=E5=B0=91213=E4=BA=BA=EF=BC=8C=E5=B9=B6=E5=8F=AF=E8=83=BD=E8=87=AA=
+=E6=9C=80=E6=97=A92019=E5=B9=B4=E4=BE=BF=E5=BC=80=E5=A7=8B=E6=B4=BB=E5=8A=
+=A8=EF=BC=8C=E5=85=B6=E8=A7=84=E6=A8=A1=E4=B9=8B=E5=B7=A8=E5=A4=A7=E4=B9=9F=
+=E4=BD=BF=E5=85=B6=E5=A2=9E=E5=8A=A0=E4=BA=86=E6=9C=89=E5=A2=83=E5=A4=96=E5=
+=8A=BF=E5=8A=9B=E6=B8=97=E9=80=8F=E6=93=8D=E6=8E=A7=E7=9A=84=E5=8F=AF=E8=83=
+=BD=E6=80=A7=EF=BC=8C=E4=BD=86=E5=85=B6=E7=AE=80=E5=8D=95=E6=8A=80=E6=9C=AF=
+=E9=94=99=E8=AF=AF=E4=B8=8E=E9=AB=98=E9=98=B6=E6=8A=80=E6=9C=AF=E8=83=BD=E5=
+=8A=9B=E5=B9=B6=E5=AD=98=E7=9A=84=E7=89=B9=E7=82=B9=E5=8F=88=E8=AF=B4=E6=98=
+=8E=E5=85=B6=E5=8F=AF=E8=83=BD=E4=B8=BA=E8=87=AA=E7=89=B9=E5=AE=9A=E4=B8=8A=
+=E7=BA=A7=E8=8E=B7=E5=8F=96=E6=88=96=E6=9A=97=E5=B8=82=E8=B4=AD=E4=B9=B0=E6=
+=A0=B8=E5=BF=83=E6=A8=A1=E5=9D=97=EF=BC=8C=E8=87=AA=E8=A1=8C=E7=BB=84=E8=A3=
+=85=E8=BF=90=E7=BB=B4=EF=BC=8C=E5=85=B7=E4=BD=93=E7=BB=93=E8=AE=BA=E6=88=91=
+=E4=BB=AC=E5=8F=97=E9=99=90=E4=BA=8E=E7=9B=B8=E5=85=B3=E6=B3=95=E5=BE=8B=E6=
+=B3=95=E8=A7=84=E5=85=B3=E4=BA=8E=E5=8F=96=E8=AF=81=E5=B7=A5=E4=BD=9C=E7=9A=
+=84=E9=99=90=E5=88=B6=E6=9A=82=E6=97=B6=E6=97=A0=E6=B3=95=E5=BE=97=E5=87=BA=
+=E7=A1=AE=E5=AE=9A=E6=80=A7=E7=BB=93=E8=AE=BA=EF=BC=8C=E4=BD=86=E5=8F=96=E8=
+=AF=81=E5=B7=A5=E4=BD=9C=E7=9A=84=E8=B7=AF=E5=BE=84=E6=88=91=E4=BB=AC=E5=B7=
+=B2=E7=BB=8F=E5=9C=A8=E6=8A=A5=E5=91=8A=E4=B8=AD=E5=AE=8C=E5=85=A8=E6=8C=87=
+=E6=98=8E=E3=80=82=E9=99=84=E4=BB=B6=E4=B8=BA=E6=88=91=E4=BB=AC=E6=94=BE=E5=
+=9C=A8GitHub
+                Release=E4=B8=8A=E7=9A=84=E5=BC=BA=E5=8A=A0=E5=AF=86=E6=9D=
+=90=E6=96=99=E5=8C=85=E5=8E=8B=E7=BC=A9=E5=8C=85=E7=9A=84release=E5=AE=8C=
+=E6=95=B4=E6=80=A7=E6=A0=A1=E9=AA=8C=E4=BF=A1=E6=81=AF=EF=BC=8C=E5=8F=AF=E4=
+=BE=9B=E6=A0=B8=E9=AA=8C=E3=80=82</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">=E4=B8=BA=E4=BA=86=E9=81=BF=E5=85=8D=E5=86=
+=8D=E6=AC=A1=E8=A2=AB=E5=88=9D=E7=BA=A7=E5=88=86=E6=9E=90=E5=B8=88=E6=88=96=
+=E5=AE=A2=E6=9C=8D=E5=BF=BD=E7=95=A5=E6=88=91=E4=BB=AC=E4=B8=8B=E9=9D=A2=E7=
+=AE=80=E5=8D=95=E5=88=97=E4=B8=80=E4=B8=8B=E5=88=86=E6=9E=90=E6=91=98=E8=A6=
+=81=EF=BC=9A</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><b>1.
+                  =E6=A0=B8=E5=BF=83=E8=BD=BD=E8=8D=B7=E6=9E=B6=E6=9E=84=EF=
+=BC=9A =E5=A4=9A=E5=BC=95=E6=93=8E=E5=8A=A8=E6=80=81=E6=89=A7=E8=A1=8C=E4=
+=BD=93=E7=B3=BB</b></div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">YGS
+                =E6=9C=A8=E9=A9=AC=E5=AE=B6=E6=97=8F=E6=94=BE=E5=BC=83=E4=
+=BA=86=E4=BC=A0=E7=BB=9F=E7=9A=84 Java =E5=8D=95=E4=B8=80=E8=BD=BD=E8=8D=B7=
+=EF=BC=8C=E6=9E=84=E5=BB=BA=E4=BA=86=E4=B8=80=E5=A5=97=E2=80=9CNative=E5=BC=
+=95=E6=93=8E + =E8=84=9A=E6=9C=AC=E8=A7=A3=E6=9E=90=E5=99=A8 +
+                =E5=8A=A8=E6=80=81=E5=8F=8D=E5=B0=84=E2=80=9D=E7=9A=84=E5=
+=A4=8D=E6=9D=82=E6=9E=B6=E6=9E=84=EF=BC=9A=C2=A0</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><span>*
+                iApp/YuCode =E6=B7=B1=E5=BA=A6=E5=AE=9A=E5=88=B6=EF=BC=9A =
+=E5=88=A9=E7=94=A8 `<a href=3D"libygsiyu.so" target=3D"_blank" ref=3D"noope=
+ner noreferrer">libygsiyu.so</a>` =E9=A9=B1=E5=8A=A8 `Aid_YuCodeX`
+                =E8=A7=A3=E6=9E=90=E5=99=A8=EF=BC=8C=E7=9B=B4=E6=8E=A5=E5=
+=9C=A8=E5=86=85=E5=AD=98=E4=B8=AD=E6=89=A7=E8=A1=8C `.iyu` =E6=88=96 `.myu`=
+ =E8=84=9A=E6=9C=AC=E3=80=82=E8=BF=99=E7=A7=8D=E9=80=BB=E8=BE=91=E5=AE=8C=
+=E5=85=A8=E8=84=B1=E7=A6=BB DEX
+                =E9=9D=99=E6=80=81=E6=A3=80=E6=B5=8B=EF=BC=8C=E4=BD=BF=E5=
+=AE=89=E5=85=A8=E5=8E=82=E5=95=86=E7=9A=84=E5=B8=B8=E8=A7=84=E5=BC=95=E6=93=
+=8E=E5=8F=AA=E8=83=BD=E7=9C=8B=E5=88=B0=E5=90=88=E6=B3=95=E7=9A=84 iApp =E6=
+=A1=86=E6=9E=B6=E5=B1=82=E3=80=82</span></div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                BeanShell (BSH) =E5=8A=A8=E6=80=81=E6=B3=A8=E5=85=A5=EF=BC=
+=9A =E5=86=85=E7=BD=AE `bsh` =E8=A7=A3=E9=87=8A=E5=99=A8=EF=BC=8C=E9=80=9A=
+=E8=BF=87 `bsh/util/Httpd`
+                =E5=BC=80=E5=90=AF=E6=9C=AC=E5=9C=B0 HTTP =E7=9B=91=E5=90=
+=AC=EF=BC=8C=E5=AE=9E=E7=8E=B0=E5=8D=B3=E6=97=B6=E4=BB=A3=E7=A0=81=E6=B3=A8=
+=E5=85=A5 (RCE)=E3=80=82=E6=94=BB=E5=87=BB=E8=80=85=E5=8F=AF=E9=80=9A=E8=BF=
+=87 POST =E8=AF=B7=E6=B1=82=E4=B8=8B=E5=8F=91 Java
+                =E6=BA=90=E7=A0=81=E5=B9=B6=E5=9C=A8=E5=8F=97=E5=AE=B3=E7=
+=AB=AF=E7=9B=B4=E6=8E=A5=E7=BC=96=E8=AF=91=E8=BF=90=E8=A1=8C=E3=80=82</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><span>*
+                ClassLoader =E5=8A=AB=E6=8C=81=EF=BC=9A =E9=80=9A=E8=BF=87=
+=E5=8F=8D=E5=B0=84=E7=AF=A1=E6=94=B9 `ActivityThread` =E4=B8=AD=E7=9A=84 `m=
+Packages`
+                =E5=AD=97=E6=AE=B5=EF=BC=8C=E5=AE=9E=E7=8E=B0 Runtime Hot-S=
+wap=EF=BC=8C=E5=B0=86=E5=90=88=E6=B3=95 App =E8=BF=9B=E7=A8=8B=E9=80=BB=E8=
+=BE=91=E5=AE=8C=E5=85=A8=E6=9B=BF=E6=8D=A2=E4=B8=BA=E6=81=B6=E6=84=8F `<a h=
+ref=3D"lib.so" target=3D"_blank" ref=3D"noopener noreferrer">lib.so</a>` =
+=E8=BD=BD=E8=8D=B7=E3=80=82</span></div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><b>2.
+                  =E7=8B=AC=E5=88=9B=E7=9A=84=E5=AF=B9=E6=8A=97=E4=B8=8E=E6=
+=B7=B7=E6=B7=86=E6=88=98=E6=9C=AF</b></div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                UE4 =E8=B5=84=E6=BA=90=E8=86=A8=E8=83=80=E4=B8=8E=E2=80=9C=
+=E7=BA=A2=E9=B2=B1=E9=B1=BC=E2=80=9D (Red Herring)=EF=BC=9A=C2=A0</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                =E5=9C=A8 `assets/` =E7=9B=AE=E5=BD=95=E5=A1=AB=E5=85=85=E6=
+=95=B0=E5=80=8D=E4=BA=8E=E8=BD=BD=E8=8D=B7=E4=BD=93=E7=A7=AF=E7=9A=84 Unrea=
+l Engine 4 =E8=B5=84=E6=BA=90=E6=96=87=E4=BB=B6=EF=BC=88`.sav`,
+                `.ini`=EF=BC=89=E3=80=82</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                =E5=85=B6=E4=B8=ADYGS-2026-01=E7=96=91=E4=BC=BC=E6=95=85=E6=
+=84=8F=E6=9A=B4=E9=9C=B2=E4=B8=80=E4=B8=AA=E7=AE=80=E5=8D=95=E7=9A=84 XOR =
+=E9=80=BB=E8=BE=91 (slky=E7=AE=97=E6=B3=95)
+                =E5=92=8C=E9=A1=BA=E5=BA=8F=E9=80=92=E5=A2=9E=E7=9A=84=E4=
+=BC=AA=E9=80=A0=E6=96=87=E4=BB=B6=E5=A4=B4=EF=BC=8C=E8=AF=B1=E5=AF=BC=E5=88=
+=86=E6=9E=90=E4=BA=BA=E5=91=98=E8=BF=9B=E5=85=A5=E2=80=9C=E6=AD=BB=E5=BE=AA=
+=E7=8E=AF=E2=80=9D=E6=88=96=E8=AF=AF=E5=88=A4=E4=B8=BA=E5=88=9D=E7=BA=A7=E6=
+=9C=A8=E9=A9=AC=E3=80=82</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                =E7=AD=BE=E5=90=8D=E7=BB=91=E5=AE=9A=E7=9A=84 AES-128-CBC =
+=E4=BD=93=E7=B3=BB=EF=BC=9A=C2=A0</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                =E5=85=B6=E4=B8=ADYGS-2026-02=E7=96=91=E4=BC=BC=E7=9C=9F=E6=
+=AD=A3=E7=9A=84=E8=BD=BD=E8=8D=B7=E8=A7=A3=E5=AF=86=E5=AF=86=E9=92=A5=E4=B8=
+=8D=E5=86=8D=E7=A1=AC=E7=BC=96=E7=A0=81=EF=BC=8C=E8=80=8C=E6=98=AF=E9=80=9A=
+=E8=BF=87 JNI =E8=B0=83=E7=94=A8=E8=8E=B7=E5=8F=96 APK =E7=9A=84
+                CERT.RSA =E7=AD=BE=E5=90=8D MD5=EF=BC=8C=E4=BD=9C=E4=B8=BA =
+AES =E5=AF=86=E9=92=A5=E7=94=9F=E6=88=90=E7=9A=84
+                Seed=E3=80=82=E8=BF=99=E5=AF=BC=E8=87=B4=E4=BB=BB=E4=BD=95=
+=E8=84=B1=E5=A3=B3=E9=87=8D=E7=AD=BE=E5=90=8D=E3=80=81=E8=87=AA=E5=8A=A8=E5=
+=8C=96=E6=B2=99=E7=AE=B1=E8=BF=90=E8=A1=8C=E9=83=BD=E4=BC=9A=E5=9B=A0=E5=AF=
+=86=E9=92=A5=E5=A4=B1=E6=95=88=E8=80=8C=E5=AF=BC=E8=87=B4=E8=A7=A3=E5=AF=86=
+=E5=90=8E=E7=9A=84=E4=BB=A3=E7=A0=81=E4=B9=B1=E7=A0=81=E3=80=82</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                =E6=9C=89=E5=85=B3=E4=BA=8E Native =E5=B1=82=E7=9A=84=E8=A7=
+=A3=E5=AF=86=E7=AE=97=E6=B3=95=E5=87=BA=E4=BA=8E=E6=88=91=E4=BB=AC=E4=BA=BA=
+=E5=8A=9B=E4=B8=8E=E6=97=B6=E9=97=B4=E7=9A=84=E9=99=90=E5=88=B6=E5=B0=9A=E6=
+=9C=AA=E5=AE=8C=E6=88=90=E5=AE=8C=E5=85=A8=E5=88=86=E6=9E=90=E3=80=82</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                =E7=8E=AF=E5=A2=83=E6=84=8F=E8=AF=86 (Anti-Analysis)=EF=BC=
+=9A=C2=A0</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                =E7=A1=AC=E4=BB=B6=E6=8C=87=E7=BA=B9=E6=A0=A1=E9=AA=8C=EF=
+=BC=9A =E4=B8=A5=E8=8B=9B=E6=A3=80=E6=B5=8B `qemu.hw.mainkeys`=E3=80=81`per=
+sist.sys.ui.hw`
+                =E7=AD=89=E7=B3=BB=E7=BB=9F=E5=B1=9E=E6=80=A7=E3=80=82</div=
+>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                =E4=BA=A4=E4=BA=92=E8=AF=B1=E5=AF=BC=EF=BC=9A =E7=9B=91=E6=
+=8E=A7=E7=94=B5=E6=B1=A0=E5=85=85=E7=94=B5=E7=8A=B6=E6=80=81=E3=80=81=E5=B1=
+=8F=E5=B9=95=E4=BA=AE=E5=BA=A6=E5=8F=98=E5=8C=96=E5=8F=8A=E4=BC=A0=E6=84=9F=
+=E5=99=A8=E6=B3=A2=E5=8A=A8=EF=BC=8C=E7=A1=AE=E4=BF=9D=E5=8F=AA=E5=9C=A8=E7=
+=89=A9=E7=90=86=E7=9C=9F=E6=9C=BA=E4=B8=94=E7=94=A8=E6=88=B7=E6=B4=BB=E8=B7=
+=83=E6=97=B6=E8=A7=A6=E5=8F=91=E6=A0=B8=E5=BF=83=E7=9B=91=E6=8E=A7=E3=80=82=
+</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><b>3.
+                  =E4=BE=9B=E5=BA=94=E9=93=BE=E6=94=BB=E5=87=BB=E4=B8=8E=E6=
+=8C=81=E4=B9=85=E5=8C=96=EF=BC=88IDE-Worm=EF=BC=89</b></div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                =E9=80=92=E5=BD=92=E6=84=9F=E6=9F=93=E9=80=BB=E8=BE=91=EF=
+=BC=9A =E6=81=B6=E6=84=8F=E8=84=9A=E6=9C=AC=E4=BC=9A=E9=81=8D=E5=8E=86 `/sd=
+card/iApp/ProjectApp/`=E3=80=82</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                =E4=BB=A3=E7=A0=81=E6=B3=A8=E5=85=A5=E7=82=B9=EF=BC=9A =E7=
+=B2=BE=E5=87=86=E5=AE=9A=E4=BD=8D=E9=A1=B9=E7=9B=AE=E5=85=A5=E5=8F=A3 `mian=
+.iyu` =E7=9A=84 `loading` =E4=BA=8B=E4=BB=B6=EF=BC=8C=E5=B0=86=E8=A7=A3=E5=
+=AF=86=E9=80=BB=E8=BE=91=E5=92=8C=E6=81=B6=E6=84=8F MP3
+                (=E5=AE=9E=E9=99=85=E4=B8=BA=E8=BD=BD=E8=8D=B7) =E6=B3=A8=
+=E5=85=A5=E5=88=B0=E5=BC=80=E5=8F=91=E8=80=85=E7=9A=84=E6=96=B0=E9=A1=B9=E7=
+=9B=AE=E4=B8=AD=E3=80=82</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                =E7=BB=93=E6=9E=9C=EF=BC=9A =E8=A2=AB=E6=84=9F=E6=9F=93=E5=
+=BC=80=E5=8F=91=E8=80=85=E5=8F=91=E5=B8=83=E7=9A=84=E6=89=80=E6=9C=89=E5=90=
+=88=E6=B3=95=E5=BA=94=E7=94=A8=E9=83=BD=E5=B0=86=E6=88=90=E4=B8=BA=E8=AF=A5=
+=E6=9C=A8=E9=A9=AC=E7=9A=84=E4=BC=A0=E6=92=AD=E8=8A=82=E7=82=B9=EF=BC=8C=E5=
+=AE=9E=E7=8E=B0=E4=BB=8E=E2=80=9C=E4=B8=AA=E4=BA=BA=E5=8F=97=E5=AE=B3=E2=80=
+=9D=E5=88=B0=E2=80=9C=E5=BC=80=E5=8F=91=E8=80=85=E7=94=9F=E6=80=81=E6=B1=A1=
+=E6=9F=93=E2=80=9D=E7=9A=84=E8=B7=A8=E8=B6=8A=E3=80=82</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><b>4.
+                  =E4=B8=93=E9=A1=B9=E7=9B=91=E6=8E=A7=E8=83=BD=E5=8A=9B=E4=
+=B8=8E C2 =E5=AE=9E=E6=88=98=E7=BB=86=E8=8A=82</b></div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                Logcat =E7=9B=91=E6=8E=A7=E6=B5=81=EF=BC=9A =E5=88=A9=E7=94=
+=A8 `ADRT` =E6=9D=83=E9=99=90=E6=8C=81=E7=BB=AD=E6=8A=93=E5=8F=96=E7=B3=BB=
+=E7=BB=9F=E6=97=A5=E5=BF=97=EF=BC=8C=E9=87=8D=E7=82=B9=E8=BF=87=E6=BB=A4=E5=
+=8C=85=E5=90=AB=E5=85=B3=E9=94=AE=E8=AF=8D=E7=9A=84 OTP =E7=9F=AD=E4=BF=A1=
+=E3=80=81=E6=94=AF=E4=BB=98=E4=BB=A4=E7=89=8C=E3=80=82</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                =E9=9A=90=E8=94=BD=E5=8F=96=E8=AF=81=EF=BC=9A =E9=80=9A=E8=
+=BF=87 `SurfaceTexture` =E5=BC=80=E5=90=AF 1x1 =E5=83=8F=E7=B4=A0=E9=9A=90=
+=E8=97=8F=E7=9B=B8=E6=9C=BA=E9=A2=84=E8=A7=88=EF=BC=8C=E7=BB=95=E8=BF=87 An=
+droid 12+
+                =E7=9A=84=E6=91=84=E5=83=8F=E5=A4=B4=E6=9D=83=E9=99=90=E6=
+=8F=90=E7=A4=BA=E3=80=82</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                C2 =E6=9E=B6=E6=9E=84=E4=B8=8E=E6=BC=8F=E6=B4=9E=EF=BC=9A=
+=C2=A0</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><span>*
+                =E4=B8=AD=E8=BD=AC=E9=93=BE=EF=BC=9A =E5=88=A9=E7=94=A8=E9=
+=98=BF=E9=87=8C=E4=BA=91=EF=BC=88=E7=BE=8E=E5=9B=BD=EF=BC=89=E5=81=9A=E7=AC=
+=AC=E4=B8=80=E5=B1=82 Proxy (`<a href=3D"docq.cn" target=3D"_blank" ref=3D"=
+noopener noreferrer">docq.cn</a>`)=EF=BC=8C=E5=90=8E=E7=AB=AF=E8=90=BD=E5=
+=9C=B0=E5=9C=A8 IIS 10.0=E3=80=82</span></div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                =E6=95=B0=E6=8D=AE=E6=B3=84=E9=9C=B2=E7=82=B9=EF=BC=9A C2 =
+=E7=AB=AF=E7=9A=84 `phpMyAdmin (999=E7=AB=AF=E5=8F=A3)` =E5=AD=98=E5=9C=A8=
+=E9=85=8D=E7=BD=AE=E9=A3=8E=E9=99=A9 =EF=BC=88phpMyAdmin
+                5.2.0-rc.1=EF=BC=89=EF=BC=8C=E4=B8=94=E6=95=B0=E6=8D=AE=E5=
+=BA=93 (MySQL 8.0.39) =E5=BC=80=E6=94=BE `3306` =E7=AB=AF=E5=8F=A3=E3=80=82=
+</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><b>5.
+                  =E5=85=B3=E9=94=AE IoC =E4=B8=8E =E8=B5=84=E4=BA=A7=E5=85=
+=B3=E8=81=94</b></div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                =E6=A0=B8=E5=BF=83=E6=A0=B7=E6=9C=AC Hash=EF=BC=9A `<u>f049=
+90c4f191a8890d35a28f7aa4b5db3965ae18053ba9c1bf554a6719112657</u>`
+                (PUBG=E5=8F=98=E4=BD=93), `<u>e90e20470814090d4d5c697d1860d=
+76c412ea649978c6fa09d3b86de52d9d2cf</u>`
+                (=E6=88=B7=E7=B1=8D=E5=8F=98=E4=BD=93)=E3=80=82</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">*
+                =E9=BB=91=E4=BA=A7=E7=BE=A4=E7=BB=84=EF=BC=9A QQ=E7=BE=A4 `=
+734628387` (=E8=9A=82=E8=9A=81=E5=B7=A5=E4=BD=9C=E5=AE=A4/Ant
+Studio)=E3=80=82=EF=BC=88=E6=AD=A4=E4=B8=BA=E7=94=B1=E6=A0=B7=E6=9C=AC=E5=
+=86=85=E5=8C=85=E5=90=AB=E7=9A=84=E5=8A=A0=E5=A3=B3=E5=90=8E=E7=9A=84=E6=BA=
+=90=E6=96=87=E4=BB=B6=E8=84=B1=E5=A3=B3=E5=90=8E=E8=8E=B7=E5=BE=97=E7=9A=84=
+=E2=80=9C=E6=8B=9B=E5=8B=9F=E4=BF=A1=E6=81=AF=E2=80=9D=E6=89=80=E5=BE=97=EF=
+=BC=8C=E5=AF=B9=E5=85=B6=E6=B4=BB=E5=8A=A8=E6=97=B6=E9=97=B4=E5=A4=A7=E7=BA=
+=A6=E8=87=AA2019=E8=B5=B7=E7=9A=84=E6=83=85=E6=8A=A5=E4=BA=A6=E7=94=B1=E6=
+=AD=A4=E4=BC=B0=E7=AE=97=EF=BC=9B=E8=8B=A5=E4=BB=85=E6=A0=B9=E6=8D=AE=E9=83=
+=A8=E5=88=86=E5=8F=97=E5=AE=B3=E8=80=85=E7=9A=84=E5=9B=9E=E5=BF=86=EF=BC=8C=
+=E5=9C=A8=E7=A7=81=E5=9F=9F=E7=BE=A4=E8=81=8A=E5=A4=A7=E8=8C=83=E5=9B=B4=E4=
+=BC=A0=E6=92=AD=E4=BA=A6=E8=87=B3=E5=B0=91=E5=8F=AF=E8=BF=BD=E6=BA=AF=E5=88=
+=B02025=E5=B9=B410=E6=9C=88=EF=BC=89</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><span>*
+                =E5=AD=98=E6=B4=BB=E5=9F=BA=E7=A1=80=E8=AE=BE=E6=96=BD=EF=
+=BC=9A `107.151.212.80` (=E5=90=8E=E7=AB=AF=E7=9C=9F=E5=AE=9EIP), `<a href=
+=3D"ht.bu84.com" target=3D"_blank" ref=3D"noopener noreferrer">ht.bu84.com<=
+/a>`
+                (=E5=BF=83=E8=B7=B3=E6=9C=8D=E5=8A=A1=E5=99=A8)=E3=80=82</s=
+pan></div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">=E8=AF=A6=E7=BB=86=E5=8A=A0=E5=AF=86=E6=95=
+=B0=E6=8D=AE=E5=8C=85=EF=BC=88=E5=8C=85=E5=90=AB=E6=A0=B7=E6=9C=AC=E5=92=8C=
+=E5=88=86=E6=9E=90=E6=8A=A5=E5=91=8A=E7=AD=89=EF=BC=89=EF=BC=9A<a data-link=
+index=3D"0" title=3D"https://github.com/Apich-Organization/YGS-2026/release=
+s/tag/v4" id=3D"OWAb94b68ba-feec-d4ee-d4b5-7ef26aae54aa" data-auth=3D"NotAp=
+plicable" rel=3D"noopener noreferrer" target=3D"_blank" href=3D"https://git=
+hub.com/Apich-Organization/YGS-2026/releases/tag/v4" moz-do-not-send=3D"tru=
+e" class=3D"moz-txt-link-freetext">https://github.com/Apich-Organization/YG=
+S-2026/releases/tag/v4</a></div>
+              <div style=3D"font-size:12pt;"><span style=3D"color: black !i=
+mportant; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Cali=
+bri, Helvetica, sans-serif, serif, EmojiFont;">=E8=A7=A3=E5=AF=86=E5=AF=86=
+=E9=92=A5=EF=BC=9A</span>
+                <u>
+                  <span style=3D"color:#000000;background-color:#ffffff;">f=
+15591ed62a2db8307f0224b5072160bfefa7cf6c1c0252f62e51c2c008e07a97295566f05e7=
+b107d46527b5de6d4c2c2f6bc52d23362b7f02499f449acb4919</span></u><font face=
+=3D"monospace"><br/>
+                </font>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">=E6=AD=A4=E6=83=85=E6=8A=A5=E4=BA=A6=E5=B7=
+=B2=E5=9B=A0=E5=90=84=E7=B1=BB=E5=8E=9F=E5=9B=A0=E6=8B=96=E5=BB=B6=E4=BA=86=
+=E6=95=B0=E6=97=A5=EF=BC=8C=E5=B9=B8=E8=80=8CC2=E4=BB=8D=E7=84=B6=E5=AD=98=
+=E6=B4=BB=EF=BC=8C=E4=B9=9F=E5=B8=8C=E6=9C=9B=E8=B4=B5=E5=8F=B8=E5=88=86=E6=
+=9E=90=E5=B8=88=E5=9B=A2=E9=98=9F=E5=8F=AF=E4=BB=A5=E5=B0=BD=E5=BF=AB=E5=A4=
+=84=E7=90=86=E3=80=82=E6=88=91=E4=BB=AC=E5=AE=9E=E5=B1=9E=E4=BA=BA=E5=8A=9B=
+=E8=B5=84=E9=87=91=E6=97=B6=E9=97=B4=E5=9D=87=E6=9C=89=E9=99=90=EF=BC=8C=E9=
+=83=A8=E5=88=86=E5=8F=AF=E8=83=BD=E7=9A=84=E5=88=86=E6=9E=90=E5=81=8F=E5=B7=
+=AE=E5=8F=8A=E6=8A=A5=E5=91=8A=E7=95=A5=E4=B9=B1=E4=BA=A6=E5=B8=8C=E6=9C=9B=
+=E6=B5=B7=E6=B6=B5=E3=80=82=EF=BC=88=E6=89=80=E6=9C=89=E6=83=85=E6=8A=A5=E8=
+=99=BD=E7=84=B6=E5=9B=A0=E7=81=AB=E7=BB=92=E7=9A=84=E6=9C=89=E8=AF=AF=E5=AF=
+=BC=E6=80=A7=E5=8F=8D=E9=A6=88=E6=9B=BE=E9=83=A8=E5=88=86=E5=85=AC=E5=BC=80=
+=E8=BF=87=EF=BC=8C=E4=BD=86=E7=9B=AE=E5=89=8D=E9=99=A4yara=E8=A7=84=E5=88=
+=99=E5=A4=96=E5=9D=87=E5=A4=84=E4=BA=8Erestricted=E6=88=96=E8=80=85private=
+=E7=8A=B6=E6=80=81=EF=BC=8C=E5=B9=B6=E6=9C=AA=E5=85=AC=E5=BC=80=EF=BC=8C=E6=
+=88=91=E4=BB=AC=E5=9C=A8=E5=88=86=E6=9E=90=E8=BF=87=E7=A8=8B=E4=B8=AD=E4=BA=
+=A6=E4=B8=A5=E6=A0=BC=E9=81=B5=E5=AE=88=E4=BA=86=E7=9B=B8=E5=85=B3=E6=B3=95=
+=E5=BE=8B=E6=B3=95=E8=A7=84=E5=85=B3=E4=BA=8E=E5=8F=96=E8=AF=81=E5=B7=A5=E4=
+=BD=9C=E7=95=8C=E7=BA=BF=E7=9A=84=E8=A6=81=E6=B1=82=EF=BC=89</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><b>=E8=B0=A2=E8=B0=A2=EF=BC=8C</b></div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><b>Apich
+                  Organization Security Team</b></div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;">---</div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><i>=EF=BC=88=E4=B8=8B=E6=96=B9=E7=9A=84=E7=
+=94=B5=E5=AD=90=E9=82=AE=E4=BB=B6=E7=AD=BE=E5=90=8D=E6=A0=8F=E4=B8=BA=E7=BB=
+=84=E7=BB=87=E7=BB=9F=E4=B8=80=E6=A0=87=E5=87=86=EF=BC=8C=E6=9C=9B=E8=B4=B5=
+=E5=8F=B8=E6=B5=B7=E6=B6=B5=EF=BC=89</i></div>
+              <div style=3D"color: black !important; font-size: 12pt; font-=
+family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica,=
+ sans-serif, serif, EmojiFont;"><br/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=3D"moz-signature">-- <br/>
+      <table style=3D"border-collapse: collapse; font-family: Arial, sans-s=
+erif;">
+        <tbody>
+          <tr>
+            <td style=3D"padding-right: 15px; vertical-align: middle;"> <im=
+g src=3D"https://raw.githubusercontent.com/Apich-Organization/rssn/refs/hea=
+ds/main/doc/logo.png" alt=3D"Logo" width=3D"80" style=3D"display: block;"/>=
+ </td>
+            <td style=3D"border-left: 1px solid #ccc; padding-left: 15px; v=
+ertical-align: middle;">
+              <div style=3D"font-size: 14px; color: #555; line-height: 1.4;=
+">
+                Yours sincerely,<br/>
+                <strong style=3D"font-size: 16px; color: #000;">Xinyu Yang<=
+/strong>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+ =20
+</body></html>
+--d77bf5e9e56145ed79668a1db31db02c573f3b22b16fe7716b246c086d01--
+
+--bd63e51d1377022ca82a064351cb4513f1bc28390e83a132d7ce8702f142
+Content-Disposition: attachment; filename="Apich-Organization-YGS-2026-attestation-19393862.sigstore.json"
+Content-Transfer-Encoding: base64
+Content-Type: application/json; name="Apich-Organization-YGS-2026-attestation-19393862.sigstore.json"
+
+ewogICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRldi5zaWdzdG9yZS5idW5kbGUudjAu
+Mytqc29uIiwKICAidmVyaWZpY2F0aW9uTWF0ZXJpYWwiOiB7CiAgICAidGltZXN0YW1wVmVyaWZp
+Y2F0aW9uRGF0YSI6IHsKICAgICAgInJmYzMxNjFUaW1lc3RhbXBzIjogWwogICAgICAgIHsKICAg
+ICAgICAgICJzaWduZWRUaW1lc3RhbXAiOiAiTUlJQzBUQURBZ0VBTUlJQ3lBWUpLb1pJaHZjTkFR
+Y0NvSUlDdVRDQ0FyVUNBUU14RFRBTEJnbGdoa2dCWlFNRUFnSXdnYnNHQ3lxR1NJYjNEUUVKRUFF
+RW9JR3JCSUdvTUlHbEFnRUJCZ2tyQmdFRUFZTy9NQUl3TVRBTkJnbGdoa2dCWlFNRUFnRUZBQVFn
+ek4zOXhRTy9qWndOYVBSeWl2UFpkRy9TakJ0UWI5NVlKdjQrOXVnaGlDUUNGRU1oOWZFeld3R1ZJ
+MDNPa3BHMlRWVC84eUVrR0E4eU1ESTJNREl5TURFeE1qRTBObG93QXdJQkFhQTJwRFF3TWpFVk1C
+TUdBMVVFQ2hNTVIybDBTSFZpTENCSmJtTXVNUmt3RndZRFZRUURFeEJVVTBFZ1ZHbHRaWE4wWVcx
+d2FXNW5vQUF4Z2dIZk1JSUIyd0lCQVRCS01ESXhGVEFUQmdOVkJBb1RERWRwZEVoMVlpd2dTVzVq
+TGpFWk1CY0dBMVVFQXhNUVZGTkJJR2x1ZEdWeWJXVmthV0YwWlFJVUhpbGpTRzlOeC9RZi9nUHBs
+N1Yxa3lSaC9qWXdDd1lKWUlaSUFXVURCQUlDb0lJQkJUQWFCZ2txaGtpRzl3MEJDUU14RFFZTEtv
+WklodmNOQVFrUUFRUXdIQVlKS29aSWh2Y05BUWtGTVE4WERUSTJNREl5TURFeE1qRTBObG93UHdZ
+SktvWklodmNOQVFrRU1USUVNTmh0SVdxQVJkKzZpckVFQzR0UXBIS3VDZVBjc3h1YmxoTkVyZWc0
+VXpaWk5iZFN4QlNMQlJnRDBIM1ExdVdYcmpDQmh3WUxLb1pJaHZjTkFRa1FBaTh4ZURCMk1IUXdj
+Z1FnclBQbXlEd1dVaFEwaW5uMy9ZSEVmNC93Rmx5eHFTTy9lTyt6Z0NnY2Vta3dUakEycERRd01q
+RVZNQk1HQTFVRUNoTU1SMmwwU0hWaUxDQkpibU11TVJrd0Z3WURWUVFERXhCVVUwRWdhVzUwWlhK
+dFpXUnBZWFJsQWhRZUtXTkliMDNIOUIvK0ErbVh0WFdUSkdIK05qQUtCZ2dxaGtqT1BRUURBd1Jv
+TUdZQ01RREZZWjQ2SU44aU5qM1VucUYxRDVKTUZlTUtHWkh0ZHRvRWI5b0hzNnFBaG9aWXovNFhI
+K1NWYTF0SVNNaXNVZkFDTVFEb2hQQjN2M0RzcFZvcnlEZ2JIS2RtR0k1RUd5UVFUZkNiYkJNZmRm
+YWJ3SXdodVdGNFI5cGZiWE5PQk1kT0txZz0iCiAgICAgICAgfQogICAgICBdCiAgICB9LAogICAg
+ImNlcnRpZmljYXRlIjogewogICAgICAicmF3Qnl0ZXMiOiAiTUlJQ0t6Q0NBYkNnQXdJQkFnSVVk
+a1JCcU9oMzMybUZ3d2JpYXFrZE8rTkNIR293Q2dZSUtvWkl6ajBFQXdNd09ERVZNQk1HQTFVRUNo
+TU1SMmwwU0hWaUxDQkpibU11TVI4d0hRWURWUVFERXhaR2RXeGphVzhnU1c1MFpYSnRaV1JwWVhS
+bElHd3hNQjRYRFRJMU1URXhNekF3TURBd01Gb1hEVEkyTVRFeE16QXdNREF3TUZvd0tqRVZNQk1H
+QTFVRUNoTU1SMmwwU0hWaUxDQkpibU11TVJFd0R3WURWUVFERXdoQmRIUmxjM1JsY2pCWk1CTUdC
+eXFHU000OUFnRUdDQ3FHU000OUF3RUhBMElBQkdSK1pNZEVjSEV1ZjFZYk1CbGhYVHRxUG15Q3FR
+QUlEeVFrK1RWSFB5d0MxWk54azVMUWxSYjhWb2wvWFpBMXV0SXJTTmR0OGxrb2kzUmRyT2hPV2xP
+amdhVXdnYUl3RGdZRFZSMFBBUUgvQkFRREFnZUFNQk1HQTFVZEpRUU1NQW9HQ0NzR0FRVUZCd01E
+TUF3R0ExVWRFd0VCL3dRQ01BQXdIUVlEVlIwT0JCWUVGSlltOHV3ZUJMcExaSFNmbzNrQ2pHQnN2
+VjhnTUI4R0ExVWRJd1FZTUJhQUZNRGh1RktrUzA4KzNubzRFUWJQU1k2aFJac3pNQzBHQTFVZEVR
+UW1NQ1NHSW1oMGRIQnpPaTh2Wkc5MFkyOXRMbkpsYkdWaGMyVnpMbWRwZEdoMVlpNWpiMjB3Q2dZ
+SUtvWkl6ajBFQXdNRGFRQXdaZ0l4QU4yVDFXZWJDQWNUWGx5V0RONGErY3JBVk1tRlRSK3pDaWFr
+bnJSMk1SRzEzeGFESDI4RDYvZGR3U0NPc1Mzcy9BSXhBT1ZDek4vSTdLQnVSa1ZTbE1zSlJaeEsx
+WktraHhtaEYyVFNqSTBaMnFZOEkxenNYdDVkMFpWVDEzV0dBWTVBN0E9PSIKICAgIH0KICB9LAog
+ICJkc3NlRW52ZWxvcGUiOiB7CiAgICAicGF5bG9hZCI6ICJleUpmZEhsd1pTSTZJbWgwZEhCek9p
+OHZhVzR0ZEc5MGJ5NXBieTlUZEdGMFpXMWxiblF2ZGpFaUxDSnpkV0pxWldOMElqcGJleUoxY21r
+aU9pSndhMmM2WjJsMGFIVmlMMEZ3YVdOb0xVOXlaMkZ1YVhwaGRHbHZiaTlaUjFNdE1qQXlOa0Iy
+TkNJc0ltUnBaMlZ6ZENJNmV5SnphR0V4SWpvaU1tRXdOR1ZrWW1KbVl6azBNVEEyWmpaa1lUUmtO
+REZqT0dReE9UbG1ORGRrTkdOak56TXdOeUo5ZlN4N0ltNWhiV1VpT2lKWlIxTXRNakF5Tmk0M2Vp
+SXNJbVJwWjJWemRDSTZleUp6YUdFeU5UWWlPaUkxTURWbFpETmxORGN6TWpjNE5UVmhNRFV6Tm1V
+NE5qaGxZalJpTkROalpqQmhaVGd5TURNeU1EWTVPREJqTldNMFlUazNPV1V5WXpBME1qQXdORFky
+SW4xOVhTd2ljSEpsWkdsallYUmxWSGx3WlNJNkltaDBkSEJ6T2k4dmFXNHRkRzkwYnk1cGJ5OWhk
+SFJsYzNSaGRHbHZiaTl5Wld4bFlYTmxMM1l3TGpJaUxDSndjbVZrYVdOaGRHVWlPbnNpWkdGMFlX
+SmhjMlZKWkNJNklqSTRPRFk0TURNeE5TSXNJbTkzYm1WeVNXUWlPaUl5TWpVeE1UY3lPVFlpTENK
+d1lXTnJZV2RsU1dRaU9pSXhNVE01TmpNNE1EUXlJaXdpY0hWeWJDSTZJbkJyWnpwbmFYUm9kV0l2
+UVhCcFkyZ3RUM0puWVc1cGVtRjBhVzl1TDFsSFV5MHlNREkyUUhZMElpd2ljbVZ3YjNOcGRHOXll
+U0k2SWtGd2FXTm9MVTl5WjJGdWFYcGhkR2x2Ymk5WlIxTXRNakF5TmlJc0luSmxjRzl6YVhSdmNu
+bEpaQ0k2SWpFeE16azJNemd3TkRJaUxDSjBZV2NpT2lKMk5DSjlmUT09IiwKICAgICJwYXlsb2Fk
+VHlwZSI6ICJhcHBsaWNhdGlvbi92bmQuaW4tdG90bytqc29uIiwKICAgICJzaWduYXR1cmVzIjog
+WwogICAgICB7CiAgICAgICAgInNpZyI6ICJNRVVDSVFDYmJubDVFODl0WWVFVEhHd1dmNkYwbXNZ
+Y1BKK1B3aVplQ1FsVHEzZCtUZ0lnU0crcGtjK3E1c28waWc1MmIxcHJSZURhQTdpMnJsMVVaWmVn
+OGVwSG9HWT0iCiAgICAgIH0KICAgIF0KICB9Cn0=
+
+--bd63e51d1377022ca82a064351cb4513f1bc28390e83a132d7ce8702f142
+Content-Disposition: attachment; filename="YGS-2026.7z.asc"
+Content-Transfer-Encoding: base64
+Content-Type: text/plain; charset=UTF-8; name="YGS-2026.7z.asc"
+
+LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlMVUVBQk1LQUIwV0lRUjlzMWZCc3NkVUE3
+c2trbzVMbGIzaFRpZ2xId1VDYVpoSVFBQUtDUkJMbGIzaFRpZ2wKSHk2UEFmc0ZsRXZNL09USWVK
+K0VYa3hMaFJ2cy9ncjFTOEkxNjJBK3dZcFFsTzh3T2hjUDFHbG5pbHdaYWRxaAp5WFo3S01KN2Z1
+dUgxMUp5R0dORmVkMHhId1UvQWdDQkszZTluUTNvRVh5QlBwa0pPZldXNWhqTGtVYUVydlRjCjNw
+ZGFUZ0FxQ1pJbzJSNGRuM25ObEJuZS9oOUVvakpOK0pWdnByY250eUxad2pVSWJ6NnMKPVFGd1oK
+LS0tLS1FTkQgUEdQIFNJR05BVFVSRS0tLS0tCg==
+
+--bd63e51d1377022ca82a064351cb4513f1bc28390e83a132d7ce8702f142--
